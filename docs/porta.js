@@ -65,6 +65,30 @@
       scarica(p.pathname, decodeURIComponent(p.pathname.split("/").pop()), chiave);
     });
   }
+  function aggiornata() {
+    // il browser può avere in memoria la pagina cifrata con una password precedente
+    return fetch(location.href, { cache: "reload" }).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.text();
+    }).then(function (t) {
+      return new DOMParser().parseFromString(t, "text/html").getElementById("dati").textContent.trim();
+    });
+  }
+  function provaDati(chiavi, testo) {
+    return chiavi.reduce(function (p, chiave) {
+      return p.catch(function () {
+        return decifra(chiave, b64(testo)).then(function (chiaro) { return { chiave: chiave, chiaro: chiaro }; });
+      });
+    }, Promise.reject());
+  }
+  function prova(varianti) {
+    var uniche = varianti.filter(function (v, i) { return varianti.indexOf(v) === i; });
+    return Promise.all(uniche.map(deriva)).then(function (chiavi) {
+      return provaDati(chiavi, dati).catch(function () {
+        return aggiornata().then(function (t) { return provaDati(chiavi, t); });
+      });
+    });
+  }
   function form(errore) {
     var f = document.getElementById("accesso");
     f.hidden = false;
@@ -76,14 +100,14 @@
       var btn = f.querySelector("button");
       btn.disabled = true;
       msg.textContent = "";
-      deriva(campo.value).then(function (chiave) {
-        return decifra(chiave, b64(dati)).then(function (chiaro) {
-          try {
-            if (f.querySelector("input[type=checkbox]").checked) localStorage.setItem(NOME, chiave);
-            else sessionStorage.setItem(NOME, chiave);
-          } catch (x) {}
-          mostra(chiaro, chiave);
-        });
+      var scritta = campo.value.trim();
+      // tastiere del telefono: maiuscola iniziale o spazio in fondo
+      prova([scritta, scritta.toLowerCase()]).then(function (ok) {
+        try {
+          if (f.querySelector("input[type=checkbox]").checked) localStorage.setItem(NOME, ok.chiave);
+          else sessionStorage.setItem(NOME, ok.chiave);
+        } catch (x) {}
+        mostra(ok.chiaro, ok.chiave);
       }).catch(function () {
         btn.disabled = false;
         msg.textContent = "Password sbagliata.";

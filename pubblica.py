@@ -121,7 +121,7 @@ def involucro(dati_cifrati, profondita):
 <form id="accesso" hidden>
 <h1>Corsi</h1>
 <p>Materiale riservato ai docenti.</p>
-<label>Password <input type="password" autocomplete="current-password" required></label>
+<label>Password <input type="password" autocomplete="current-password" autocapitalize="none" autocorrect="off" spellcheck="false" required></label>
 <label class="ricorda"><input type="checkbox"> Ricordami su questo computer</label>
 <p class="nota">Non spuntare sui computer della scuola: chiunque vedrebbe anche le soluzioni.</p>
 <button>Entra</button>
