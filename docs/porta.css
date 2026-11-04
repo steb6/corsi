@@ -1,0 +1,22 @@
+:root { --sfondo: #f4f6f7; --carta: #fff; --testo: #1f2933; --tenue: #5b6770; --bordo: #d5dcdf; --accento: #0b6e70; --su-accento: #fff; --errore: #b3261e; }
+@media (prefers-color-scheme: dark) { :root { --sfondo: #14191c; --carta: #1e2529; --testo: #e6eaec; --tenue: #a3aeb5; --bordo: #38434a; --accento: #5cc4c6; --su-accento: #0c1f20; --errore: #ff8a80; } }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px 16px; background: var(--sfondo); color: var(--testo); font: 17px/1.5 system-ui, sans-serif; }
+#accesso { max-width: 400px; margin: 10vh auto 0; padding: 28px; background: var(--carta); border: 1px solid var(--bordo); border-radius: 12px; }
+#accesso[hidden] { display: none; }
+h1 { margin: 0 0 4px; color: var(--accento); font-size: 28px; }
+#accesso label { display: block; margin-top: 14px; font-weight: 600; }
+#accesso input[type=password] { display: block; width: 100%; margin-top: 6px; padding: 10px 12px; font: inherit; color: inherit; background: var(--sfondo); border: 1px solid var(--bordo); border-radius: 8px; }
+#accesso .ricorda { font-weight: 400; }
+.nota { margin: 4px 0 0; color: var(--tenue); font-size: 14px; }
+button { width: 100%; margin-top: 18px; padding: 11px; font: inherit; font-weight: 600; color: var(--su-accento); background: var(--accento); border: 0; border-radius: 8px; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+#errore { min-height: 1.5em; margin: 10px 0 0; color: var(--errore); }
+.casa { max-width: 760px; margin: 0 auto; }
+.casa header { display: flex; justify-content: space-between; align-items: baseline; }
+.casa a { color: var(--accento); }
+.casa section { margin-top: 16px; padding: 20px; background: var(--carta); border: 1px solid var(--bordo); border-radius: 12px; }
+.casa h2 { margin: 0; font-size: 21px; }
+.casa section p { margin: 2px 0 12px; color: var(--tenue); }
+.azioni { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
+.azioni .primario { padding: 8px 16px; color: var(--su-accento); background: var(--accento); border-radius: 8px; font-weight: 600; text-decoration: none; }
