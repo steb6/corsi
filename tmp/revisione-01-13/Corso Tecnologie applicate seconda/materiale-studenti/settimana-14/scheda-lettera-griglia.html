@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Una lettera grande su griglia</title>
+<style>
+@page { size: A4 portrait; margin: 14mm; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #e9ecef; color: #1d232b; font: 12pt/1.45 "Segoe UI", system-ui, Arial, sans-serif; }
+.comandi { max-width: 210mm; margin: 0 auto; padding: 12px 0; display: flex; gap: 10px; align-items: center; }
+.comandi a, .comandi button { font: 15px "Segoe UI", sans-serif; padding: 6px 14px; border: 1px solid #c5ccd3; border-radius: 5px; background: #fff; color: #1d232b; text-decoration: none; cursor: pointer; }
+.comandi span { color: #5b6672; font-size: 14px; }
+.foglio { max-width: 210mm; margin: 0 auto 30px; background: #fff; padding: 14mm; box-shadow: 0 1px 6px rgba(0,0,0,.2); }
+.intesta { display: flex; gap: 6mm; font-size: 11pt; margin-bottom: 5mm; }
+.intesta span { flex: 1; border-bottom: 1px solid #555; padding-bottom: 1mm; white-space: nowrap; }
+.intesta span.corto { flex: 0 0 32mm; }
+.avviso { background: #fbe9e7; color: #b3261e; padding: 2mm 4mm; font-weight: 600; margin-bottom: 4mm; border-radius: 3px; }
+h1 { font-size: 18pt; margin: 0 0 3mm; color: #9a2f68; }
+h2 { font-size: 13pt; margin: 5mm 0 1.5mm; }
+p { margin: 0 0 2mm; }
+ul, ol { margin: 0 0 2mm; padding-left: 6mm; }
+li { margin: .5mm 0; }
+table { border-collapse: collapse; width: 100%; margin: 1mm 0 3mm; font-size: 11pt; }
+th, td { border: 1px solid #888; padding: 1.5mm 2.5mm; text-align: left; vertical-align: top; }
+th { background: #f3f3f3; }
+td:empty::after { content: ""; display: inline-block; height: 7mm; }
+blockquote { margin: 0 0 3mm; padding: 2mm 4mm; border-left: 3px solid #9a2f68; background: #f7e9f1; }
+blockquote.attenzione { border-left-color: #b3261e; background: #fbe9e7; }
+blockquote p:last-child { margin: 0; }
+.righe { margin: 1mm 0 3mm; }
+.righe div { height: 9mm; border-bottom: 1px solid #999; }
+.riquadro { border: 1px solid #555; margin: 1mm 0 3mm; position: relative; }
+.riquadro span { position: absolute; left: 2mm; top: 1mm; font-size: 9pt; color: #666; }
+.fig-box { display: flex; justify-content: center; margin: 2mm 0; }
+.cols { display: flex; gap: 6mm; }
+.cols > .col { flex: 1; min-width: 0; }
+svg { max-width: 100%; }
+.salto { break-after: page; height: 0; }
+@media screen { .salto { border-top: 2px dashed #c5ccd3; margin: 10mm -14mm; } }
+@media print {
+  body { background: #fff; }
+  .comandi { display: none; }
+  .foglio { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style></head><body>
+<div class="comandi"><a href="../../INDICE.html">Indice</a><button onclick="window.print()">Stampa</button><span>materiale-studenti\settimana-14\scheda-lettera-griglia.html</span></div>
+<div class="foglio">
+<div class="intesta"><span>Nome e cognome</span><span class="corto">Classe</span><span class="corto">Data</span></div>
+<h1>Una lettera grande su griglia</h1>
+<p>Scegli una lettera. Numera righe e colonne in tutte e due le griglie, poi ricopia un quadretto alla volta.</p>
+<div style="text-align:center"><svg viewBox="-2 -2 44 52" width="44mm" height="52mm" style="display:inline-block;margin:0 6mm"><g stroke="#999" stroke-width=".3"><line x1="0" y1="0" x2="40" y2="0"/><line x1="0" y1="0" x2="0" y2="40"/><line x1="0" y1="10" x2="40" y2="10"/><line x1="10" y1="0" x2="10" y2="40"/><line x1="0" y1="20" x2="40" y2="20"/><line x1="20" y1="0" x2="20" y2="40"/><line x1="0" y1="30" x2="40" y2="30"/><line x1="30" y1="0" x2="30" y2="40"/><line x1="0" y1="40" x2="40" y2="40"/><line x1="40" y1="0" x2="40" y2="40"/></g><text x="20" y="33" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#000">a</text><text x="20" y="49" text-anchor="middle" font-size="4" font-family="sans-serif">lettera a</text></svg><svg viewBox="-2 -2 44 52" width="44mm" height="52mm" style="display:inline-block;margin:0 6mm"><g stroke="#999" stroke-width=".3"><line x1="0" y1="0" x2="40" y2="0"/><line x1="0" y1="0" x2="0" y2="40"/><line x1="0" y1="10" x2="40" y2="10"/><line x1="10" y1="0" x2="10" y2="40"/><line x1="0" y1="20" x2="40" y2="20"/><line x1="20" y1="0" x2="20" y2="40"/><line x1="0" y1="30" x2="40" y2="30"/><line x1="30" y1="0" x2="30" y2="40"/><line x1="0" y1="40" x2="40" y2="40"/><line x1="40" y1="0" x2="40" y2="40"/></g><text x="20" y="37" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#000">R</text><text x="20" y="49" text-anchor="middle" font-size="4" font-family="sans-serif">lettera R</text></svg><svg viewBox="-2 -2 44 52" width="44mm" height="52mm" style="display:inline-block;margin:0 6mm"><g stroke="#999" stroke-width=".3"><line x1="0" y1="0" x2="40" y2="0"/><line x1="0" y1="0" x2="0" y2="40"/><line x1="0" y1="10" x2="40" y2="10"/><line x1="10" y1="0" x2="10" y2="40"/><line x1="0" y1="20" x2="40" y2="20"/><line x1="20" y1="0" x2="20" y2="40"/><line x1="0" y1="30" x2="40" y2="30"/><line x1="30" y1="0" x2="30" y2="40"/><line x1="0" y1="40" x2="40" y2="40"/><line x1="40" y1="0" x2="40" y2="40"/></g><text x="20" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#000">g</text><text x="20" y="49" text-anchor="middle" font-size="4" font-family="sans-serif">lettera g</text></svg></div>
+<p>La lettera che ho scelto: ______ È (cerchia): <strong>maiuscola · minuscola</strong></p>
+<div class="fig-box"><svg class="griglia" viewBox="-0.05 -0.05 4.1 4.1" style="width:150mm;height:150mm"><g stroke="#777" stroke-width="1" fill="none"><line x1="0" y1="0" x2="0" y2="4" vector-effect="non-scaling-stroke"/><line x1="0" y1="0" x2="4" y2="0" vector-effect="non-scaling-stroke"/><line x1="1" y1="0" x2="1" y2="4" vector-effect="non-scaling-stroke"/><line x1="0" y1="1" x2="4" y2="1" vector-effect="non-scaling-stroke"/><line x1="2" y1="0" x2="2" y2="4" vector-effect="non-scaling-stroke"/><line x1="0" y1="2" x2="4" y2="2" vector-effect="non-scaling-stroke"/><line x1="3" y1="0" x2="3" y2="4" vector-effect="non-scaling-stroke"/><line x1="0" y1="3" x2="4" y2="3" vector-effect="non-scaling-stroke"/><line x1="4" y1="0" x2="4" y2="4" vector-effect="non-scaling-stroke"/><line x1="0" y1="4" x2="4" y2="4" vector-effect="non-scaling-stroke"/></g></svg></div>
+<div class="salto"></div>
+<h2>Le parti della lettera</h2>
+<p>Segna sul disegno con una freccia le parti che la tua lettera ha, e scrivi qui quante ne hai trovate.</p>
+<table><thead><tr><th>Parte</th><th>C'è?</th><th>Parte</th><th>C'è?</th></tr></thead><tbody><tr><td>asta</td><td>sì · no</td><td>occhiello</td><td>sì · no</td></tr><tr><td>grazie</td><td>sì · no</td><td>pancia</td><td>sì · no</td></tr><tr><td>traversa</td><td>sì · no</td><td>coda</td><td>sì · no</td></tr><tr><td>apice</td><td>sì · no</td><td></td><td></td></tr></tbody></table>
+<p>Quale linea guida tocca la tua lettera? (cerchia) <strong>base · altezza della x · ascendenti · maiuscole · discendenti</strong></p>
+<p>Il carattere del modello ha <strong>contrasto</strong> tra pieni e filetti? Dove si vede?</p>
+<div class="righe"><div></div><div></div><div></div></div>
+</div>
+</body></html>

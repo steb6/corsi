@@ -1,0 +1,206 @@
+/* Slide del corso di Tecnologie applicate: tema chiaro, pensato per la LIM. */
+:root {
+  --testo: #1d232b;
+  --tenue: #5b6672;
+  --sfondo: #ffffff;
+  --pagina: #e9ecef;
+  --accento: #9a2f68;
+  --accento-chiaro: #f7e9f1;
+  --verde: #1e7a3c;
+  --verde-chiaro: #e6f4ea;
+  --rosso: #b3261e;
+  --rosso-chiaro: #fbe9e7;
+  --codice-sfondo: #f4f6f8;
+  --bordo: #d5dbe1;
+  --s: 1;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: #2b2f33;
+  color: var(--testo);
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* ---------- la slide (sempre 1280x720, scalata) ---------- */
+.item {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  visibility: hidden;
+}
+.item.cur { visibility: visible; }
+.frame {
+  width: calc(1280px * var(--s)); height: calc(720px * var(--s));
+  overflow: hidden; flex: none;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, .35);
+}
+.slide {
+  width: 1280px; height: 720px;
+  transform: scale(var(--s)); transform-origin: 0 0;
+  background: var(--sfondo);
+  position: relative;
+  font-size: 28px; line-height: 1.38;
+  display: flex; flex-direction: column;
+}
+.slide .body {
+  flex: 1; min-height: 0;
+  padding: 44px 72px 10px;
+  display: flex; flex-direction: column; gap: .45em;
+  overflow: hidden;
+}
+.slide .sfoot {
+  height: 40px; flex: none;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 72px 6px; font-size: 17px; color: var(--tenue);
+}
+.slide.docente { background: #fffaf3; }
+.slide.docente::before {
+  content: "SOLO DOCENTE"; position: absolute; top: 14px; right: 18px;
+  font-size: 15px; font-weight: 700; letter-spacing: .08em;
+  color: #fff; background: var(--rosso); padding: 3px 10px; border-radius: 4px;
+}
+
+/* ---------- contenuto ---------- */
+.slide h1 { font-size: 1.75em; line-height: 1.15; margin: 0 0 .15em; color: var(--accento); font-weight: 650; }
+.slide h2 { font-size: 1.1em; margin: .2em 0 0; color: var(--testo); }
+.slide p { margin: 0; }
+.slide ul, .slide ol { margin: 0; padding-left: 1.2em; }
+.slide li { margin: .12em 0; }
+.slide li::marker { color: var(--accento); }
+.slide strong { font-weight: 650; }
+.slide a { color: var(--accento); }
+.slide code {
+  font-family: "Cascadia Mono", Consolas, "Courier New", monospace;
+  font-size: .92em; background: var(--codice-sfondo);
+  padding: .05em .28em; border-radius: 4px; border: 1px solid #e3e7eb;
+}
+.slide pre {
+  position: relative; margin: 0;
+  font-family: "Cascadia Mono", Consolas, "Courier New", monospace;
+  font-size: .8em; line-height: 1.38;
+  background: var(--codice-sfondo); border: 1px solid var(--bordo); border-left: 6px solid var(--accento);
+  border-radius: 6px; padding: .5em .8em; white-space: pre; overflow: hidden;
+}
+.slide pre code { background: none; border: 0; padding: 0; font-size: 1em; }
+.slide pre.shell { background: #fbfbf7; border-left-color: #8a8f96; }
+.slide pre.shell::after {
+  content: "Shell"; position: absolute; top: 4px; right: 10px;
+  font-family: "Segoe UI", system-ui, sans-serif; font-size: 14px; color: var(--tenue);
+}
+.slide pre.shell .in { color: var(--verde); font-weight: 700; }
+.copia {
+  position: absolute; top: 4px; right: 6px;
+  font: 14px "Segoe UI", system-ui, sans-serif;
+  border: 1px solid var(--bordo); background: #fff; color: var(--tenue);
+  border-radius: 4px; padding: 2px 8px; cursor: pointer; opacity: .75;
+}
+.copia:hover { opacity: 1; color: var(--accento); }
+.slide pre:not(.shell) { padding-right: 4.2em; }
+
+/* evidenziazione Python */
+.k { color: #8a2be2; font-weight: 600; }
+.b { color: #0b6e99; }
+.s { color: #1e7a3c; }
+.c { color: #7d8590; font-style: italic; }
+.n { color: #b35900; }
+.f { color: #1f5fbf; font-weight: 600; }
+
+.slide blockquote {
+  margin: 0; padding: .45em .8em; border-radius: 6px;
+  background: var(--accento-chiaro); border-left: 6px solid var(--accento);
+}
+.slide blockquote.attenzione { background: var(--rosso-chiaro); border-left-color: var(--rosso); }
+.slide blockquote.prova { background: var(--verde-chiaro); border-left-color: var(--verde); }
+.slide blockquote p + p { margin-top: .25em; }
+
+.slide table { border-collapse: collapse; font-size: .85em; }
+.slide th, .slide td { border: 1px solid var(--bordo); padding: .25em .6em; text-align: left; vertical-align: top; }
+.slide th { background: var(--accento-chiaro); }
+
+.cols { display: flex; gap: 1.2em; align-items: flex-start; min-height: 0; }
+.cols > .col { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: .45em; }
+.cols > .col:has(> .fig-box) { flex: 0 1 auto; }
+.slide img, .slide svg.fig { max-width: 100%; display: block; }
+.slide .fig-box { display: flex; justify-content: center; }
+.slide .piccolo { font-size: .8em; color: var(--tenue); }
+
+/* slide del titolo */
+.slide.titolo .body { justify-content: center; padding-left: 96px; gap: .2em; }
+.slide.titolo .sopra { font-size: .85em; color: var(--tenue); text-transform: uppercase; letter-spacing: .06em; }
+.slide.titolo h1 { font-size: 2.2em; margin: .1em 0 .3em; }
+.slide.titolo .tipo {
+  align-self: flex-start; font-size: .8em; font-weight: 700; padding: .15em .7em; border-radius: 999px;
+  background: var(--accento-chiaro); color: var(--accento);
+}
+.slide.titolo .tipo.lab { background: var(--verde-chiaro); color: var(--verde); }
+
+/* ---------- barra comandi ---------- */
+#barra {
+  position: fixed; right: 12px; bottom: 10px; z-index: 10;
+  display: flex; gap: 4px; align-items: center;
+  background: rgba(255, 255, 255, .94); border-radius: 8px; padding: 4px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+  font-size: 14px; transition: opacity .3s;
+}
+#barra.nascosta { opacity: 0; pointer-events: none; }
+#barra button, #barra a {
+  font: inherit; color: var(--testo); background: none; border: 0; cursor: pointer;
+  padding: 5px 9px; border-radius: 5px; text-decoration: none;
+}
+#barra button:hover, #barra a:hover { background: var(--accento-chiaro); }
+#barra button.attivo { background: var(--accento); color: #fff; }
+#barra .conta { min-width: 64px; text-align: center; color: var(--tenue); }
+#progresso { position: fixed; left: 0; top: 0; height: 4px; background: var(--accento); z-index: 10; transition: width .2s; }
+
+/* ---------- modalita' note (per prepararsi o con due schermi) ---------- */
+#note { display: none; }
+body.con-note #vista { position: fixed; left: 0; top: 0; bottom: 0; width: 62vw; }
+body.con-note #note {
+  display: block; position: fixed; right: 0; top: 0; bottom: 0; width: 38vw;
+  background: #fff; overflow: auto; padding: 22px 26px 70px; font-size: 18px; line-height: 1.5;
+}
+#note h3 { margin: 0 0 .5em; font-size: 15px; text-transform: uppercase; letter-spacing: .06em; color: var(--tenue); }
+#note .vuote { color: var(--tenue); font-style: italic; }
+#note pre, .lettura .note pre { background: var(--codice-sfondo); padding: .5em; border-radius: 4px; overflow: auto; font-size: 15px; }
+#vista { position: fixed; inset: 0; }
+
+/* ---------- modalita' lettura: tutte le slide in colonna con le note ---------- */
+body.lettura { overflow: auto; background: var(--pagina); }
+body.lettura #vista { position: static; padding: 24px 16px 80px; }
+body.lettura .item {
+  position: static; visibility: visible; display: flex; flex-direction: column; align-items: center;
+  margin: 0 auto 34px; max-width: 1000px;
+}
+body.lettura .frame { box-shadow: 0 1px 6px rgba(0, 0, 0, .2); }
+.note { display: none; }
+body.lettura .note {
+  display: block; width: calc(1280px * var(--s)); background: #fff; margin-top: 8px;
+  padding: 12px 18px; border-radius: 6px; font-size: 17px; line-height: 1.5; border-left: 5px solid #8a8f96;
+}
+body.lettura .note:empty { display: none; }
+body.lettura .note::before { content: "Note per il docente"; display: block; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--tenue); margin-bottom: 4px; }
+.note p, #note p { margin: 0 0 .6em; }
+.note ul, #note ul, .note ol, #note ol { margin: 0 0 .6em; padding-left: 1.3em; }
+.note code, #note code { font-family: Consolas, monospace; background: var(--codice-sfondo); padding: 0 .25em; border-radius: 3px; }
+body.lettura #progresso { display: none; }
+
+/* stampa: sempre in lettura, una slide con le sue note per mezza pagina */
+@media print {
+  @page { size: A4 portrait; margin: 12mm; }
+  body { background: #fff !important; overflow: visible !important; }
+  #barra, #progresso, #note { display: none !important; }
+  #vista { position: static !important; width: auto !important; padding: 0 !important; }
+  .item { position: static !important; visibility: visible !important; display: block !important; break-inside: avoid; margin: 0 0 8mm !important; max-width: none !important; --s: .56; }
+  .frame { box-shadow: none !important; border: 1px solid #999; }
+  .note { display: block !important; width: calc(1280px * .56) !important; font-size: 11pt !important; padding: 2mm 0 0 !important; border: 0 !important; }
+  .note:empty { display: none !important; }
+  .copia { display: none; }
+}
+
+/* ---------- disegni nelle slide ---------- */
+.slide svg.fig { font-family: "Segoe UI", system-ui, sans-serif; }
+.slide .fasi { display: flex; gap: .6em; }
+.slide .fasi > div { flex: 1; background: var(--codice-sfondo); border-radius: 6px; padding: .35em .6em; font-size: .85em; }
+.slide .fasi > div > b:first-child { display: block; color: var(--accento); }

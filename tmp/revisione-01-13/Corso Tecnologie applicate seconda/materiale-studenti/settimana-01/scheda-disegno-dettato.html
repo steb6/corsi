@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disegno dettato</title>
+<style>
+@page { size: A4 portrait; margin: 14mm; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #e9ecef; color: #1d232b; font: 12pt/1.45 "Segoe UI", system-ui, Arial, sans-serif; }
+.comandi { max-width: 210mm; margin: 0 auto; padding: 12px 0; display: flex; gap: 10px; align-items: center; }
+.comandi a, .comandi button { font: 15px "Segoe UI", sans-serif; padding: 6px 14px; border: 1px solid #c5ccd3; border-radius: 5px; background: #fff; color: #1d232b; text-decoration: none; cursor: pointer; }
+.comandi span { color: #5b6672; font-size: 14px; }
+.foglio { max-width: 210mm; margin: 0 auto 30px; background: #fff; padding: 14mm; box-shadow: 0 1px 6px rgba(0,0,0,.2); }
+.intesta { display: flex; gap: 6mm; font-size: 11pt; margin-bottom: 5mm; }
+.intesta span { flex: 1; border-bottom: 1px solid #555; padding-bottom: 1mm; white-space: nowrap; }
+.intesta span.corto { flex: 0 0 32mm; }
+.avviso { background: #fbe9e7; color: #b3261e; padding: 2mm 4mm; font-weight: 600; margin-bottom: 4mm; border-radius: 3px; }
+h1 { font-size: 18pt; margin: 0 0 3mm; color: #9a2f68; }
+h2 { font-size: 13pt; margin: 5mm 0 1.5mm; }
+p { margin: 0 0 2mm; }
+ul, ol { margin: 0 0 2mm; padding-left: 6mm; }
+li { margin: .5mm 0; }
+table { border-collapse: collapse; width: 100%; margin: 1mm 0 3mm; font-size: 11pt; }
+th, td { border: 1px solid #888; padding: 1.5mm 2.5mm; text-align: left; vertical-align: top; }
+th { background: #f3f3f3; }
+td:empty::after { content: ""; display: inline-block; height: 7mm; }
+blockquote { margin: 0 0 3mm; padding: 2mm 4mm; border-left: 3px solid #9a2f68; background: #f7e9f1; }
+blockquote.attenzione { border-left-color: #b3261e; background: #fbe9e7; }
+blockquote p:last-child { margin: 0; }
+.righe { margin: 1mm 0 3mm; }
+.righe div { height: 9mm; border-bottom: 1px solid #999; }
+.riquadro { border: 1px solid #555; margin: 1mm 0 3mm; position: relative; }
+.riquadro span { position: absolute; left: 2mm; top: 1mm; font-size: 9pt; color: #666; }
+.fig-box { display: flex; justify-content: center; margin: 2mm 0; }
+.cols { display: flex; gap: 6mm; }
+.cols > .col { flex: 1; min-width: 0; }
+svg { max-width: 100%; }
+.salto { break-after: page; height: 0; }
+@media screen { .salto { border-top: 2px dashed #c5ccd3; margin: 10mm -14mm; } }
+@media print {
+  body { background: #fff; }
+  .comandi { display: none; }
+  .foglio { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style></head><body>
+<div class="comandi"><a href="../../INDICE.html">Indice</a><button onclick="window.print()">Stampa</button><span>materiale-studenti\settimana-01\scheda-disegno-dettato.html</span></div>
+<div class="foglio">
+<div class="intesta"><span>Nome e cognome</span><span class="corto">Classe</span><span class="corto">Data</span></div>
+<h1>Disegno dettato</h1>
+<p>Disegna nel riquadro del giro in cui <strong>tu</strong> sei chi disegna. Il punteggio si segna dopo il confronto: un punto per ogni forma giusta, uno se è al posto giusto, uno se ha le proporzioni giuste, confrontate a occhio. Disegna a penna a mano libera; indica i pieni con un tratteggio fitto. Le figure hanno 3 o 4 elementi: scrivi anche il massimo possibile (3 punti per elemento), e confronta la frazione ottenuta, non soltanto i punti.</p>
+<div class="cols"><div class="col"><div class="riquadro" style="height:70mm"><span>Giro 1 o 2 · senza domande</span></div></div><div class="col"><div class="riquadro" style="height:70mm"><span>Giro 3 o 4 · con le domande</span></div></div></div>
+<table><thead><tr><th>Giro</th><th>Punteggio</th><th>Cosa ha disturbato la comunicazione?</th></tr></thead><tbody><tr><td>1 · senza domande</td><td></td><td></td></tr><tr><td>2 · senza domande</td><td></td><td></td></tr><tr><td>3 · con le domande</td><td></td><td></td></tr><tr><td>4 · con le domande</td><td></td><td></td></tr></tbody></table>
+<div class="salto"></div>
+<h2>Le istruzioni scritte</h2>
+<div class="cols"><div class="col"><div class="riquadro" style="height:45mm"><span>La mia figura (tre forme). Coprila prima di scambiare la scheda.</span></div>
+<div class="righe"><div></div><div></div><div></div><div></div><div></div><div></div></div></div><div class="col"><div class="riquadro" style="height:80mm"><span>Il disegno del compagno, fatto leggendo le istruzioni</span></div></div></div>
+<p>Punteggio: ______</p>
+<h2>Domande</h2>
+<ol><li>In quale giro avete fatto il punteggio più alto? Perché?</li></ol>
+<div class="righe"><div></div><div></div><div></div></div>
+<ol><li>Scrivi un esempio di <strong>rumore</strong> che c'è stato oggi.</li></ol>
+<div class="righe"><div></div><div></div></div>
+<ol><li>Che differenza c'è tra il giro 3 e le istruzioni scritte?</li></ol>
+<div class="righe"><div></div><div></div><div></div></div>
+<ol><li><strong>Sfida</strong>: riscrivi un'istruzione ambigua usando una frazione del riquadro. Quale errore evita?</li></ol>
+<div class="righe"><div></div><div></div><div></div></div>
+</div>
+</body></html>

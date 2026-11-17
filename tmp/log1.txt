@@ -1,0 +1,8 @@
+Revisione pronta in [patch](/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13.patch): 44 file; originale non modificato perché fuori dalle cartelle scrivibili.
+- Comunicazione: casi descritti, analisi e rebranding motivati.
+- Percezione: Gestalt e composizioni a penna; verifica 08 aggiornata.
+- Colore: tratteggi, codici cromatici e calcoli CMYK; verifica 13 aggiornata.
+- Esempio: rappresentare coperture CMYK su griglie e spiegare perché possono superare il 100%.
+- Grep: nessun materiale aggiuntivo richiesto; 13 occorrenze teoriche/falsi positivi elencate nel [rapporto](/home/sberti-iit.local/CorsiSito/tmp/consegna-01-13.txt).
+- Build riuscita: 50 lezioni, 326 slide, 34 schede; struttura slide invariata.
+Restano al coordinatore applicazione della patch e aggiornamento dei quattro titoli obsoleti in `programma.py`; nessun commit o pubblicazione.

@@ -1,0 +1,29 @@
+# Task: revise the "Scienze e tecnologie applicate" course (school, 2nd year, graphic design technical institute)
+
+Repo: ~/CorsiSito/.cache/sorgenti/TecnologieApplicateSeconda (read README.md, corso/genera.py header for the content format,
+corso/programma.py). Sources: corso/contenuti/sNN-spiegazione.md and sNN-attivita.md (slides with ??? teacher notes),
+corso/schede/settimana-NN/*.md (student sheets; files starting with "docente" or "soluzione" are teacher-only).
+Write in Italian, same tone/format as the existing material. Do NOT commit, do NOT push, do NOT run pubblica.py
+(another worker edits the other weeks in parallel; the coordinator regenerates/commits). Only touch YOUR weeks: WEEKS.
+
+Request from the teacher who commissioned it:
+"Le slide della lezione un po' più descrittive (ma molto poco di più), gli esercizi un po' più impegnativi, e che serva
+SOLO LA PENNA e il foglio, nessun altro materiale."
+
+Do, for every week in WEEKS:
+1. Slides (spiegazione + attività .md): slightly more descriptive — where a slide has only keywords/terse bullets, add
+   1-2 short explanatory sentences or a concrete example. Same slides, same structure, no new slides, at most ~15-20% more text.
+2. Activities, sheets and tests (attività slides, schede, verifiche, soluzioni/docente files): ONLY pen + paper. Remove every
+   other material: pencil, eraser, ruler, set square, compass, coloured pencils, markers, paints/tempera, glue, scissors,
+   magazines, newspapers, cardboard, torch, lens, printed photos, phones/computers, etc. Replace hands-on material work with
+   pen-only tasks: written analysis of cases described in the sheet, small calculations (proportions, formats, resolution/DPI,
+   grids, measurements given in the text), pen sketches with annotations (colours indicated in writing, e.g. "C", "M",
+   hatching for tones), multi-step design tasks on paper. Where a sheet needs an image to analyse, describe it in words or
+   draw it as simple inline SVG in the sheet (the sheet is printed).
+3. Make exercises a bit more challenging: multi-step tasks, justification required, one final harder question per activity.
+   Keep them feasible in the scheduled time for a 2nd-year class.
+4. Update teacher solutions and grading grids consistently (new answers, criteria). Keep the module tests in their weeks.
+5. Check: `grep -n -i -E "matit|gomm|righell|squadr|compass|pastell|pennarell|tempera|tempere|acquerell|colla|forbic|rivist|giornal|cartoncin|torcia|lente|computer|telefon|stampant"`
+   on your files must return nothing that is a required material (the word as topic, e.g. "lente" in optics theory, is fine:
+   list such kept occurrences). Then run the generator (see README "Rigenerare il corso") to verify it builds without errors.
+Reply in Italian, <= 8 lines: what changed per module, example of a new exercise, grep result, build status.

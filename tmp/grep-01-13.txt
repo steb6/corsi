@@ -1,0 +1,13 @@
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s01-spiegazione.md:92:2. Emittente: l'amico; codice: la lingua italiana parlata; canale: il telefono, il suono.
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s02-attivita.md:26:- "vietato il telefono"
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s02-spiegazione.md:65:> 4. Il cestino sul desktop del computer
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s03-spiegazione.md:49:- **dove** è pubblicato (rivista di moda, di auto, di cucina)
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s05-attivita.md:8:1. Scegliete un marchio che conoscete bene: un fast food, una bibita, una marca di scarpe, una squadra, un videogioco; oppure usate Vetta, descritto nella scheda
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s09-spiegazione.md:2:Parte 1 (10 minuti): luce dura e luce diffusa, le parti del chiaroscuro. Prima fase: scala dei grigi e chiaroscuro con luce dura. Parte 2 (10 minuti): direzione della luce e temperatura colore, prima del chiaroscuro con luce diffusa. I due casi sono descritti nella scheda: si rappresentano a penna, variando il tratteggio.
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s09-spiegazione.md:67:# La temperatura colore
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s11-spiegazione.md:66:Esempi: monocromatica per un marchio di lusso o una banca; analoga per un prodotto naturale (gialli e arancioni, o verdi e azzurri); complementare per una squadra, un evento, un cartello che deve farsi vedere.
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s12-spiegazione.md:8:Le riviste, i manifesti, le scatole si stampano con **quattro inchiostri**:
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s12-spiegazione.md:32:<text x="410" y="215" text-anchor="middle" font-size="18" fill="#1d232b">con la lente</text>
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s12-spiegazione.md:61:Esempi da raccontare: le grandi marche di bibite, i colori delle squadre e delle bandiere sono quasi sempre definiti con un numero Pantone.
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s12-spiegazione.md:73:| due carte | la carta lucida e la carta da giornale assorbono diversamente |
+/home/sberti-iit.local/CorsiSito/tmp/revisione-01-13/corso/contenuti/s13-spiegazione.md:25:Gli schermi e le stampanti usano due "sintesi" diverse.

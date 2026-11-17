@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scienze e tecnologie applicate · seconda</title>
+<style>
+:root { --testo:#1d232b; --tenue:#5b6672; --accento:#9a2f68; --chiaro:#f7e9f1; --bordo:#d5dbe1; --verde:#1e7a3c; --rosso:#b3261e; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f4f6f8; color: var(--testo); font: 16px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; }
+main { max-width: 1180px; margin: 0 auto; padding: 28px 16px 60px; }
+h1 { font-size: 30px; margin: 0 0 4px; }
+.sotto { color: var(--tenue); margin: 0 0 24px; }
+.guida { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; margin-bottom: 30px; }
+.guida div { background: #fff; border: 1px solid var(--bordo); border-radius: 8px; padding: 14px 18px; }
+.guida h3 { margin: 0 0 6px; font-size: 16px; }
+.guida ul, .guida ol { margin: 0; padding-left: 1.2em; }
+.guida p { margin: 0 0 6px; }
+.guida a { color: var(--accento); }
+kbd { font: 13px Consolas, monospace; border: 1px solid #b9c1c9; border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; background: #fff; }
+section { margin-bottom: 30px; }
+h2 { font-size: 21px; margin: 0 0 8px; color: var(--accento); }
+h2 span { font-size: 15px; color: var(--tenue); font-weight: 400; margin-left: 6px; }
+.tab { overflow-x: auto; background: #fff; border: 1px solid var(--bordo); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; min-width: 720px; }
+th, td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid #e6e9ed; }
+th { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--tenue); background: #fafbfc; }
+tr:last-child td { border-bottom: 0; }
+td.num { font-weight: 700; color: var(--tenue); width: 50px; }
+a.lez { color: var(--testo); text-decoration: none; font-weight: 600; display: block; }
+a.lez:hover { color: var(--accento); text-decoration: underline; }
+.quante { display: block; font-size: 13px; color: var(--tenue); }
+td.file { font-size: 14px; width: 230px; }
+td.file a { color: var(--accento); }
+td.file a.sol { color: var(--rosso); }
+code { font: .92em Consolas, monospace; background: #eef1f4; padding: 0 .25em; border-radius: 3px; }
+</style></head><body><main>
+<h1>Scienze e tecnologie applicate · seconda</h1>
+<p class="sotto">Istituto tecnico, indirizzo grafica e comunicazione · 25 settimane, 3 ore a settimana · tutto in classe, senza computer e senza telefono. Clic su un titolo per aprire le slide.</p>
+<div class="guida">
+  <div><h3>Come va una lezione di 3 ore</h3><ol>
+    <li>Spiegazione, parte 1 (10 minuti)</li>
+    <li>Attività, prima fase (circa un'ora)</li>
+    <li>Spiegazione, parte 2 (10 minuti)</li>
+    <li>Attività, seconda fase (circa un'ora e un quarto)</li>
+    <li>Consegna e riordino (10 minuti)</li></ol>
+    <p>Il punto in cui fermarsi è segnato nelle slide.</p></div>
+  <div><h3>Le slide</h3><ul>
+    <li><kbd>→</kbd> o <kbd>Spazio</kbd> avanti, <kbd>←</kbd> indietro</li>
+    <li><kbd>F</kbd> schermo intero, <kbd>N</kbd> note per il docente</li>
+    <li><kbd>S</kbd> mostra le slide <b>SOLO DOCENTE</b> (criteri, soluzioni)</li>
+    <li><kbd>L</kbd> tutte le slide in colonna con le note, da leggere prima o da stampare</li></ul></div>
+  <div><h3>Schede e materiali</h3>
+    <p><code>materiale-studenti</code>: le schede da stampare per la classe (pulsante Stampa in alto, formato A4).</p>
+    <p><code>soluzioni-docente</code>: soluzioni e griglie, in rosso nella tabella. Non vanno distribuite.</p>
+    <p><a href="materiale-studenti/settimana-01/scheda-materiali.html">Elenco dei materiali</a> da chiedere a inizio anno · <a href="soluzioni-docente/settimana-01/docente-valutazione.html">Griglia di valutazione</a></p></div>
+</div>
+<section><h2>Modulo 1 · Comunicazione e pubblicità <span>settimane 1-5</span></h2>
+<div class="tab"><table><thead><tr><th>Sett.</th><th>Spiegazione (circa 20 min)</th><th>Attività (il resto delle 3 ore)</th><th>Schede da stampare</th></tr></thead>
+<tbody><tr><td class="num">1</td>
+<td><a class="lez" href="slides/s01-spiegazione.html">Come funziona la comunicazione: emittente, ricevente, messaggio, codice, canale, rumore</a><span class="quante">10 slide</span></td>
+<td><a class="lez" href="slides/s01-attivita.html">Disegno dettato a coppie</a><span class="quante">8 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-01/carte-figure.html">Disegno dettato · le carte</a><br><a class="sol" href="soluzioni-docente/settimana-01/docente-valutazione.html">Griglia di valutazione dei lavori</a><br><a href="materiale-studenti/settimana-01/scheda-disegno-dettato.html">Disegno dettato</a><br><a href="materiale-studenti/settimana-01/scheda-materiali.html">Materiali per Scienze e tecnologie applicate</a></td></tr><tr><td class="num">2</td>
+<td><a class="lez" href="slides/s02-spiegazione.html">Segni: icona, indice, simbolo</a><span class="quante">8 slide</span></td>
+<td><a class="lez" href="slides/s02-attivita.html">Pittogrammi per la scuola</a><span class="quante">7 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-02/scheda-pittogrammi.html">Pittogrammi per la scuola</a></td></tr><tr><td class="num">3</td>
+<td><a class="lez" href="slides/s03-spiegazione.html">La pubblicità: a chi parla e cosa promette</a><span class="quante">8 slide</span></td>
+<td><a class="lez" href="slides/s03-attivita.html">Analisi di annunci ritagliati dalle riviste</a><span class="quante">6 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-03/scheda-analisi-annuncio.html">Analisi di un annuncio</a></td></tr><tr><td class="num">4</td>
+<td><a class="lez" href="slides/s04-spiegazione.html">La pagina pubblicitaria: headline, visual, testo, payoff, marchio</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s04-attivita.html">Nuove headline per lo stesso visual</a><span class="quante">6 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-04/scheda-studio-annuncio.html">Studio di un annuncio</a></td></tr><tr><td class="num">5</td>
+<td><a class="lez" href="slides/s05-spiegazione.html">Marchio, logotipo, logo; il rebranding</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s05-attivita.html">Rebranding a disegno di un marchio noto</a><span class="quante">6 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-05/scheda-rebranding.html">Rebranding di un marchio noto</a></td></tr></tbody></table></div></section><section><h2>Modulo 2 · Percezione e composizione <span>settimane 6-8</span></h2>
+<div class="tab"><table><thead><tr><th>Sett.</th><th>Spiegazione (circa 20 min)</th><th>Attività (il resto delle 3 ore)</th><th>Schede da stampare</th></tr></thead>
+<tbody><tr><td class="num">6</td>
+<td><a class="lez" href="slides/s06-spiegazione.html">La Gestalt: vicinanza, somiglianza, chiusura, continuità, destino comune</a><span class="quante">9 slide</span></td>
+<td><a class="lez" href="slides/s06-attivita.html">Una tavola in bianco e nero per ogni principio</a><span class="quante">6 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-06/scheda-tavole-gestalt.html">Le tavole della Gestalt</a></td></tr><tr><td class="num">7</td>
+<td><a class="lez" href="slides/s07-spiegazione.html">Campo e composizione: formato, peso visivo, equilibrio, figura e sfondo</a><span class="quante">8 slide</span></td>
+<td><a class="lez" href="slides/s07-attivita.html">Composizioni con le stesse forme di carta nera</a><span class="quante">6 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-07/scheda-composizioni.html">Composizioni con le stesse forme</a></td></tr><tr><td class="num">8</td>
+<td><a class="lez" href="slides/s08-spiegazione.html">Ripasso dei moduli 1 e 2</a><span class="quante">8 slide</span></td>
+<td><a class="lez" href="slides/s08-attivita.html">Verifica: un manifesto basato su un principio della Gestalt</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a class="sol" href="soluzioni-docente/settimana-08/docente-soluzioni-verifica.html">Verifica moduli 1 e 2 · soluzioni delle domande</a><br><a href="materiale-studenti/settimana-08/scheda-verifica-manifesto.html">Verifica · Un manifesto in bianco e nero</a></td></tr></tbody></table></div></section><section><h2>Modulo 3 · Luce e colore <span>settimane 9-13</span></h2>
+<div class="tab"><table><thead><tr><th>Sett.</th><th>Spiegazione (circa 20 min)</th><th>Attività (il resto delle 3 ore)</th><th>Schede da stampare</th></tr></thead>
+<tbody><tr><td class="num">9</td>
+<td><a class="lez" href="slides/s09-spiegazione.html">La luce: qualità, direzione, temperatura colore</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s09-attivita.html">Chiaroscuro di un solido con luce dura e luce diffusa</a><span class="quante">6 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-09/scheda-chiaroscuro.html">Chiaroscuro con luce dura e luce diffusa</a></td></tr><tr><td class="num">10</td>
+<td><a class="lez" href="slides/s10-spiegazione.html">Sintesi additiva e sottrattiva: RGB e CMYK</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s10-attivita.html">Il cerchio cromatico a tempera dai tre primari</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-10/scheda-cerchio-cromatico.html">Il cerchio cromatico ragionato</a></td></tr><tr><td class="num">11</td>
+<td><a class="lez" href="slides/s11-spiegazione.html">Tinta, saturazione, luminosità; contrasti e armonie</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s11-attivita.html">Scale di colore e un marchio in tre schemi</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-11/scheda-scale-colore.html">Scale di colore e un marchio in tre schemi</a></td></tr><tr><td class="num">12</td>
+<td><a class="lez" href="slides/s12-spiegazione.html">Il colore in stampa: quadricromia, Pantone, profili e calibrazione</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s12-attivita.html">Riprodurre a tempera tre campioni dati</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-12/scheda-campioni.html">Analizzare tre campioni dati</a></td></tr><tr><td class="num">13</td>
+<td><a class="lez" href="slides/s13-spiegazione.html">Ripasso del modulo 3</a><span class="quante">8 slide</span></td>
+<td><a class="lez" href="slides/s13-attivita.html">Verifica: un lavoro grafico con due colori complementari</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a class="sol" href="soluzioni-docente/settimana-13/docente-soluzioni-verifica.html">Verifica modulo 3 · soluzioni e valutazione</a><br><a href="materiale-studenti/settimana-13/scheda-verifica-complementari.html">Verifica · Due colori complementari</a></td></tr></tbody></table></div></section><section><h2>Modulo 4 · Il lettering <span>settimane 14-17</span></h2>
+<div class="tab"><table><thead><tr><th>Sett.</th><th>Spiegazione (circa 20 min)</th><th>Attività (il resto delle 3 ore)</th><th>Schede da stampare</th></tr></thead>
+<tbody><tr><td class="num">14</td>
+<td><a class="lez" href="slides/s14-spiegazione.html">Anatomia del carattere</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s14-attivita.html">Una lettera grande su griglia, con le parti indicate</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-14/scheda-lettera-griglia.html">Una lettera grande su griglia</a></td></tr><tr><td class="num">15</td>
+<td><a class="lez" href="slides/s15-spiegazione.html">Famiglie e classificazione dei caratteri</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s15-attivita.html">Serif e sans serif su carta a quadretti</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-15/scheda-nome-quadretti.html">Il nome su quadretti</a></td></tr><tr><td class="num">16</td>
+<td><a class="lez" href="slides/s16-spiegazione.html">Leggibilità: corpo, interlinea, spaziatura, gerarchia</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s16-attivita.html">Egiziano e gotico con il pennarello a punta tagliata</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-16/scheda-punta-tagliata.html">La punta tagliata</a></td></tr><tr><td class="num">17</td>
+<td><a class="lez" href="slides/s17-spiegazione.html">Ripasso del modulo 4</a><span class="quante">8 slide</span></td>
+<td><a class="lez" href="slides/s17-attivita.html">Verifica: il logotipo del proprio nome</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a class="sol" href="soluzioni-docente/settimana-17/docente-soluzioni-verifica.html">Verifica modulo 4 · soluzioni delle domande</a><br><a href="materiale-studenti/settimana-17/scheda-verifica-logotipo.html">Verifica · Il logotipo del proprio nome</a></td></tr></tbody></table></div></section><section><h2>Modulo 5 · Immagine e ottica <span>settimane 18-21</span></h2>
+<div class="tab"><table><thead><tr><th>Sett.</th><th>Spiegazione (circa 20 min)</th><th>Attività (il resto delle 3 ore)</th><th>Schede da stampare</th></tr></thead>
+<tbody><tr><td class="num">18</td>
+<td><a class="lez" href="slides/s18-spiegazione.html">Pixel e risoluzione; raster e vettoriale</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s18-attivita.html">Lo stesso disegno su griglie da 8, 16 e 32 quadretti</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-18/scheda-istruzioni.html">Il disegno a istruzioni</a><br><a href="materiale-studenti/settimana-18/scheda-pixel.html">Lo stesso disegno su tre griglie</a></td></tr><tr><td class="num">19</td>
+<td><a class="lez" href="slides/s19-spiegazione.html">Dalla camera oscura alla reflex</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s19-attivita.html">Una camera oscura con una scatola da scarpe</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-19/scheda-camera-oscura.html">La camera oscura</a></td></tr><tr><td class="num">20</td>
+<td><a class="lez" href="slides/s20-spiegazione.html">Obiettivo e focale; diaframma, tempo, ISO</a><span class="quante">8 slide</span></td>
+<td><a class="lez" href="slides/s20-attivita.html">Mirini di cartone come focali diverse</a><span class="quante">7 slide · 2 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-20/scheda-mirino.html">Il mirino di cartone</a></td></tr><tr><td class="num">21</td>
+<td><a class="lez" href="slides/s21-spiegazione.html">Ripasso del modulo 5</a><span class="quante">8 slide</span></td>
+<td><a class="lez" href="slides/s21-attivita.html">Verifica: sei inquadrature dello stesso oggetto</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a class="sol" href="soluzioni-docente/settimana-21/docente-soluzioni-verifica.html">Verifica modulo 5 · soluzioni delle domande</a><br><a href="materiale-studenti/settimana-21/scheda-verifica-inquadrature.html">Verifica · Sei inquadrature dello stesso oggetto</a></td></tr></tbody></table></div></section><section><h2>Modulo 6 · Stampa e progetto finale <span>settimane 22-25</span></h2>
+<div class="tab"><table><thead><tr><th>Sett.</th><th>Spiegazione (circa 20 min)</th><th>Attività (il resto delle 3 ore)</th><th>Schede da stampare</th></tr></thead>
+<tbody><tr><td class="num">22</td>
+<td><a class="lez" href="slides/s22-spiegazione.html">Il processo di stampa e i sistemi di stampa</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s22-attivita.html">Stampa a rilievo con matrici di polistirolo</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-22/scheda-stampa-rilievo.html">Stampa a rilievo</a></td></tr><tr><td class="num">23</td>
+<td><a class="lez" href="slides/s23-spiegazione.html">La campagna sociale; formati, al vivo, abbondanze</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s23-attivita.html">Manifesto per una campagna sociale: le bozze</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-23/scheda-campagna-bozze.html">Campagna sociale: le bozze</a></td></tr><tr><td class="num">24</td>
+<td><a class="lez" href="slides/s24-spiegazione.html">Ripasso dell'anno</a><span class="quante">7 slide</span></td>
+<td><a class="lez" href="slides/s24-attivita.html">Manifesto definitivo in A3</a><span class="quante">5 slide · 1 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-24/scheda-manifesto-definitivo.html">Il manifesto definitivo</a></td></tr><tr><td class="num">25</td>
+<td><a class="lez" href="slides/s25-spiegazione.html">Come si presenta un lavoro</a><span class="quante">6 slide</span></td>
+<td><a class="lez" href="slides/s25-attivita.html">Mostra dei manifesti e valutazione</a><span class="quante">6 slide · 2 solo docente</span></td>
+<td class="file"><a href="materiale-studenti/settimana-25/scheda-presentazione.html">La mostra dei manifesti</a><br><a href="materiale-studenti/settimana-25/schede-osservazione.html">Schede di osservazione</a></td></tr></tbody></table></div></section>
+</main></body></html>

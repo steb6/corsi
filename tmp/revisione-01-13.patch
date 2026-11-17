@@ -1,0 +1,2152 @@
+--- a/corso/contenuti/s01-attivita.md
++++ b/corso/contenuti/s01-attivita.md
+@@ -1,5 +1,5 @@
+ ???
+-Materiale: le carte con le figure (una copia ogni due studenti, già ritagliate), una scheda di registrazione a testa, matita e righello. Si lavora a coppie, sedie schiena contro schiena. Se il numero è dispari, un gruppo da tre con un osservatore che compila la scheda.
++Materiale: il foglio con le quattro figure (una copia ogni coppia), una scheda a testa e una penna. Si lavora a coppie, sedie schiena contro schiena. Se il numero è dispari, un gruppo da tre con un osservatore che compila la scheda.
+ 
+ ---
+ 
+@@ -7,7 +7,7 @@
+ 
+ Lavorate **a coppie**, seduti schiena contro schiena.
+ 
+-- **A** ha una carta con una figura e la descrive **solo a parole**
++- **A** tiene il foglio con le figure e la descrive **solo a parole**
+ - **B** disegna sul riquadro della scheda, senza vedere la carta
+ - Poi si scambiano i ruoli con un'altra carta
+ 
+@@ -24,8 +24,10 @@
+ 
+ Sulla scheda, per ogni giro:
+ 
+-- il **punteggio**: un punto per ogni forma giusta, uno se è al posto giusto, uno se ha la misura giusta
++- il **punteggio**: un punto per ogni forma giusta, uno se è al posto giusto, uno se ha le proporzioni giuste (a occhio)
+ - **cosa ha disturbato** la comunicazione
++
++Le carte hanno 3 o 4 elementi: annotate il massimo (3 punti ciascuno) e confrontate le frazioni ottenute.
+ 
+ @file settimana-01/scheda-disegno-dettato.md
+ 
+@@ -54,7 +56,7 @@
+ Prima la **posizione**, poi la **forma**, poi la **misura**.
+ 
+ ???
+-Leggere la descrizione ad alta voce come modello prima del giro 1, ma senza mostrare la figura per prima: chiedere alla classe di disegnarla alla lavagna in tre a turno, poi mostrarla.
++Leggere la descrizione ad alta voce come modello prima del giro 1, ma senza mostrare la figura per prima: chiedere alla classe di abbozzarla sul foglio, poi mostrarla.
+ 
+ ---
+ 
+@@ -88,6 +90,7 @@
+ 1. In quale giro avete fatto il punteggio più alto? Perché?
+ 2. Scrivete un esempio di **rumore** che c'è stato oggi
+ 3. Che differenza c'è tra il giro 3 e le istruzioni scritte?
++4. **Sfida**: riscrivete un'istruzione ambigua usando una frazione del riquadro; spiegate quale errore evita.
+ 
+ Consegnate la scheda con i disegni.
+ 
+@@ -104,10 +107,10 @@
+ | --- | --- |
+ | Consegna | tutti e cinque i giri fatti, punteggi segnati |
+ | Concetti | il rumore è un esempio vero; la risposta 3 parla di feedback o di canale |
+-| Cura | disegni con il righello, scheda leggibile |
+-| Istruzioni scritte | ordinate (posizione, forma, misura), comprensibili |
++| Cura | schizzi a penna leggibili, proporzioni e annotazioni chiare |
++| Istruzioni scritte | ordinate (posizione, forma, proporzioni), comprensibili; sfida motivata |
+ 
+ Il punteggio dei disegni **non** conta per il voto: conta come si è lavorato.
+ 
+ ???
+-Risposte attese: 1) di solito il giro 3 o 4, perché c'è feedback. 2) rumore fisico (rumore in classe), codice diverso (parole usate in modo diverso), ambiguità. 3) nelle istruzioni scritte il canale è diverso e non c'è feedback: bisogna prevedere i dubbi di chi legge.
++Risposte attese: 1) di solito il giro 3 o 4, perché c'è feedback. 2) rumore fisico (rumore in classe), codice diverso (parole usate in modo diverso), ambiguità. 3) nelle istruzioni scritte il canale è diverso e non c'è feedback: bisogna prevedere i dubbi di chi legge. Sfida: «Il cerchio occupa un terzo della larghezza» evita interpretazioni diverse di «grande». Valutare la chiarezza, non la precisione geometrica.
+--- a/corso/contenuti/s01-spiegazione.md
++++ b/corso/contenuti/s01-spiegazione.md
+@@ -5,12 +5,12 @@
+ 
+ # Come funziona quest'anno
+ 
+-- Ogni settimana: **poca spiegazione, tanto lavoro** con le mani
+-- Si lavora su carta: matite, pennarelli, tempere, forbici
++- Ogni settimana: **poca spiegazione, tanto lavoro** di analisi e progetto
++- Si lavora con **penna e fogli**, anche per gli schizzi
+ - Ogni lavoro si consegna **a fine lezione** e conta per il voto
+-- Niente computer e niente telefono
++- I colori si indicano con nomi; i toni con tratteggi
+ 
+-> Il materiale personale serve dalla prossima settimana. L'elenco è sulla scheda.
++> Bastano penna e fogli. Le schede guidano il lavoro.
+ 
+ @file settimana-01/scheda-materiali.md
+ 
+@@ -56,7 +56,7 @@
+ <text x="560" y="285" text-anchor="middle" font-size="22" fill="#1e7a3c" font-weight="700">feedback: la risposta del ricevente</text>
+ </svg>
+ 
+-Tutto avviene in un **contesto**: luogo, momento, situazione.
++Tutto avviene in un **contesto**: luogo, momento, situazione. Lo stesso suono può avere significati diversi a scuola e per strada.
+ 
+ ???
+ Disegnare lo schema anche alla lavagna mentre lo si spiega, un pezzo alla volta. Il feedback e il rumore si riprendono nella seconda parte, dopo l'attività: ora basta nominarli.
+@@ -100,7 +100,7 @@
+ 
+ Disegno dettato **senza domande**.
+ 
+-Le istruzioni sono nelle slide dell'attività.
++Le istruzioni sono nelle slide dell'attività. Descrivete le dimensioni come parti del riquadro.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora, prima della seconda fase.
+@@ -137,7 +137,7 @@
+ 
+ # Al lavoro: seconda fase
+ 
+-Disegno dettato **con le domande**, poi le istruzioni **scritte**.
++Disegno dettato **con le domande**, poi le istruzioni **scritte**. Confrontate gli errori per capire quali informazioni mancavano.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s02-attivita.md
++++ b/corso/contenuti/s02-attivita.md
+@@ -1,5 +1,5 @@
+ ???
+-Materiale: scheda dei pittogrammi (due facciate), matita, gomma, righello, pennarello nero. Lavoro individuale; il test finale si fa a coppie.
++Materiale: scheda dei pittogrammi (due facciate), penna e fogli. Lavoro individuale; il test finale si fa a coppie.
+ 
+ ---
+ 
+@@ -31,7 +31,7 @@
+ 
+ # Fase 1 · Gli schizzi
+ 
+-<div class="fasi"><div><b>20 min</b>Per ogni luogo, <b>3 idee diverse</b> nei riquadri piccoli. A matita, veloci.</div><div><b>10 min</b>Per ogni luogo, cerchiate l'idea migliore.</div><div><b>30 min</b>Scegliete la figura umana e lo spessore delle linee che userete in tutta la serie.</div></div>
++<div class="fasi"><div><b>20 min</b>Per ogni luogo, <b>3 idee diverse</b> nei riquadri piccoli. A penna, veloci.</div><div><b>10 min</b>Per ogni luogo, cerchiate l'idea migliore.</div><div><b>30 min</b>Scegliete la figura umana e lo spessore delle linee che userete in tutta la serie.</div></div>
+ 
+ > !prova
+ > Per trovare le idee chiedetevi: quale **oggetto** si trova solo in quel luogo? Quale **azione** si fa solo lì?
+@@ -57,8 +57,10 @@
+ 
+ - Disegnato su una griglia **6 × 6**
+ - Una sola forma, **piena**
+-- Nessun dettaglio più piccolo di un quadretto
++- Dettagli essenziali, larghi almeno mezzo quadretto
+ - Si riconosce anche rimpicciolito
++
++Il libro aperto richiama la lettura senza scrivere «biblioteca»: è un indizio visivo.
+ 
+ ???
+ Mostrare l'esempio da lontano: deve funzionare anche dall'ultimo banco. Si può far notare che la linea bianca al centro è larga come mezzo quadretto: è il dettaglio più piccolo ammesso.
+@@ -67,10 +69,10 @@
+ 
+ # Fase 2 · I pittogrammi definitivi
+ 
+-<div class="fasi"><div><b>40 min</b>Ridisegnate a matita i 4 pittogrammi nelle griglie grandi.</div><div><b>25 min</b>Ripassate e riempite con il pennarello nero. Cancellate la matita.</div><div><b>10 min</b>Il test: scambiate la scheda con un compagno.</div></div>
++<div class="fasi"><div><b>40 min</b>Ridisegnate a penna, a mano libera i 4 pittogrammi nelle griglie grandi.</div><div><b>25 min</b>Tratteggiate i pieni; annotate una regola comune e motivate le scelte.</div><div><b>10 min</b>Il test: scambiate la scheda con un compagno.</div></div>
+ 
+ > !attenzione
+-> Riempite bene: il pittogramma deve essere **nero pieno**, senza striature.
++> Il tratteggio indica le zone piene: lasciate riconoscibile la sagoma.
+ 
+ ---
+ 
+@@ -81,10 +83,10 @@
+ - Indovinato: il pittogramma funziona
+ - Sbagliato: scrivete sulla scheda **cosa ha confuso** il compagno
+ 
+-> Il compagno fa da **ricevente**. È il feedback che il manifesto vero non avrà.
++> Il compagno fa da **ricevente**. **Sfida**: ridisegnate un segno con metà altezza e larghezza; quale dettaglio eliminate, e perché?
+ 
+ ???
+-Collegare con la settimana scorsa: questo è feedback. Se avanza tempo, chi ha un pittogramma non indovinato può fare una seconda versione nell'ultimo riquadro.
++Collegare con la settimana scorsa: questo è feedback. Negli ultimi 10 minuti, fare test e sfida sulla scheda; se un segno è ambiguo, indicare la correzione.
+ 
+ ---
+ 
+@@ -94,10 +96,10 @@
+ 
+ | Criterio | Cosa si vede sulla scheda |
+ | --- | --- |
+-| Consegna | 12 schizzi, 4 pittogrammi definitivi, test fatto |
++| Consegna | 12 schizzi, 4 pittogrammi definitivi, test e riduzione fatti |
+ | Concetti | sagome piene, niente testo, segni icona più che simbolo |
+-| Cura | nero pieno, bordi puliti, matita cancellata |
+-| Idea | stesso stile in tutta la serie; idee non copiate dall'esempio |
++| Cura | contorni leggibili, tratteggi e proporzioni coerenti |
++| Idea | stesso stile in tutta la serie; scelte e semplificazione motivate |
+ 
+ ???
+-Un pittogramma non indovinato dal compagno non abbassa il voto se lo studente ha scritto il motivo e, potendo, l'ha corretto.
++Sfida: dimezzando entrambi i lati, l'area diventa un quarto; eliminare un dettaglio secondario mantenendo l'oggetto distintivo. Un pittogramma non indovinato dal compagno non abbassa il voto se lo studente ha scritto il motivo e, potendo, l'ha corretto.
+--- a/corso/contenuti/s02-spiegazione.md
++++ b/corso/contenuti/s02-spiegazione.md
+@@ -78,7 +78,7 @@
+ - **Codice**: un insieme di segni con le regole per usarli (la segnaletica stradale, l'alfabeto Morse)
+ - **Lingua**: il codice fatto di parole di un popolo (italiano, inglese)
+ 
+-I **pittogrammi** sono un codice: funzionano anche per chi non conosce la lingua.
++I **pittogrammi** possono aiutare chi non conosce la lingua. Devono però usare forme riconoscibili: anche un disegno può essere interpretato male.
+ 
+ ???
+ Non insistere sulle definizioni: basta che sia chiaro che un pittogramma serve proprio a superare la lingua (stazioni, aeroporti, Olimpiadi).
+@@ -87,7 +87,7 @@
+ 
+ # Al lavoro: prima fase
+ 
+-Schizzi a matita dei pittogrammi per la scuola.
++Schizzi a penna dei pittogrammi per la scuola. Confrontate tre idee prima di scegliere la più chiara.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -116,7 +116,7 @@
+ 
+ # Al lavoro: seconda fase
+ 
+-Pittogrammi definitivi su griglia, a pennarello nero.
++Pittogrammi definitivi su griglia, a penna, con tratteggi per i pieni. La griglia aiuta a mantenere proporzioni simili nella serie.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s03-attivita.md
++++ b/corso/contenuti/s03-attivita.md
+@@ -1,5 +1,5 @@
+ ???
+-Materiale: riviste e volantini, forbici, colla, due schede di analisi a testa, un foglio A3 per gruppo. Prima fase individuale, seconda fase prima individuale poi a gruppi di 4.
++Materiale: penna, due schede di analisi a testa e fogli. Prima fase individuale, seconda fase prima individuale poi a gruppi di 4.
+ 
+ ---
+ 
+@@ -7,20 +7,20 @@
+ 
+ Oggi si fa il lavoro di chi studia la pubblicità: si smontano gli annunci per capire come funzionano.
+ 
+-1. Sfogliate le riviste e ritagliate **due annunci** di prodotti diversi
+-2. Incollate ogni annuncio sulla sua scheda
++1. Leggete i **due annunci descritti** sulla scheda
++2. Indicate il codice A o B sulla scheda da compilare
+ 3. Rispondete alle domande della scheda
+ 
+ @file settimana-03/scheda-analisi-annuncio.md
+ 
+ ???
+-Se un annuncio è più grande della scheda, si incolla piegato o solo la parte principale. Vanno bene anche i volantini dei supermercati, ma conviene scegliere almeno un annuncio "vero" da rivista.
++I casi sono inventati e autosufficienti. Distinguere indizi e ipotesi; «non deducibile» è corretto quando mancano dati.
+ 
+ ---
+ 
+ # Fase 1 · Il primo annuncio
+ 
+-<div class="fasi"><div><b>15 min</b>Sfogliate e ritagliate. Scegliete annunci che vi colpiscono, anche in negativo.</div><div><b>40 min</b>Incollate il primo e compilate la parte 1 della scheda: tipo, target, indizi.</div></div>
++<div class="fasi"><div><b>15 min</b>Leggete i casi A e B. Annotate la prima impressione e un indizio.</div><div><b>40 min</b>Per A compilate la parte 1 della scheda: tipo, target, indizi.</div></div>
+ 
+ > !attenzione
+ > Sul target, ogni risposta va **dimostrata**: "giovani" non basta, scrivete *da cosa* lo capite.
+@@ -32,13 +32,15 @@
+ 
+ # Fase 2 · Il secondo annuncio
+ 
+-<div class="fasi"><div><b>30 min</b>Secondo annuncio: tutta la scheda, comprese promessa, tono e AIDA.</div><div><b>10 min</b>Tornate al primo annuncio e completate la parte 2.</div></div>
++Una promessa chiara può attirare, ma senza un invito concreto il lettore non sa come partecipare.
++
++<div class="fasi"><div><b>30 min</b>Caso B: tutta la scheda, comprese promessa, tono e AIDA.</div><div><b>10 min</b>Tornate al primo annuncio e completate la parte 2.</div></div>
+ 
+ ---
+ 
+ # Fase 2 · Il confronto a gruppi
+ 
+-<div class="fasi"><div><b>15 min</b>A gruppi di 4: mettete sul banco gli 8 annunci e scegliete il <b>più efficace</b> e il <b>meno efficace</b>.</div><div><b>10 min</b>Incollate i due sul foglio A3 e scrivete accanto <b>tre motivi</b> per ognuno.</div><div><b>10 min</b>Ogni gruppo presenta in un minuto.</div></div>
++<div class="fasi"><div><b>15 min</b>A gruppi di 4: confrontate le analisi e scegliete il caso <b>più efficace</b> e il <b>meno efficace</b>.</div><div><b>10 min</b>Scrivete <b>tre motivi</b> per caso. Sfida: correggete l'invito all'azione di B.</div><div><b>10 min</b>Ogni gruppo presenta in un minuto.</div></div>
+ 
+ > !prova
+ > I motivi devono usare le parole di oggi: target, promessa, tono, attenzione…
+@@ -56,8 +58,8 @@
+ | --- | --- |
+ | Consegna | due schede complete, foglio di gruppo |
+ | Concetti | target dimostrato con indizi; AIDA applicata alle parti vere dell'annuncio |
+-| Cura | annunci ritagliati e incollati bene, scrittura leggibile |
+-| Idea | giudizi motivati, non "mi piace / non mi piace" |
++| Cura | indizi citati con precisione, scrittura leggibile |
++| Idea | giudizi motivati; invito finale adatto al target |
+ 
+ ???
+-Il foglio A3 di gruppo non ha voto proprio: serve a vedere chi ha partecipato. Si può appendere in classe.
++Attesi: A commerciale, studenti attenti al prezzo; tono informativo, azione chiara. B sociale, studenti; tono emotivo, azione assente. Sfida possibile: «Venerdì, dalle 13 alle 14, porta un libro al banco scambi in atrio». Valutare luogo, tempo e gesto concreti, senza inventare risultati garantiti.
+--- a/corso/contenuti/s03-spiegazione.md
++++ b/corso/contenuti/s03-spiegazione.md
+@@ -1,7 +1,7 @@
+ ???
+ Parte 1 (10 minuti): cos'è la pubblicità, i tipi, il target. Prima fase: ognuno sceglie e analizza un annuncio. Parte 2 (10 minuti): promessa, tono e lo schema AIDA, che servono per la seconda analisi e per il confronto a gruppi.
+ 
+-Servono riviste e volantini: almeno due a testa. Conviene tenerne una scorta in classe per chi le dimentica.
++I due annunci sono descritti nella scheda: bastano penna e fogli.
+ 
+ ---
+ 
+@@ -30,6 +30,8 @@
+ - **interessi** e stile di vita
+ - **capacità di spesa**
+ 
++Se un indizio manca, scrivete «non deducibile»: il target non si indovina dagli stereotipi.
++
+ > !prova
+ > Pubblicità di un'auto sportiva, di un succo di frutta per la merenda, di un apparecchio acustico: chi è il target?
+ 
+@@ -54,7 +56,7 @@
+ 
+ # Al lavoro: prima fase
+ 
+-Scegliete e analizzate il primo annuncio.
++Leggete e analizzate il primo annuncio descritto nella scheda. Separate ciò che è scritto dalle vostre ipotesi.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -94,7 +96,7 @@
+ 
+ # Al lavoro: seconda fase
+ 
+-Secondo annuncio con AIDA, poi il confronto a gruppi.
++Secondo annuncio con AIDA, poi il confronto a gruppi. Un giudizio utile indica sia un punto forte sia una modifica concreta.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s04-attivita.md
++++ b/corso/contenuti/s04-attivita.md
+@@ -1,5 +1,5 @@
+ ???
+-Materiale: un annuncio ritagliato a testa (meglio se con un visual grande), scheda dello studio, foglio A4 da album, matite, righello, pennarelli. Lavoro individuale.
++Materiale: scheda dello studio, fogli e penna. Lavoro individuale.
+ 
+ ---
+ 
+@@ -17,7 +17,7 @@
+ 
+ # Fase 1 · Lo studio dell'annuncio
+ 
+-<div class="fasi"><div><b>10 min</b>Incollate l'annuncio sulla scheda.</div><div><b>25 min</b>Accanto, ridisegnate lo <b>schema a blocchi</b> con il righello, nelle stesse proporzioni.</div><div><b>20 min</b>Indicate con le frecce i sei elementi e numerate l'ordine in cui l'occhio li guarda.</div></div>
++<div class="fasi"><div><b>10 min</b>Leggete il caso Fonte Chiara sulla scheda.</div><div><b>25 min</b>Accanto, ridisegnate lo <b>schema a blocchi</b> a penna a mano libera, mantenendo le proporzioni.</div><div><b>20 min</b>Indicate con le frecce i sei elementi e numerate l'ordine in cui l'occhio li guarda.</div></div>
+ 
+ > !attenzione
+ > Uno schema a blocchi **non** è un disegno dell'annuncio: niente dettagli, solo rettangoli, barre e righe.
+@@ -32,7 +32,7 @@
+ <div class="fasi"><div><b>20 min</b>Sulla scheda scrivete <b>tre headline</b> per lo stesso visual, con tre tecniche diverse.</div><div><b>5 min</b>Leggetele al vicino: lui sceglie la migliore.</div></div>
+ 
+ > !prova
+-> Controllate ogni headline: è più corta di 8 parole? Dice qualcosa che l'immagine **non** dice già?
++> Controllate ogni headline: è più corta di 8 parole? Dice qualcosa che l'immagine **non** dice già? Motivate la scelta con il vantaggio promesso.
+ 
+ ---
+ 
+@@ -40,12 +40,13 @@
+ 
+ Su un foglio A4 ridisegnate l'annuncio con la headline scelta. **50 minuti**.
+ 
+-- Il visual si **disegna** semplificato, oppure si ritaglia e si incolla dall'annuncio originale
+-- La headline si scrive **a mano in stampatello**, grande, con il righello come guida
++- Il visual si **disegna** semplificato; i colori si indicano per nome
++- La headline si scrive **a mano in stampatello**, grande e leggibile a mano libera
+ - Il marchio resta in basso a destra
++- **Sfida**: dimezzate le misure date del visual e motivate una modifica al testo
+ 
+ ???
+-Chi è lento con il disegno può ritagliare il visual dall'annuncio originale e coprire con carta bianca la vecchia headline. L'importante è la headline nuova e la gerarchia.
++Negli ultimi 10 minuti: sfida della scheda. Risposta attesa: 10 × 6 cm, area 60 cm², un quarto di 240 cm². La headline può richiedere meno parole per restare leggibile.
+ 
+ ---
+ 
+@@ -57,5 +58,8 @@
+ | --- | --- |
+ | Consegna | schema, sei elementi indicati, tre headline, annuncio rifatto |
+ | Concetti | tre tecniche davvero diverse; headline che non ripete il visual |
+-| Cura | schema con il righello, lettering diritto e leggibile |
+-| Idea | headline originale, non presa da un altro annuncio |
++| Cura | schema proporzionato, scrittura e legenda leggibili |
++| Idea | headline motivata, calcolo e adattamento della sfida |
++
++???
++Esempi accettabili: promessa «La freschezza ti segue», domanda «Una pausa in alta quota?», imperativo «Porta la montagna nella tua giornata». Verificare tecnica, brevità e rapporto con il visual; non basta cambiare sinonimi.
+--- a/corso/contenuti/s04-spiegazione.md
++++ b/corso/contenuti/s04-spiegazione.md
+@@ -1,7 +1,7 @@
+ ???
+-Parte 1 (10 minuti): gli elementi della pagina pubblicitaria e come si dispongono. Prima fase: lo schema a blocchi di un annuncio vero. Parte 2 (10 minuti): come si scrive una headline, prima di inventarne di nuove.
++Parte 1 (10 minuti): gli elementi della pagina pubblicitaria e come si dispongono. Prima fase: lo schema a blocchi di l'annuncio descritto. Parte 2 (10 minuti): come si scrive una headline, prima di inventarne di nuove.
+ 
+-Chi non ha più l'annuncio della settimana scorsa ne ritaglia uno nuovo: tenere qualche rivista in classe.
++La scheda descrive Fonte Chiara con tutti i dati necessari: si lavora a penna.
+ 
+ ---
+ 
+@@ -43,7 +43,7 @@
+ - Poi scende verso la **headline**
+ - Il **marchio** sta quasi sempre **in basso a destra**: è l'ultima cosa che si guarda e quella da ricordare
+ 
+-> Questo percorso si chiama **gerarchia visiva**: non tutto è importante allo stesso modo.
++> Questo percorso si chiama **gerarchia visiva**: non tutto è importante allo stesso modo. Dimensioni e contrasto guidano la lettura, ma il percorso può cambiare da una pagina all'altra.
+ 
+ ???
+ Chiedere di guardare per due secondi l'annuncio di Fonte Chiara e dire cosa si è visto per primo, secondo e terzo.
+@@ -74,7 +74,7 @@
+ 
+ # Al lavoro: prima fase
+ 
+-Lo schema a blocchi di un annuncio vero.
++Lo schema a blocchi dell'annuncio descritto. Le proporzioni si stimano; i dati per i calcoli sono forniti.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -100,7 +100,7 @@
+ 
+ # Al lavoro: seconda fase
+ 
+-Tre headline nuove per lo stesso visual, poi l'annuncio rifatto.
++Tre headline nuove per lo stesso visual, poi l'annuncio rifatto. Cambiare le parole può cambiare la promessa anche se l'immagine resta uguale.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s05-attivita.md
++++ b/corso/contenuti/s05-attivita.md
+@@ -1,11 +1,11 @@
+ ???
+-Materiale: scheda del rebranding, foglio A4 da album, matite, righello, compasso se c'è, pennarelli colorati e pennarello nero. Lavoro individuale.
++Materiale: scheda del rebranding, fogli e penna. Lavoro individuale.
+ 
+ ---
+ 
+ # Rebranding di un marchio noto
+ 
+-1. Scegliete un marchio che conoscete bene: un fast food, una bibita, una marca di scarpe, una squadra, un videogioco
++1. Scegliete un marchio che conoscete bene: un fast food, una bibita, una marca di scarpe, una squadra, un videogioco; oppure usate Vetta, descritto nella scheda
+ 2. Disegnatelo **a memoria** e studiate cosa lo rende riconoscibile
+ 3. Progettatene una **versione nuova**, per un motivo preciso
+ 
+@@ -21,7 +21,7 @@
+ > Quello che vi siete ricordati è proprio **ciò che rende riconoscibile** il marchio: nel rebranding va tenuto.
+ 
+ ???
+-Nessuno deve copiare il marchio da un oggetto o da un telefono: il punto è proprio vedere cosa resta in memoria.
++Chi usa Vetta legge il caso e poi copre la descrizione: il punto è vedere cosa resta in memoria.
+ 
+ ---
+ 
+@@ -34,22 +34,22 @@
+ - deve funzionare **piccolissimo**, come icona di un'app
+ - l'azienda vende ora **un prodotto diverso**
+ 
+-Poi **tre schizzi** diversi nei riquadri della scheda. 25 minuti.
++Poi **tre schizzi** diversi nei riquadri della scheda. 25 minuti. Indicate cosa cambia e quale elemento mantiene il legame con il marchio iniziale.
+ 
+ ---
+ 
+ # Fase 2 · La versione definitiva
+ 
+-Sul foglio A4, diviso in quattro parti con il righello:
++Sul foglio, diviso a mano libera in quattro parti:
+ 
+ | alto a sinistra | alto a destra | basso a sinistra | basso a destra |
+ | --- | --- | --- | --- |
+-| a colori, grande | in nero | in bianco su nero | piccolo: 2 cm |
++| grande, colori annotati | tratteggio sul segno | segno bianco, fondo tratteggiato | metà altezza e larghezza |
+ 
+-50 minuti. Il fondo nero del negativo si riempie con il pennarello, con cura.
++50 minuti, compresa la **sfida**: quale versione rischia di perdere riconoscibilità? Proponete una correzione motivata.
+ 
+ ???
+-Il riquadro piccolo è il test più importante: se il marchio a 2 cm non si legge, ha troppi dettagli. Farlo notare a chi si accorge tardi: può semplificare.
++La riduzione si stima a occhio, senza misurare. Sfida: accettare problemi motivati (dettagli che si fondono, vuoti che spariscono); chiedere una correzione che conservi il segno distintivo.
+ 
+ ---
+ 
+@@ -61,5 +61,8 @@
+ | --- | --- |
+ | Consegna | disegno a memoria, analisi, motivo, tre schizzi, quattro versioni |
+ | Concetti | gli elementi riconoscibili sono tenuti; il nuovo marchio risponde al motivo scritto |
+-| Cura | campiture piene, negativo pulito, versione piccola leggibile |
+-| Idea | il rebranding cambia davvero qualcosa, non è una copia ricolorata |
++| Cura | tratteggi chiari, legenda colori, versione piccola leggibile |
++| Idea | il rebranding cambia davvero qualcosa, risponde al motivo; la sfida propone una correzione |
++
++???
++Per Vetta sono accettabili un triangolo semplificato e una scritta più leggibile, mantenendo montagna e nome. «Più moderno» da solo non basta: lo studente deve collegare una modifica al pubblico o alla riduzione.
+--- a/corso/contenuti/s05-spiegazione.md
++++ b/corso/contenuti/s05-spiegazione.md
+@@ -33,6 +33,8 @@
+ 4. Funziona anche in **bianco e nero**
+ 5. È **adatto** a chi rappresenta (una banca e un parco giochi non si presentano allo stesso modo)
+ 
++Se un piccolo dettaglio sparisce nella riduzione, il marchio deve restare riconoscibile dalla sagoma.
++
+ ???
+ Il punto 1 si verifica subito nell'attività: si disegnano marchi famosi a memoria. Quelli che si riescono a disegnare sono quasi sempre semplici.
+ 
+@@ -40,7 +42,7 @@
+ 
+ # Al lavoro: prima fase
+ 
+-Un marchio famoso disegnato a memoria.
++Un marchio noto disegnato a memoria, oppure il caso Vetta della scheda. Conta capire quali elementi permettono di riconoscerlo.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -79,13 +81,13 @@
+ | --- | --- | --- | --- |
+ 
+ ???
+-Il progetto di oggi va consegnato in queste quattro versioni: è il modo più semplice per verificare i punti 3 e 4 della slide sulle qualità del marchio.
++Il progetto di oggi usa colori annotati e tratteggi, con la versione piccola stimata a occhio: è il modo più semplice per verificare i punti 3 e 4 della slide sulle qualità del marchio.
+ 
+ ---
+ 
+ # Al lavoro: seconda fase
+ 
+-Il rebranding e le quattro versioni.
++Il rebranding e le quattro versioni. I colori si annotano per nome; il tratteggio indica le zone scure.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s06-attivita.md
++++ b/corso/contenuti/s06-attivita.md
+@@ -1,11 +1,11 @@
+ ???
+-Materiale: scheda delle tavole (due pagine), matita, righello, compasso se c'è, pennarello nero a punta grossa e fineliner. Solo bianco e nero. Lavoro individuale.
++Materiale: penna e fogli (scheda inclusa). Disegni a mano libera, campiture a tratteggio. Lavoro individuale.
+ 
+ ---
+ 
+ # Una tavola per ogni principio
+ 
+-Sei riquadri da 8 × 8 cm, **solo bianco e nero**:
++Sei riquadri sulla scheda, oppure tracciati a mano libera, **solo bianco e nero**:
+ 
+ | 1 | 2 | 3 | 4 | 5 | 6 |
+ | --- | --- | --- | --- | --- | --- |
+@@ -19,7 +19,7 @@
+ 
+ # Fase 1 · Vicinanza, somiglianza, chiusura
+ 
+-<div class="fasi"><div><b>5 min</b>Per ogni tavola, uno schizzo piccolo a matita a margine.</div><div><b>45 min</b>Le tre tavole a matita, poi ripassate e riempite con il pennarello nero.</div><div><b>10 min</b>Sotto ogni tavola, una riga: dove si usa questo principio in grafica?</div></div>
++<div class="fasi"><div><b>5 min</b>Per ogni tavola, uno schizzo piccolo a penna a margine.</div><div><b>45 min</b>Le tre tavole a penna; annotate quale scelta rende riconoscibile il principio.</div><div><b>10 min</b>Sotto ogni tavola, una riga: dove si usa questo principio in grafica?</div></div>
+ 
+ > !attenzione
+ > Non copiate gli esempi delle slide: stesso principio, **disegno vostro**.
+@@ -31,13 +31,13 @@
+ 
+ # Fase 2 · Continuità, destino comune, tavola libera
+ 
+-<div class="fasi"><div><b>40 min</b>Tavole 4 e 5.</div><div><b>20 min</b>Tavola 6: scegliete voi il principio e <b>non scrivetelo</b>.</div></div>
++<div class="fasi"><div><b>40 min</b>Tavole 4 e 5: indicate il percorso dello sguardo e il movimento suggerito.</div><div><b>20 min</b>Tavola 6: scegliete voi il principio e <b>non scrivetelo</b>.</div></div>
+ 
+ ---
+ 
+ # Fase 2 · Indovina il principio
+ 
+-<div class="fasi"><div><b>5 min</b>Scambiate la scheda con il vicino.</div><div><b>5 min</b>Il vicino scrive sotto la tavola 6 quale principio ha riconosciuto, e perché.</div><div><b>5 min</b>Se ha sbagliato, cosa cambiereste perché si capisca?</div></div>
++<div class="fasi"><div><b>5 min</b>Scambiate la scheda con il vicino.</div><div><b>5 min</b>Il vicino scrive sotto la tavola 6 quale principio ha riconosciuto, e perché.</div><div><b>5 min</b>Sfida: cambiate un solo elemento per indebolire il principio. Spiegate perché.</div></div>
+ 
+ > !prova
+ > Se il vicino non indovina, non è colpa sua: la tavola va resa **più chiara**.
+@@ -50,7 +50,11 @@
+ 
+ | Criterio | Cosa si vede |
+ | --- | --- |
+-| Consegna | sei tavole complete, righe di spiegazione, risposta del vicino |
++| Consegna | sei tavole, motivazioni, risposta del vicino e sfida finale |
+ | Concetti | ogni tavola mostra il principio giusto, e uno solo |
+-| Cura | neri pieni e uniformi, bordi puliti, niente grigi a matita |
+-| Idea | disegni diversi dagli esempi delle slide |
++| Cura | segni leggibili, tratteggi coerenti, annotazioni chiare |
++| Idea | disegni originali; modifica finale motivata |
++
++
++???
++La sfida si valuta per il nesso tra modifica e percezione, non per la bellezza del tratto. Esempio: spostare un punto da un gruppo vicino nello spazio tra due gruppi rende la separazione meno netta. Anche una modifica che non annulla il principio è valida se ne spiega l’indebolimento.
+--- a/corso/contenuti/s06-spiegazione.md
++++ b/corso/contenuti/s06-spiegazione.md
+@@ -25,7 +25,7 @@
+ <circle cx="520" cy="140" r="18"/><circle cx="570" cy="140" r="18"/><circle cx="620" cy="140" r="18"/><circle cx="670" cy="140" r="18"/><circle cx="720" cy="140" r="18"/><circle cx="770" cy="140" r="18"/><circle cx="820" cy="140" r="18"/></g>
+ </svg>
+ 
+-Le cose **vicine** sembrano un gruppo. A sinistra si vedono due colonne, a destra due righe.
++Le cose **vicine** sembrano un gruppo. A sinistra si vedono due colonne, a destra due righe. Basta cambiare le distanze per cambiare i gruppi percepiti.
+ 
+ ???
+ In grafica: il titolo e il testo che spiega lo stesso argomento stanno vicini; tra un argomento e l'altro si lascia spazio.
+@@ -40,7 +40,7 @@
+ <g fill="#1d232b"><rect x="72" y="72" width="36" height="36"/><rect x="172" y="72" width="36" height="36"/><rect x="272" y="72" width="36" height="36"/><rect x="372" y="72" width="36" height="36"/><rect x="472" y="72" width="36" height="36"/><rect x="572" y="72" width="36" height="36"/><rect x="672" y="72" width="36" height="36"/><rect x="772" y="72" width="36" height="36"/></g>
+ </svg>
+ 
+-Le cose **simili** (per forma, colore, grandezza) sembrano un gruppo, anche se sono mescolate alle altre.
++Le cose **simili** (per forma, colore, grandezza) sembrano un gruppo, anche se sono mescolate alle altre. Titoli con lo stesso stile sembrano avere la stessa funzione.
+ 
+ ???
+ In grafica: tutti i titoli dello stesso livello hanno lo stesso stile; tutti i pulsanti di un sito hanno la stessa forma.
+@@ -55,7 +55,7 @@
+ <path d="M640 60 L800 60 L720 170 z" fill="#fff"/>
+ </svg>
+ 
+-L'occhio **chiude** da solo le figure interrotte. A destra si vede un triangolo bianco che non è disegnato.
++L'occhio **chiude** da solo le figure interrotte. A destra si vede un triangolo bianco che non è disegnato. Le interruzioni funzionano se lasciano abbastanza indizi.
+ 
+ ???
+ In grafica: molti marchi lasciano una parte aperta e funzionano proprio per questo. Il triangolo a destra è una versione semplice del triangolo di Kanizsa.
+@@ -64,7 +64,7 @@
+ 
+ # Al lavoro: prima fase
+ 
+-Le tavole di vicinanza, somiglianza e chiusura.
++Le tavole di vicinanza, somiglianza e chiusura. Disegnate a penna e spiegate quale scelta guida lo sguardo.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -80,7 +80,7 @@
+ <path d="M480 160 L880 40" stroke="#9a2f68" stroke-width="10"/>
+ </svg>
+ 
+-L'occhio segue le **linee** che continuano senza spezzarsi. Si vedono due linee che si incrociano, non quattro pezzi.
++L'occhio segue le **linee** che continuano senza spezzarsi. Si vedono due linee che si incrociano, non quattro pezzi. In una pagina, un allineamento può guidare dalla headline alle informazioni.
+ 
+ ???
+ In grafica: una linea, una freccia o lo sguardo di una persona in una foto portano l'occhio verso il punto che interessa.
+--- a/corso/contenuti/s07-attivita.md
++++ b/corso/contenuti/s07-attivita.md
+@@ -1,11 +1,11 @@
+ ???
+-Materiale: carta nera (cartoncino o fogli colorati neri; ne serve circa un A4 a testa), forbici, colla stick, righello, compasso, matita bianca o gessetto per tracciare sul nero, scheda delle composizioni, un foglio A4 bianco da album. Lavoro individuale.
++Materiale: penna e fogli (scheda inclusa). Tutti i disegni sono a mano libera: le misure date servono per ragionare sulle proporzioni, non per misurare. Lavoro individuale.
+ 
+ ---
+ 
+ # Composizioni con le stesse forme
+ 
+-Tutti hanno **le stesse forme**, e con quelle si fanno quattro composizioni diverse.
++Disegnate **le stesse sei forme** in quattro composizioni. Conservate circa le proporzioni; indicate il nero con tratteggi.
+ 
+ | Forma | Quante | Misure |
+ | --- | --- | --- |
+@@ -18,19 +18,19 @@
+ 
+ ---
+ 
+-# Fase 1 · Ritagliare e comporre
++# Fase 1 · Progettare e comporre
+ 
+-<div class="fasi"><div><b>15 min</b>Tracciate e ritagliate le forme. Ne servono <b>quattro serie</b>: lavorate in coppia per fare prima.</div><div><b>30 min</b>Nei quattro riquadri della scheda: simmetrico, asimmetrico, instabile, movimento. Spostate le forme <b>prima</b> di incollare.</div><div><b>10 min</b>Fate vedere al vicino: riconosce i quattro equilibri?</div></div>
++<div class="fasi"><div><b>15 min</b>Calcolate le misure dimezzate delle forme; fate una prova a penna.</div><div><b>30 min</b>Nei quattro riquadri della scheda: simmetrico, asimmetrico, instabile, movimento. Disegnate le sei forme in ciascuno e motivate una scelta.</div><div><b>10 min</b>Fate vedere al vicino: riconosce i quattro equilibri?</div></div>
+ 
+ > !attenzione
+-> Le forme possono **uscire** dal riquadro: si tagliano al bordo. Non è un errore, è una scelta.
++> Le forme possono **uscire** dal riquadro: il contorno si interrompe al bordo. Non è un errore, è una scelta.
+ 
+ ???
+-Quattro serie a testa vuol dire 24 forme: se il tempo è poco, si accetta che il rettangolo venga tagliato a pezzi nella composizione "movimento". Incollare solo quando la composizione è decisa.
++Misure dimezzate: diametri 4 e 1,5 cm; rettangolo 1 × 7 cm; quadrato 3 × 3 cm. Per la simmetria, le tre forme uniche e un cerchio piccolo possono stare sull’asse, gli altri due cerchi ai lati. Conta il progetto, non la precisione geometrica.
+ 
+ ---
+ 
+-# Fase 2 · Il ritaglio ribaltato
++# Fase 2 · Il notan disegnato
+ 
+ È un esercizio giapponese che si chiama **notan**.
+ 
+@@ -38,21 +38,21 @@
+ <rect x="110" y="30" width="140" height="140" fill="#1d232b"/><path d="M110 70 L160 100 L110 130 z" fill="#fff" stroke="#9a2f68" stroke-width="3" stroke-dasharray="7 5"/>
+ <rect x="430" y="30" width="140" height="140" fill="#1d232b"/><path d="M430 70 L480 100 L430 130 z" fill="#fff"/><path d="M430 70 L380 100 L430 130 z" fill="#1d232b"/>
+ <rect x="750" y="30" width="140" height="140" fill="#1d232b"/><path d="M750 70 L800 100 L750 130 z" fill="#fff"/><path d="M750 70 L700 100 L750 130 z" fill="#1d232b"/><path d="M790 30 A30 30 0 0 0 850 30 z" fill="#fff"/><path d="M790 30 A30 30 0 0 1 850 30 z" fill="#1d232b"/>
+-<text x="180" y="208" text-anchor="middle" font-size="22" fill="#1d232b">1. taglio dal bordo</text>
+-<text x="475" y="208" text-anchor="middle" font-size="22" fill="#1d232b">2. lo ribalto fuori</text>
++<text x="180" y="208" text-anchor="middle" font-size="22" fill="#1d232b">1. forma sul bordo</text>
++<text x="475" y="208" text-anchor="middle" font-size="22" fill="#1d232b">2. riflesso esterno</text>
+ <text x="800" y="208" text-anchor="middle" font-size="22" fill="#1d232b">3. un altro lato</text>
+ </svg>
+ 
+-Un quadrato nero 10 × 10 cm al centro del foglio bianco. Ogni forma ritagliata dal bordo si **ribalta** fuori, come una pagina che si apre.
++Disegnate un quadrato a mano libera. Ogni forma bianca sul bordo ha una copia nera **riflessa** all’esterno, come una pagina che si apre. Usate tratteggi per il nero.
+ 
+ ---
+ 
+-# Fase 2 · Il ritaglio ribaltato
++# Fase 2 · Il notan disegnato
+ 
+-<div class="fasi"><div><b>10 min</b>Schizzo a matita del quadrato: dove tagliare?</div><div><b>45 min</b>Almeno <b>tre ritagli</b>, su lati diversi, incollati ribaltati sul foglio bianco.</div><div><b>10 min</b>Sulla scheda: cosa è figura e cosa è sfondo, nel lavoro finito?</div></div>
++<div class="fasi"><div><b>10 min</b>Schizzo a penna: scegliete tre forme su lati diversi.</div><div><b>45 min</b>Disegnate <b>tre coppie riflesse</b>. Annotate figura e sfondo.</div><div><b>10 min</b>Sfida: coprite una coppia con il foglio. Come cambia l’equilibrio? Motivate.</div></div>
+ 
+ > !prova
+-> Non buttate niente: ogni pezzo tagliato **deve** finire sul foglio.
++> Ogni forma interna deve avere una copia esterna **della stessa forma e grandezza**.
+ 
+ ???
+ Il risultato è sempre un gioco tra positivo e negativo: dove c'era nero ora c'è bianco e viceversa. Non serve rappresentare qualcosa; chi vuole può fare una figura riconoscibile (un volto, un animale).
+@@ -65,7 +65,11 @@
+ 
+ | Criterio | Cosa si vede |
+ | --- | --- |
+-| Consegna | quattro composizioni incollate e il notan con almeno tre ritagli |
+-| Concetti | i quattro equilibri si riconoscono; nel notan ogni pezzo è ribaltato nel posto giusto |
+-| Cura | tagli netti, forme misurate, niente colla che si vede |
+-| Idea | composizioni diverse da quelle della slide |
++| Consegna | quattro composizioni, calcoli e notan con tre coppie |
++| Concetti | i quattro equilibri si riconoscono; nel notan ogni coppia è riflessa rispetto al lato |
++| Cura | proporzioni plausibili, tratteggi e annotazioni leggibili |
++| Idea | scelte motivate; effetto della coppia tolta spiegato |
++
++
++???
++Nel notan le copie conservano forma e grandezza e cambiano verso rispetto al lato. Nella sfida, togliere una coppia a destra può spostare il peso percepito a sinistra: valutare la motivazione rispetto al disegno effettivo. Una compensazione possibile è ridurre la coppia opposta. Non penalizzare imprecisioni del tratto libero.
+--- a/corso/contenuti/s07-spiegazione.md
++++ b/corso/contenuti/s07-spiegazione.md
+@@ -1,5 +1,5 @@
+ ???
+-Parte 1 (10 minuti): formato, campo, peso visivo, equilibrio. Prima fase: quattro composizioni con le stesse forme di carta nera. Parte 2 (10 minuti): figura e sfondo, spazio negativo, prima dell'esercizio del ritaglio ribaltato.
++Parte 1 (10 minuti): formato, campo, peso visivo, equilibrio. Prima fase: quattro composizioni con le stesse forme disegnate a penna. Parte 2 (10 minuti): figura e sfondo, spazio negativo, prima dell'esercizio del notan disegnato.
+ 
+ ---
+ 
+@@ -7,7 +7,7 @@
+ 
+ Il **formato** è la forma del foglio: verticale, orizzontale, quadrato.
+ 
+-Il **campo** è lo spazio dentro il formato, dove mettiamo le forme.
++Il **campo** è lo spazio dentro il formato, dove mettiamo le forme. Lo stesso disegno può apparire più stretto o più disteso cambiando formato.
+ 
+ <svg class="fig" viewBox="0 0 800 190" width="800" height="190">
+ <rect x="20" y="10" width="120" height="170" fill="#f7e9f1" stroke="#9a2f68" stroke-width="3"/><text x="80" y="100" text-anchor="middle" font-size="20" fill="#1d232b">verticale</text>
+@@ -30,8 +30,10 @@
+ - **in alto** rispetto a una in basso
+ - **irregolare** rispetto a una regolare
+ 
++Il peso dipende anche dal contesto: una forma piccola ma isolata può attirare molto.
++
+ ???
+-Prova veloce: disegnare alla lavagna un quadrato con un cerchietto nero in un angolo. Chiedere: "Il foglio sembra pendere da qualche parte?"
++Prova veloce: descrivere un foglio con un cerchietto nero in un angolo. Chiedere: "Il foglio sembra pendere da qualche parte?"
+ 
+ ---
+ 
+@@ -55,7 +57,7 @@
+ 
+ # Al lavoro: prima fase
+ 
+-Quattro composizioni con le stesse forme.
++Quattro composizioni con le stesse forme. Cambiate posizione e orientamento, mantenendo riconoscibili le proporzioni.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -93,7 +95,7 @@
+ 
+ # Al lavoro: seconda fase
+ 
+-Il ritaglio ribaltato.
++Il notan disegnato a penna. Ogni forma chiara interna corrisponde a una forma scura riflessa all’esterno.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s08-attivita.md
++++ b/corso/contenuti/s08-attivita.md
+@@ -1,5 +1,5 @@
+ ???
+-Materiale: scheda della verifica, foglio A4 da album, matite, righello, compasso, pennarello nero, carta nera, forbici e colla per chi vuole. Lavoro individuale; i banchi separati se possibile. Valutazione: griglia generale (parte pratica su 10) più le 4 domande, come spiegato nel foglio del docente.
++Materiale: penna e fogli (scheda inclusa). Lavoro individuale. Disegni a mano libera e tratteggi. Valutazione su 10: domande 2 punti, progetto 8, secondo la griglia del docente.
+ 
+ ---
+ 
+@@ -15,7 +15,7 @@
+ 
+ # Fase 1 · Domande e bozze
+ 
+-<div class="fasi"><div><b>15 min</b>Le quattro domande scritte sulla scheda. Poi si consegnano.</div><div><b>10 min</b>Scegliete l'evento e il principio.</div><div><b>30 min</b>Tre bozze piccole nei riquadri della scheda.</div></div>
++<div class="fasi"><div><b>15 min</b>Le quattro domande scritte sulla scheda. Con un motivo per ogni risposta. Poi si consegnano.</div><div><b>10 min</b>Scegliete l'evento e il principio.</div><div><b>30 min</b>Tre bozze piccole: confrontatele e motivate la scelta.</div></div>
+ 
+ ---
+ 
+@@ -30,10 +30,10 @@
+ | emittente | chi organizza: la classe, la scuola |
+ | il principio | si vede subito, senza spiegazioni |
+ 
+-Si può disegnare, incollare carta nera, o tutte e due le cose. **75 minuti**.
++Disegnate a penna; usate tratteggi per le zone scure. **75 minuti**, inclusa la sfida finale sulla scheda.
+ 
+ ???
+-Chi finisce prima ripassa i neri e cura il lettering. Non si accettano manifesti a colori: il bianco e nero è parte della consegna.
++Chi finisce prima verifica gerarchia, leggibilità e motivazioni. Non si accettano manifesti a colori: il bianco e nero è parte della consegna.
+ 
+ ---
+ 
+@@ -43,9 +43,9 @@
+ 
+ | Criterio | Cosa si vede |
+ | --- | --- |
+-| Consegna | domande, tre bozze, manifesto con headline, informazioni ed emittente |
++| Consegna | domande, tre bozze motivate, manifesto completo e sfida finale |
+ | Concetti | il principio scelto si riconosce senza la scheda; equilibrio voluto |
+-| Cura | neri pieni, lettering diritto e leggibile, bordi puliti |
+-| Idea | il principio è legato all'evento (per esempio destino comune per una corsa) |
++| Cura | lettering leggibile, tratteggi coerenti, gerarchia chiara |
++| Idea | il principio è legato all’evento; modifica finale motivata |
+ 
+ @file settimana-08/docente-soluzioni-verifica.md
+--- a/corso/contenuti/s08-spiegazione.md
++++ b/corso/contenuti/s08-spiegazione.md
+@@ -7,13 +7,13 @@
+ 
+ Domande a voce: rispondete per alzata di mano.
+ 
+-Le stesse cose servono **oggi** nella verifica.
++Le stesse cose servono **oggi** nella verifica. Per ogni risposta, indicate l’indizio che vi ha guidato.
+ 
+ ---
+ 
+ # Domanda 1
+ 
+-Un cartello stradale con un cervo disegnato.
++Il disegno di un cervo su un cartello stradale: considerate il disegno, non la forma del cartello.
+ 
+ È un'**icona**, un **indice** o un **simbolo**?
+ 
+@@ -42,7 +42,7 @@
+ <g fill="none" stroke="#9a2f68" stroke-width="12" stroke-linecap="round"><path d="M620 30 L540 140 M560 140 L700 140 M720 140 L640 30"/></g>
+ </svg>
+ 
+-Quale principio della Gestalt a sinistra? E a destra?
++Quale principio della Gestalt a sinistra? E a destra? Spiegate cosa raggruppa o completa l’occhio.
+ 
+ ???
+ A sinistra vicinanza (due gruppi da tre), a destra chiusura (un triangolo interrotto agli angoli).
+@@ -75,8 +75,9 @@
+ 
+ - il **principio** scelto si vede subito?
+ - ci sono **headline**, **informazioni** (dove, quando) ed **emittente**?
+-- solo **bianco e nero**, neri pieni?
++- solo **penna**, zone scure indicate con tratteggi?
+ - **nome e classe** dietro il foglio
++- scelta della bozza e sfida finale motivate?
+ 
+ ???
+ Da mostrare circa 30 minuti prima della fine.
+--- a/corso/contenuti/s09-attivita.md
++++ b/corso/contenuti/s09-attivita.md
+@@ -1,16 +1,13 @@
+ ???
+-Materiale: scheda del chiaroscuro, matite HB e 2B (meglio anche una 4B), gomma, sfumino o fazzoletto di carta. Per la classe: due o tre oggetti bianchi semplici (una palla, una tazza, una scatola dipinta di bianco), una lampada da tavolo o una torcia, un foglio di carta velina o da forno. Gruppi di quattro o cinque intorno a un oggetto; il disegno è individuale.
++Materiale: penna e foglio; scheda stampata o consegne ricopiate. Lavoro individuale su due casi descritti, senza oggetti da osservare.
+ 
+ ---
+ 
+ # Chiaroscuro con luce dura e luce diffusa
+ 
+-Si disegna **lo stesso oggetto** due volte:
++Disegnate **la stessa sfera** nei due casi della scheda: luce dall'alto a sinistra, prima dura, poi diffusa.
+ 
+-1. illuminato da una **luce dura** (la lampada diretta)
+-2. illuminato da una **luce diffusa** (la lampada dietro la carta velina)
+-
+-Prima però si impara a fare i grigi.
++Il tratteggio rende i toni: più segni vicini, più scuro. La zona illuminata resta bianca.
+ 
+ @file settimana-09/scheda-chiaroscuro.md
+ 
+@@ -18,36 +15,32 @@
+ 
+ # Fase 1 · La scala dei grigi
+ 
+-Sette caselle, dal bianco del foglio al nero più scuro che riuscite a fare.
++Sette caselle, dal bianco del foglio al nero: cambiate **densità e incrocio** dei tratti.
+ 
+-<svg class="fig" viewBox="0 0 840 90" width="840" height="90">
+-<g stroke="#1d232b" stroke-width="2"><rect x="0" y="5" width="120" height="80" fill="#ffffff"/><rect x="120" y="5" width="120" height="80" fill="#dcdcdc"/><rect x="240" y="5" width="120" height="80" fill="#b9b9b9"/><rect x="360" y="5" width="120" height="80" fill="#959595"/><rect x="480" y="5" width="120" height="80" fill="#6f6f6f"/><rect x="600" y="5" width="120" height="80" fill="#464646"/><rect x="720" y="5" width="120" height="80" fill="#1d1d1d"/></g>
+-</svg>
+-
+-<div class="fasi"><div><b>15 min</b>La scala con la matita HB e poi la 2B: si preme di più o si passa più volte.</div><div><b>5 min</b>Il vicino controlla: i salti tra una casella e l'altra sono uguali?</div></div>
++<div class="fasi"><div><b>15 min</b>Disegnate a mano libera la scala e numerate i toni da 1 a 7.</div><div><b>5 min</b>Il vicino controlla: si distinguono tutti? Correggete aggiungendo segni.</div></div>
+ 
+ ???
+-L'errore tipico è fare i primi tre grigi quasi uguali e poi un salto enorme verso il nero. Far guardare la scala socchiudendo gli occhi.
++Non premere più forte: la penna produce toni attraverso la quantità di segni. Valutare progressione, non sfumatura fotografica.
+ 
+ ---
+ 
+ # Fase 1 · Luce dura
+ 
+-<div class="fasi"><div><b>5 min</b>Il contorno dell'oggetto e dell'ombra portata, leggero.</div><div><b>25 min</b>I grigi: prima le ombre più scure, poi le mezzetinte. La luce resta il bianco del foglio.</div><div><b>5 min</b>Scrivete sul disegno le cinque parti: luce, mezzatinta, ombra propria, riflesso, ombra portata.</div></div>
++<div class="fasi"><div><b>5 min</b>Leggete il caso A: sfera e ombra verso destra.</div><div><b>25 min</b>Disegnate a mano libera, usando almeno cinque toni della scala.</div><div><b>5 min</b>Indicate luce, mezzatinta, ombra propria, riflesso e ombra portata.</div></div>
+ 
+ > !attenzione
+-> Non si fa un contorno nero intorno all'oggetto: il bordo lo fanno **i grigi**.
++> Il riflesso schiarisce una parte dell'ombra propria: non è una seconda sorgente.
+ 
+ ---
+ 
+ # Fase 2 · Luce diffusa
+ 
+-Stessa posizione, stesso oggetto: la lampada ora è dietro la carta velina.
++Stessa sfera e direzione: nel caso B cambiano contrasto e bordo dell'ombra.
+ 
+-<div class="fasi"><div><b>5 min</b>Guardate bene: cosa è cambiato nell'ombra portata?</div><div><b>40 min</b>Il secondo disegno, nel riquadro accanto.</div><div><b>10 min</b>Sulla scheda, le differenze tra i due disegni.</div></div>
++<div class="fasi"><div><b>5 min</b>Individuate due differenze dai dati della scheda.</div><div><b>40 min</b>Disegnate il caso B: diradate i tratti verso il bordo dell'ombra.</div><div><b>10 min</b>Completate il confronto e la sfida sul prodotto da pubblicizzare.</div></div>
+ 
+ ???
+-Chi disegna dalla parte opposta alla lampada vede quasi solo l'ombra: va bene lo stesso, è un controluce. Si può far ruotare i gruppi a metà della fase 1 se l'oggetto è uno solo.
++Confronto: differenza luce/ombra propria A = 6−1 = 5, B = 4−1 = 3; il piano rimanda luce sulla sfera. Risposta attesa: per mostrare un rilievo può servire luce laterale dura; per passaggi morbidi luce diffusa. Premiare la motivazione legata al prodotto.
+ 
+ ---
+ 
+@@ -57,7 +50,7 @@
+ 
+ | Criterio | Cosa si vede |
+ | --- | --- |
+-| Consegna | scala dei grigi, due disegni, cinque parti indicate, differenze scritte |
+-| Concetti | nel primo ombra netta, nel secondo sfumata; riflesso presente |
+-| Cura | grigi uniformi senza righe di matita, niente contorno nero |
+-| Idea | inquadratura dell'oggetto scelta, non sempre al centro e piccola |
++| Consegna | scala, due disegni, cinque parti, confronto e sfida |
++| Concetti | ombre coerenti con la direzione; differenza fra casi |
++| Cura | densità dei tratti controllata e annotazioni leggibili |
++| Idea | scelta della luce motivata; limite della scelta riconosciuto |
+--- a/corso/contenuti/s09-spiegazione.md
++++ b/corso/contenuti/s09-spiegazione.md
+@@ -1,5 +1,5 @@
+ ???
+-Parte 1 (10 minuti): luce dura e luce diffusa, le parti del chiaroscuro. Prima fase: scala dei grigi e chiaroscuro con luce dura. Parte 2 (10 minuti): direzione della luce e temperatura colore, prima del chiaroscuro con luce diffusa. Serve una lampada da tavolo o una torcia, e un foglio di carta velina o di carta da forno per diffonderla.
++Parte 1 (10 minuti): luce dura e luce diffusa, le parti del chiaroscuro. Prima fase: scala dei grigi e chiaroscuro con luce dura. Parte 2 (10 minuti): direzione della luce e temperatura colore, prima del chiaroscuro con luce diffusa. I due casi sono descritti nella scheda: si rappresentano a penna, variando il tratteggio.
+ 
+ ---
+ 
+@@ -16,11 +16,13 @@
+ | sole, faretto, flash diretto | cielo nuvoloso, finestra con la tenda |
+ 
+ ???
+-Accendere la lampada su un oggetto bianco (una palla, una tazza) e far vedere l'ombra. Poi metterci davanti la carta velina: l'ombra diventa sfumata. È il confronto che faranno nell'attività.
++Confrontare i disegni: a sinistra il bordo dell'ombra è netto, a destra sfumato. Nell'attività si traducono questi effetti in densità di tratti.
+ 
+ ---
+ 
+ # Le parti del chiaroscuro
++
++L’ombra propria è sulla sfera; quella portata cade sul piano. Il riflesso arriva dal piano illuminato.
+ 
+ <svg class="fig" viewBox="0 0 900 240" width="900" height="240">
+ <ellipse cx="420" cy="205" rx="150" ry="22" fill="#1d232b"/>
+@@ -40,7 +42,7 @@
+ 
+ # Al lavoro: prima fase
+ 
+-Scala dei grigi e chiaroscuro con luce dura.
++Scala dei grigi e chiaroscuro con luce dura. Più tratti vicini rendono una zona più scura.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -58,7 +60,7 @@
+ | dall'**alto** | naturale, come il sole a mezzogiorno |
+ 
+ ???
+-Prova veloce con la torcia sotto il mento di chi si offre volontario: la luce dal basso fa sempre ridere la classe, ed è il modo più rapido per far ricordare che la direzione cambia tutto.
++Descrivere un volto illuminato dal basso: naso e sopracciglia proiettano ombre verso l'alto. La direzione insolita rende il volto inquietante.
+ 
+ ---
+ 
+@@ -81,7 +83,7 @@
+ 
+ # Al lavoro: seconda fase
+ 
+-Lo stesso oggetto con la luce diffusa.
++La stessa sfera nel caso di luce diffusa. Confrontate bordo delle ombre e contrasto.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s10-attivita.md
++++ b/corso/contenuti/s10-attivita.md
+@@ -1,38 +1,36 @@
+ ???
+-Materiale: scheda con il cerchio stampata su carta pesante se possibile (la tempera bagna), tempere ciano, magenta, giallo, bianco e nero; pennelli piccolo e medio, un bicchiere d'acqua, una tavolozza o un piatto di plastica, uno straccio. Lavoro a coppie per l'acqua e la tavolozza, scheda individuale. Lasciare 10 minuti per pulire.
++Materiale: penna e foglio, con la scheda stampata o il cerchio ricopiato a mano libera. I colori sono indicati con nomi e sigle. Si usa un modello teorico semplificato, non una prova di miscelazione.
+ 
+ ---
+ 
+-# Il cerchio cromatico a tempera
++# Il cerchio cromatico ragionato
+ 
+-Dodici spicchi, tutti ottenuti da **tre soli tubetti**: ciano, magenta, giallo.
++Dodici spicchi da completare con **nomi e ricette scritte**: C = ciano, M = magenta, Y = giallo.
+ 
+-<svg class="fig" viewBox="0 0 900 230" width="900" height="230">
+-<g transform="translate(450 115)"><path d="M0 0 L0 -105 A105 105 0 0 1 52.5 -90.9 z" fill="#fff200"/><path d="M0 0 L52.5 -90.9 A105 105 0 0 1 90.9 -52.5 z" fill="#ffb000"/><path d="M0 0 L90.9 -52.5 A105 105 0 0 1 105 0 z" fill="#ed1c24"/><path d="M0 0 L105 0 A105 105 0 0 1 90.9 52.5 z" fill="#e8175d"/><path d="M0 0 L90.9 52.5 A105 105 0 0 1 52.5 90.9 z" fill="#ec008c"/><path d="M0 0 L52.5 90.9 A105 105 0 0 1 0 105 z" fill="#92278f"/><path d="M0 0 L0 105 A105 105 0 0 1 -52.5 90.9 z" fill="#2e3192"/><path d="M0 0 L-52.5 90.9 A105 105 0 0 1 -90.9 52.5 z" fill="#0072bc"/><path d="M0 0 L-90.9 52.5 A105 105 0 0 1 -105 0 z" fill="#00aeef"/><path d="M0 0 L-105 0 A105 105 0 0 1 -90.9 -52.5 z" fill="#00a99d"/><path d="M0 0 L-90.9 -52.5 A105 105 0 0 1 -52.5 -90.9 z" fill="#00a651"/><path d="M0 0 L-52.5 -90.9 A105 105 0 0 1 0 -105 z" fill="#8dc63f"/><circle r="30" fill="#fff" stroke="#1d232b" stroke-width="2"/></g>
+-</svg>
++Una ricetta indica parti relative: 2Y + M significa due parti di giallo per una di magenta.
+ 
+ @file settimana-10/scheda-cerchio-cromatico.md
+ 
+ ???
+-Il cerchio della slide è solo un riferimento: i colori a tempera verranno diversi, ed è giusto così. Non va copiato il colore dallo schermo.
++I nomi descrivono risultati ideali: pigmenti reali e stampa possono variare.
+ 
+ ---
+ 
+ # Fase 1 · Primari e secondari
+ 
+-<div class="fasi"><div><b>10 min</b>Sulla striscia di prova della scheda: provate le tre mescolanze, poca tempera alla volta.</div><div><b>20 min</b>I tre <b>primari</b> negli spicchi segnati C, M, Y.</div><div><b>25 min</b>I tre <b>secondari</b> negli spicchi segnati S.</div></div>
++<div class="fasi"><div><b>10 min</b>Prevedete le tre mescolanze nella tabella.</div><div><b>20 min</b>Scrivete i primari negli spicchi C, M, Y; motivate perché sono primari.</div><div><b>25 min</b>Completate gli spicchi S con nome e ricetta in parti uguali; controllate l'ordine.</div></div>
+ 
+ > !attenzione
+-> Il colore **chiaro** si mette per primo nella tavolozza; quello **scuro** si aggiunge a gocce. Il magenta e il ciano sono molto forti.
++> C + M indica inchiostri. Le luci RGB seguono un'altra sintesi.
+ 
+ ---
+ 
+ # Fase 2 · Terziari e complementari
+ 
+-<div class="fasi"><div><b>40 min</b>I sei <b>terziari</b> negli spicchi T: il primario e il secondario che stanno ai lati.</div><div><b>10 min</b>Nel cerchio centrale: un po' di tutti e tre i primari. Che colore viene?</div><div><b>15 min</b>Sulla scheda, le tre coppie di complementari. Poi si pulisce.</div></div>
++<div class="fasi"><div><b>40 min</b>Nei sei spicchi T scrivete nome e ricetta: un primario più il secondario vicino.</div><div><b>10 min</b>Al centro indicate il risultato ideale di C + M + Y e il limite reale.</div><div><b>15 min</b>Completate coppie opposte e sfida sulle proporzioni.</div></div>
+ 
+ ???
+-Gli ultimi 10 minuti sono per pulire pennelli e banchi; tenerli fissi, altrimenti la classe dopo trova il disastro. Le schede si lasciano asciugare stese prima di ritirarle.
++Ricette attese, da Y in senso orario: Y, 2Y+M, Y+M, Y+2M, M, 2M+C, M+C, M+2C, C, 2C+Y, C+Y, C+2Y. Sfida: 12 parti di 2Y+M danno 8Y e 4M; RGB rosso+verde dà giallo.
+ 
+ ---
+ 
+@@ -42,7 +40,7 @@
+ 
+ | Criterio | Cosa si vede |
+ | --- | --- |
+-| Consegna | dodici spicchi pieni, centro, coppie di complementari scritte |
+-| Concetti | secondari e terziari nel posto giusto; complementari corretti |
+-| Cura | stesura uniforme, niente sbavature tra gli spicchi |
+-| Idea | passaggi graduali da uno spicchio all'altro, senza salti |
++| Consegna | dodici spicchi, centro, coppie e sfida |
++| Concetti | ricette e opposti corretti; RGB distinto da CMY |
++| Cura | sigle leggibili e tabella completa |
++| Idea | proporzioni motivate e errore di sintesi spiegato |
+--- a/corso/contenuti/s10-spiegazione.md
++++ b/corso/contenuti/s10-spiegazione.md
+@@ -1,5 +1,5 @@
+ ???
+-Parte 1 (10 minuti): sintesi sottrattiva, i tre primari della stampa e delle tempere, i secondari. Prima fase: primari e secondari sul cerchio. Parte 2 (10 minuti): sintesi additiva (gli schermi), terziari e complementari, prima di completare il cerchio.
++Parte 1 (10 minuti): sintesi sottrattiva, i tre primari degli inchiostri, i secondari. Prima fase: primari e secondari sul cerchio. Parte 2 (10 minuti): sintesi additiva (gli schermi), terziari e complementari, prima di completare il cerchio.
+ 
+ ---
+ 
+@@ -11,7 +11,7 @@
+ <g font-size="22" font-weight="700" fill="#1d232b"><text x="200" y="70">ciano</text><text x="620" y="70">magenta</text><text x="560" y="250">giallo</text></g>
+ </svg>
+ 
+-I colori delle **tempere** e degli **inchiostri** assorbono una parte della luce. Mescolati, diventano **più scuri**: tutti e tre insieme fanno quasi nero.
++I pigmenti e gli **inchiostri** assorbono una parte della luce. Mescolati, diventano **più scuri**: nel modello ideale tutti e tre insieme fanno nero; con inchiostri reali il risultato può essere brunastro.
+ 
+ ???
+ I tre primari della stampa sono ciano, magenta e giallo, non "rosso, giallo e blu" come si impara alle elementari. Con rosso e blu non si ottengono un magenta e un ciano puliti; con ciano e magenta invece si ottengono rosso e blu.
+@@ -29,13 +29,13 @@
+ I tre colori di partenza sono i **primari**: non si ottengono mescolando altri colori. Quelli che ottengo sono i **secondari**.
+ 
+ ???
+-Il blu che viene con le tempere scolastiche è spesso un viola scuro: va bene, dipende dal pigmento del magenta. Dirlo prima, così nessuno pensa di aver sbagliato.
++La tabella è un modello ideale: i pigmenti reali possono produrre un blu tendente al viola. Le parti della ricetta non sono coperture CMYK.
+ 
+ ---
+ 
+ # Al lavoro: prima fase
+ 
+-Primari e secondari sul cerchio cromatico.
++Primari e secondari sul cerchio cromatico: scrivete nomi e ricette in ciascuno spicchio.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -53,7 +53,7 @@
+ Gli schermi **accendono** luci rosse, verdi e blu (**RGB**). Sommate, le luci diventano **più chiare**: tutte e tre insieme fanno bianco.
+ 
+ ???
+-Se si guarda la LIM o un televisore molto da vicino si vedono i puntini rossi, verdi e blu. Chi vuole può provarlo a fine lezione con la LIM accesa su una pagina bianca.
++Descrivere un pixel formato da componenti rosse, verdi e blu. Per esempio, rosso e verde accesi danno giallo: non è la mescolanza di inchiostri.
+ 
+ ---
+ 
+@@ -73,7 +73,7 @@
+ 
+ # Al lavoro: seconda fase
+ 
+-Terziari, complementari e il centro del cerchio.
++Terziari, complementari e il centro del cerchio. Le posizioni opposte aiutano a controllare le coppie.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s11-attivita.md
++++ b/corso/contenuti/s11-attivita.md
+@@ -1,12 +1,14 @@
+ ???
+-Materiale: scheda delle scale, tempere ciano, magenta, giallo, bianco, nero; pennelli, acqua, tavolozza, straccio. Il marchio di partenza è quello del rebranding della settimana 5: chi non lo ha più usa le proprie iniziali dentro un cerchio. Lavoro individuale, acqua e tavolozza a coppie.
++Materiale: penna e foglio, scheda stampata o ricopiata. Marchio: iniziali dentro un cerchio per una biblioteca scolastica. Colori indicati in parole; luminosità con tratteggi e valori convenzionali.
+ 
+ ---
+ 
+ # Scale di colore e un marchio in tre schemi
+ 
+-1. Si sceglie **una tinta** e se ne fanno tre scale
+-2. Si colora lo **stesso marchio** tre volte, con tre armonie diverse
++1. Si descrive **una tinta** con tre scale numerate.
++2. Si progetta lo **stesso marchio** con tre armonie diverse.
++
++Le annotazioni devono far capire il progetto anche senza colore.
+ 
+ @file settimana-11/scheda-scale-colore.md
+ 
+@@ -14,27 +16,27 @@
+ 
+ # Fase 1 · Le tre scale
+ 
+-Partite da una tinta ottenuta mescolando (non un primario puro): arancio, viola, verde…
++La tinta di partenza è **verde**, con saturazione S = 80 e luminosità L = 50 su scale convenzionali 0–100.
+ 
+-| Scala | Da | A |
++| Scala | Cambia | Resta fisso |
+ | --- | --- | --- |
+-| luminosità chiara | la tinta | quasi bianco (aggiungo bianco) |
+-| luminosità scura | la tinta | quasi nero (aggiungo nero) |
+-| saturazione | la tinta | grigio (aggiungo il complementare) |
++| verso chiaro | L: 50, 60, 70, 80, 90 | S = 80 |
++| verso scuro | L: 50, 40, 30, 20, 10 | S = 80 |
++| verso grigio | S: 80, 60, 40, 20, 0 | L = 50 |
+ 
+-Cinque caselle per scala. **55 minuti**.
++Cinque caselle per scala. **55 minuti**: valori, nomi e tratteggi per L.
+ 
+ > !prova
+-> Ogni casella si fa prendendo **un po' della precedente** e aggiungendo una punta di colore: così i salti restano uguali.
++> A S = 0 la tinta non si distingue più: resta un grigio.
+ 
+ ---
+ 
+ # Fase 2 · Un marchio, tre schemi
+ 
+-<div class="fasi"><div><b>15 min</b>Ricalcate tre volte il marchio della settimana 5 nei tre riquadri della scheda, a matita.</div><div><b>50 min</b>Coloratelo con lo schema <b>monocromatico</b>, <b>analogo</b> e <b>complementare</b>.</div><div><b>10 min</b>Pulizia; poi sulla scheda: quale schema è più adatto al marchio, e perché.</div></div>
++<div class="fasi"><div><b>15 min</b>Disegnate a penna tre volte le iniziali dentro un cerchio.</div><div><b>50 min</b>Assegnate nomi dei colori alle parti: schema <b>monocromatico</b>, <b>analogo</b>, <b>complementare</b>. Motivate la leggibilità.</div><div><b>10 min</b>Scegliete lo schema per la biblioteca e risolvete la sfida.</div></div>
+ 
+ ???
+-Per ricalcare senza carta da lucido: annerire il retro del disegno con la matita, appoggiarlo sul riquadro e ripassare il contorno sul davanti.
++A S = 0 resta grigio con L = 50; a L = 0 si ha nero. Esempi: verdi con L diverse; giallo-verde, verde, ciano-verde; verde e magenta. Nella sfida servono differenze di luminosità e/o forme, non solo tinte diverse.
+ 
+ ---
+ 
+@@ -44,7 +46,7 @@
+ 
+ | Criterio | Cosa si vede |
+ | --- | --- |
+-| Consegna | tre scale da cinque caselle, tre marchi colorati, risposta scritta |
+-| Concetti | le scale vanno nella direzione giusta; le tre armonie sono corrette |
+-| Cura | salti regolari nelle scale, campiture senza sbavature |
+-| Idea | la scelta finale è motivata con il tipo di azienda o di pubblico |
++| Consegna | tre scale, tre marchi annotati, scelta e sfida |
++| Concetti | S e L distinte; armonie corrette |
++| Cura | legenda leggibile, tratteggi coerenti con L |
++| Idea | scelta adatta al pubblico; soluzione leggibile anche in grigio |
+--- a/corso/contenuti/s11-spiegazione.md
++++ b/corso/contenuti/s11-spiegazione.md
+@@ -1,5 +1,5 @@
+ ???
+-Parte 1 (10 minuti): tinta, saturazione, luminosità, e come si cambiano con le tempere. Prima fase: tre scale di colore. Parte 2 (10 minuti): armonie e contrasti, prima del marchio colorato in tre schemi.
++Parte 1 (10 minuti): tinta, saturazione, luminosità, e come si descrivono con valori convenzionali. Prima fase: tre scale di colore. Parte 2 (10 minuti): armonie e contrasti, prima del marchio annotato in tre schemi.
+ 
+ ---
+ 
+@@ -16,28 +16,32 @@
+ | --- | --- | --- |
+ | *quale* colore | quanto è **puro** o quanto è grigio | quanto è **chiaro** o scuro |
+ 
++Un verde chiaro e un verde scuro possono appartenere alla stessa tinta: cambia la luminosità.
++
+ ???
+ In inglese e nei programmi di grafica si chiamano hue, saturation, brightness (HSB). Basta dirlo una volta: lo ritroveranno al triennio.
+ 
+ ---
+ 
+-# Con le tempere
++# Descrivere le variazioni
+ 
+-| Aggiungo | Il colore diventa |
++| Cambio nel progetto | Risultato previsto |
+ | --- | --- |
+-| **bianco** | più chiaro (e un po' meno saturo) |
+-| **nero** | più scuro, a volte cambia tinta: il giallo diventa verdastro |
+-| il suo **complementare** | meno saturo, verso il grigio |
+-| acqua | più trasparente: non si usa per schiarire |
++| **L aumenta** | tinta più chiara |
++| **L diminuisce** | tinta più scura |
++| **S diminuisce** | tinta meno intensa, verso il grigio |
++| cambia la tinta | cambia la famiglia del colore |
++
++I valori 0–100 sono un modello descrittivo: non dosi di inchiostro.
+ 
+ ???
+-Il giallo con il nero diventa verde oliva: farlo notare prima, altrimenti nella scala "giallo + nero" qualcuno ricomincia cinque volte pensando di aver sbagliato.
++Nella scheda varia una sola grandezza per volta. S = 0 dà un grigio; L = 0 dà nero. Non confondere saturazione e luminosità.
+ 
+ ---
+ 
+ # Al lavoro: prima fase
+ 
+-Tre scale dello stesso colore.
++Tre scale dello stesso colore. Nelle annotazioni indicate che cosa cambia e che cosa resta fisso.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -80,7 +84,7 @@
+ 
+ # Al lavoro: seconda fase
+ 
+-Un marchio in tre schemi di colore.
++Un marchio in tre schemi di colore, indicati con nomi e valori tonali.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s12-attivita.md
++++ b/corso/contenuti/s12-attivita.md
+@@ -1,45 +1,45 @@
+ ???
+-Materiale: riviste da ritagliare (le stesse delle settimane 3 e 4), forbici, colla; tempere ciano, magenta, giallo, bianco, nero, pennelli, acqua, tavolozza; pennarelli o fineliner azzurro, rosa/fucsia, giallo e nero per la fase 2. Lenti d'ingrandimento se ci sono. Lavoro individuale.
++Materiale: penna e foglio; scheda stampata o ricopiata. I campioni sono ricette CMYK descritte. Il retino è un modello di conteggio, non una simulazione fedele della stampa.
+ 
+ ---
+ 
+-# Riprodurre tre colori dati
++# Analizzare tre campioni dati
+ 
+-Dalle riviste si ritagliano **tre campioni** di colore pieno, 3 × 3 cm:
++Tre ricette CMYK sono descritte nella scheda:
+ 
+-| Campione | Esempio |
++| Campione | Carattere previsto |
+ | --- | --- |
+-| 1 · facile | un arancio, un verde acceso |
+-| 2 · difficile | un marrone, un colore della pelle, un grigio colorato |
+-| 3 · chiaro | un rosa pastello, un azzurro cielo |
++| A | arancio intenso |
++| B | bruno smorzato |
++| C | rosa chiaro |
+ 
+-Poi si rifanno **a tempera**, uguali.
++Confrontate **percentuali**, prevedete le differenze e motivate una correzione.
+ 
+ @file settimana-12/scheda-campioni.md
+ 
+ ---
+ 
+-# Fase 1 · Tre campioni a tempera
++# Fase 1 · Ricette e correzioni
+ 
+-<div class="fasi"><div><b>10 min</b>Ritagliate e incollate i tre campioni sulla scheda.</div><div><b>40 min</b>Per ogni campione: mescolate, provate sul bordo della scheda, correggete. Il quadratino giusto va accanto all'originale.</div><div><b>5 min</b>Scrivete la "ricetta": quali colori, e quanto di ciascuno.</div></div>
++<div class="fasi"><div><b>10 min</b>Leggete le ricette: indicate il canale assente e quello maggiore.</div><div><b>40 min</b>Calcolate le somme e confrontate A e B. Per C scegliete la modifica proposta e spiegate l'effetto.</div><div><b>5 min</b>Controllate i calcoli con un compagno.</div></div>
+ 
+ > !prova
+-> Mettete il quadratino **asciutto** accanto all'originale: la tempera bagnata è più scura di quando asciuga.
++> La somma CMYK può superare 100%: gli inchiostri si sovrappongono.
+ 
+ ---
+ 
+-# Fase 2 · Il retino a mano
++# Fase 2 · Il retino come modello
+ 
+-Rifate il campione numero 1 in un quadrato di **6 × 6 cm**, solo con **puntini** di pennarello:
++Rappresentate il campione A su **quattro griglie da 20 caselle**, una per canale:
+ 
+-- prima il **giallo**, poi l'**azzurro** e il **rosa**, il **nero** solo se serve
+-- tanti puntini vicini = colore **forte**; pochi = colore **chiaro**
+-- **non** si fanno righe e **non** si colora pieno
++- una casella tratteggiata vale **5%** nel modello
++- scrivete C, M, Y o K sopra ogni griglia
++- contate le caselle e confrontate con la ricetta
+ 
+-**55 minuti**, poi guardate da lontano: somiglia al campione?
++**55 minuti**, compresa la sfida: un colore speciale si risolve sempre aumentando le percentuali?
+ 
+ ???
+-È un lavoro lento e ripetitivo che di solito calma la classe. Chi finisce prima può fare anche il campione 3, che con pochi puntini viene bene.
++A: 0, 12, 20, 0 caselle; totale 160%. B: 230%. C: 40%; riducendo M da 30 a 15 diventa 25%. Per un oro metallico occorre un inchiostro speciale: più CMYK non produce l'effetto metallico.
+ 
+ ---
+ 
+@@ -49,7 +49,7 @@
+ 
+ | Criterio | Cosa si vede |
+ | --- | --- |
+-| Consegna | tre campioni con il quadratino a tempera e la ricetta, quadrato a puntini |
+-| Concetti | la ricetta è coerente con il colore; nel retino i colori sono giusti |
+-| Cura | quadratini uniformi e ben tagliati; puntini regolari, niente righe |
+-| Idea | da lontano il retino si avvicina al campione |
++| Consegna | tre analisi, correzione, quattro griglie, sfida |
++| Concetti | somme e canali corretti; modello distinto dalla stampa |
++| Cura | conteggi verificabili e sigle leggibili |
++| Idea | correzione motivata e limite CMYK riconosciuto |
+--- a/corso/contenuti/s12-spiegazione.md
++++ b/corso/contenuti/s12-spiegazione.md
+@@ -1,5 +1,5 @@
+ ???
+-Parte 1 (10 minuti): come si stampa a colori con quattro inchiostri, il retino. Prima fase: riprodurre a tempera tre campioni ritagliati dalle riviste. Parte 2 (10 minuti): Pantone, e perché lo stesso colore cambia da uno schermo all'altro e in stampa. Seconda fase: un campione rifatto a puntini, come un retino a mano.
++Parte 1 (10 minuti): come si stampa a colori con quattro inchiostri, il retino. Prima fase: analizzare tre ricette CMYK descritte nella scheda. Parte 2 (10 minuti): Pantone, e perché lo stesso colore cambia da uno schermo all'altro e in stampa. Seconda fase: rappresentare le coperture su quattro griglie a penna.
+ 
+ ---
+ 
+@@ -32,16 +32,16 @@
+ <text x="410" y="215" text-anchor="middle" font-size="18" fill="#1d232b">con la lente</text>
+ </svg>
+ 
+-Gli inchiostri non si mescolano: si stampano **puntini** piccolissimi di ciascun colore. Da lontano l'occhio li fonde.
++Si stampano **puntini** piccolissimi, anche sovrapposti: variano le aree coperte da ciascun inchiostro. Da lontano l’occhio integra il risultato.
+ 
+ ???
+-Se la scuola ha delle lenti d'ingrandimento (o un contafili), farle girare sulle riviste: i puntini si vedono bene. Funziona anche guardando molto da vicino un giornale stampato.
++Usare il disegno ingrandito come esempio; nessuna osservazione di oggetti. Le griglie della scheda semplificano la copertura, senza riprodurre forma e orientamento dei punti.
+ 
+ ---
+ 
+ # Al lavoro: prima fase
+ 
+-Tre campioni rifatti a tempera.
++Tre ricette CMYK da confrontare. La somma delle coperture può superare 100% perché gli inchiostri si sovrappongono.
+ 
+ ???
+ Passare alle slide dell'attività (fase 1). Tornare qui dopo circa un'ora.
+@@ -54,7 +54,7 @@
+ 
+ Si usa allora un **inchiostro già pronto**, scelto da un catalogo a ventaglio: il più usato si chiama **Pantone**.
+ 
+-- ogni colore ha un **numero**: chi stampa in qualsiasi città ottiene lo stesso colore
++- ogni colore ha un **numero** di riferimento: carta e condizioni di stampa influiscono comunque sul risultato
+ - costa di più: ogni tinta piatta è **un inchiostro in più** nella macchina
+ 
+ ???
+@@ -75,13 +75,13 @@
+ Per questo si **calibra** lo schermo e si usano i **profili colore**: istruzioni che dicono come tradurre i colori da un mezzo all'altro.
+ 
+ ???
+-La prova si fa senza computer: la stessa pagina stampata in classe con la stampante della scuola e con una stampante a casa viene diversa. Non serve approfondire i profili: basta il concetto.
++Caso da discutere: una ricetta identica appare più spenta su carta assorbente. Il codice da solo non basta: occorre considerare supporto e condizioni di stampa.
+ 
+ ---
+ 
+ # Al lavoro: seconda fase
+ 
+-Un campione rifatto a puntini.
++Un campione rappresentato con quattro griglie: i segni indicano quantità, le sigle identificano gli inchiostri.
+ 
+ ???
+ Tornare alle slide dell'attività (fase 2).
+--- a/corso/contenuti/s13-attivita.md
++++ b/corso/contenuti/s13-attivita.md
+@@ -1,17 +1,17 @@
+ ???
+-Materiale: scheda della verifica, foglio A4 da album (meglio cartoncino per la tempera), tempere, pennelli, acqua, tavolozza, matite, righello. Lavoro individuale. Valutazione: griglia generale (parte pratica su 10) più le 4 domande, come nel foglio del docente.
++Materiale: penna e fogli, scheda della verifica stampata o ricopiata. Lavoro individuale. Colori scritti in legenda e toni a tratteggio. Valutazione su 10 secondo il foglio docente.
+ 
+ ---
+ 
+ # Verifica · Due colori complementari
+ 
+-Un lavoro grafico su A4 a scelta tra:
++Un progetto a scelta tra:
+ 
+ | Copertina | Locandina | Etichetta |
+ | --- | --- | --- |
+-| di un disco o di un libro | di un film inventato | di un prodotto (una bibita, una marmellata) |
++| di un disco o libro | di un film inventato | di una bibita |
+ 
+-Si usano **solo due colori complementari**, più **bianco e nero** per schiarirli e scurirli.
++Si indicano **due colori complementari** con nomi e sigle; bianco e nero servono come valori tonali. Il disegno si fa a penna, a mano libera.
+ 
+ @file settimana-13/scheda-verifica-complementari.md
+ 
+@@ -19,23 +19,24 @@
+ 
+ # Fase 1 · Domande e prove
+ 
+-<div class="fasi"><div><b>15 min</b>Le quattro domande scritte. Poi si consegnano.</div><div><b>15 min</b>Scegliete il lavoro e la coppia di complementari. Due bozze piccole a matita.</div><div><b>25 min</b>Sulla scheda: le due scale dei vostri colori, dal chiaro allo scuro.</div></div>
++<div class="fasi"><div><b>15 min</b>Le quattro domande scritte. Poi si consegnano.</div><div><b>15 min</b>Scegliete soggetto e complementari; due bozze a penna con una differenza motivata.</div><div><b>25 min</b>Due scale a tratteggio: nominate tinta e cinque livelli di luminosità.</div></div>
+ 
+ ---
+ 
+ # Fase 2 · Il lavoro grafico
+ 
+-Foglio A4. **75 minuti**.
++Un foglio. **75 minuti**, compresa la sfida finale.
+ 
+-- un titolo o un nome, scritto in stampatello
+-- un'immagine **semplice**: poche forme grandi
+-- un colore domina, l'altro serve per far **risaltare** la cosa più importante
++- titolo leggibile e immagine semplice, con poche forme grandi
++- legenda e sigle indicano il colore di ogni zona
++- un colore domina, l'altro evidenzia il punto importante
++- motivate la scelta e risolvete la sfida della scheda
+ 
+ > !attenzione
+-> Tre colori = fuori consegna. I grigi ottenuti mescolando i due complementari vanno bene.
++> Le tinte progettate sono due: i segni della penna descrivono il progetto.
+ 
+ ???
+-Chi è in difficoltà con il disegno può fare una composizione di sole forme geometriche e lettere: viene valutata allo stesso modo.
++Valutare anche composizioni geometriche e lettere; non richiedere dimensioni misurate.
+ 
+ ---
+ 
+@@ -45,9 +46,9 @@
+ 
+ | Criterio | Cosa si vede |
+ | --- | --- |
+-| Consegna | domande, bozze, due scale, lavoro A4 con titolo e immagine |
+-| Concetti | coppia davvero complementare; luminosità diverse; contrasto di quantità usato |
+-| Cura | campiture uniformi, bordi puliti, lettering leggibile |
+-| Idea | i colori scelti sono adatti al soggetto (calma, energia, stagione…) |
++| Consegna | risposte, bozze, scale, progetto e sfida |
++| Concetti | complementari, luminosità, contrasto di quantità |
++| Cura | legenda chiara e annotazioni leggibili |
++| Idea | gerarchia motivata e adattamento senza colore |
+ 
+ @file settimana-13/docente-soluzioni-verifica.md
+--- a/corso/contenuti/s13-spiegazione.md
++++ b/corso/contenuti/s13-spiegazione.md
+@@ -5,7 +5,7 @@
+ 
+ # Ripasso del modulo 3
+ 
+-Luce e colore: domande a voce, per alzata di mano.
++Luce e colore: domande a voce, per alzata di mano. Accompagnate ogni risposta con il motivo.
+ 
+ ---
+ 
+@@ -27,7 +27,7 @@
+ Quale usa **RGB** e quale **CMYK**? Perché in uno i colori sommati diventano bianchi e nell'altro quasi neri?
+ 
+ ???
+-Schermi: sintesi additiva, RGB, si sommano luci. Stampa e tempere: sintesi sottrattiva, CMYK, gli inchiostri assorbono luce.
++Schermi: sintesi additiva, RGB, si sommano luci. Stampa: sintesi sottrattiva, CMYK, gli inchiostri assorbono parte della luce.
+ 
+ ---
+ 
+@@ -37,7 +37,7 @@
+ <rect x="0" y="10" width="100" height="100" fill="#ec008c"/><text x="140" y="75" font-size="40" fill="#1d232b">+</text><rect x="190" y="10" width="100" height="100" fill="#fff200"/><text x="320" y="75" font-size="40" fill="#1d232b">=</text><rect x="380" y="10" width="100" height="100" fill="#fff" stroke="#1d232b" stroke-width="3" stroke-dasharray="8 6"/><text x="430" y="78" text-anchor="middle" font-size="48" fill="#9a2f68">?</text>
+ </svg>
+ 
+-E qual è il **complementare** del colore che viene fuori?
++Il disegno rappresenta magenta + giallo, in sintesi sottrattiva. E qual è il **complementare** del risultato?
+ 
+ ???
+ Magenta + giallo = rosso. Il complementare del rosso è il ciano.
+@@ -51,13 +51,13 @@
+ E cos'è un **Pantone**?
+ 
+ ???
+-Perché C + M + Y fa un marrone scuro, bagna troppo la carta e il testo verrebbe sfocato. Pantone: un inchiostro già pronto, scelto da un catalogo con un numero, per avere sempre lo stesso colore.
++Perché C + M + Y fa un marrone scuro, bagna troppo la carta e il testo verrebbe sfocato. Pantone: un inchiostro già pronto, scelto da un catalogo con un numero, come riferimento cromatico, tenendo conto anche della carta.
+ 
+ ---
+ 
+ # Al lavoro: la verifica
+ 
+-Domande scritte, poi il lavoro grafico.
++Domande scritte, poi il progetto a penna: sigle per le tinte e tratteggi per i toni.
+ 
+ ???
+ Passare alle slide dell'attività. Le domande scritte si ritirano dopo 15 minuti.
+@@ -68,10 +68,10 @@
+ 
+ Prima di consegnare, controllate:
+ 
+-- solo **due colori** complementari, con bianco e nero per schiarire e scurire?
+-- c'è almeno una **scala** di luminosità (chiaro, medio, scuro)?
++- solo **due tinte** complementari dichiarate nella legenda?
++- ci sono due **scale** e almeno tre luminosità nel progetto (chiaro, medio, scuro)?
+ - il **contrasto** porta l'occhio sulla cosa più importante?
+-- **nome e classe** dietro il foglio
++- sfida finale motivata e **nome e classe** sul foglio
+ 
+ ???
+ Da mostrare circa 30 minuti prima della fine.
+--- a/corso/schede/settimana-01/carte-figure.md
++++ b/corso/schede/settimana-01/carte-figure.md
+@@ -1,6 +1,6 @@
+ # Disegno dettato · le carte
+ 
+-Una pagina ogni coppia. Ritagliare le quattro carte e darle coperte.
++Una pagina ogni coppia, da tenere intera. La guarda solo chi descrive; si segue la figura del giro indicato. Si disegna a penna, a mano libera. Per confrontare le proporzioni, usate metà e terzi del riquadro, senza misurare.
+ 
+ <div class="cols"><div class="col">
+ <svg viewBox="0 0 300 330" style="width:80mm"><text x="0" y="20" font-size="20" font-weight="700">Carta 1</text><rect x="2" y="30" width="296" height="296" fill="#fff" stroke="#000" stroke-width="3"/><rect x="40" y="200" width="120" height="90" fill="none" stroke="#000" stroke-width="5"/><circle cx="220" cy="110" r="45" fill="#000"/><polygon points="100,90 150,170 50,170" fill="none" stroke="#000" stroke-width="5"/></svg>
+--- a/corso/schede/settimana-01/docente-valutazione.md
++++ b/corso/schede/settimana-01/docente-valutazione.md
+@@ -6,12 +6,14 @@
+ | --- | --- | --- | --- |
+ | **Consegna**: il lavoro fa quello che è stato chiesto | incompleto o fuori tema | completo, con qualche parte mancante o sbrigativa | tutte le parti, nei tempi |
+ | **Concetti**: usa quello che è stato spiegato | non c'è traccia della spiegazione | i concetti ci sono ma usati in modo incerto | i concetti si riconoscono e sono usati bene |
+-| **Cura**: pulizia, precisione, uso degli strumenti | sporco, a mano libera dove serviva il righello | ordinato con qualche imprecisione | pulito e preciso |
+-| **Idea**: scelte proprie, non copiate | copiato dal compagno o dall'esempio | qualche scelta personale | un'idea propria e chiara |
++| **Cura**: leggibilità, proporzioni, annotazioni a penna | segni o annotazioni che impediscono di capire il progetto | ordinato con qualche imprecisione | leggibile, proporzionato e ben annotato |
++| **Idea**: scelte proprie, non copiate | copiato dal compagno o dall'esempio | qualche scelta personale | scelte proprie e motivate, anche nella sfida finale |
+ 
+ ## Le verifiche
+ 
+-Le settimane 8, 13, 17 e 21 hanno una verifica in due parti:
++Le settimane 8 e 13 seguono la griglia specifica riportata nelle rispettive schede e soluzioni: quella griglia prevale sulla regola generale seguente.
++
++Per le altre verifiche (settimane 17 e 21), la regola generale è in due parti:
+ 
+ - **Parte pratica** (circa 2 ore): un lavoro valutato con questa griglia, sui 10 punti
+ - **Domande** (circa 20 minuti): 4 domande brevi sulla scheda. Ogni risposta giusta vale +0,5 da aggiungere alla parte pratica, fino a un massimo di 10; due o più risposte sbagliate o vuote tolgono 0,5
+--- a/corso/schede/settimana-01/scheda-disegno-dettato.md
++++ b/corso/schede/settimana-01/scheda-disegno-dettato.md
+@@ -1,6 +1,6 @@
+ # Disegno dettato
+ 
+-Disegna nel riquadro del giro in cui **tu** sei chi disegna. Il punteggio si segna dopo il confronto: un punto per ogni forma giusta, uno se è al posto giusto, uno se ha la misura giusta.
++Disegna nel riquadro del giro in cui **tu** sei chi disegna. Il punteggio si segna dopo il confronto: un punto per ogni forma giusta, uno se è al posto giusto, uno se ha le proporzioni giuste, confrontate a occhio. Disegna a penna a mano libera; indica i pieni con un tratteggio fitto. Le figure hanno 3 o 4 elementi: scrivi anche il massimo possibile (3 punti per elemento), e confronta la frazione ottenuta, non soltanto i punti.
+ 
+ @colonne
+ @riquadro 70 Giro 1 o 2 · senza domande
+@@ -42,3 +42,7 @@
+ 3. Che differenza c'è tra il giro 3 e le istruzioni scritte?
+ 
+ @righe 3
++
++4. **Sfida**: riscrivi un'istruzione ambigua usando una frazione del riquadro. Quale errore evita?
++
++@righe 3
+--- a/corso/schede/settimana-01/scheda-materiali.md
++++ b/corso/schede/settimana-01/scheda-materiali.md
+@@ -1,31 +1,15 @@
+ # Materiali per Scienze e tecnologie applicate
+ 
+-Quest'anno si lavora in classe, su carta. Questo è il materiale da avere **ogni settimana** nella cartella o nell'astuccio, a partire dalla prossima lezione.
++Per lavorare servono soltanto **una penna e fogli di carta**. Le schede contengono figure, dati e casi necessari.
+ 
+-## Sempre
++## Come si lavora
+ 
+-- Album da disegno **A4** (fogli lisci) e un album **A3**
+-- Matite **HB** e **2B**, gomma, temperino
+-- Righello da 30 cm e una squadra
+-- Pennarelli neri a punta fine (fineliner), almeno due spessori
+-- Forbici e colla stick
+-- Un blocco di fogli a quadretti da 5 mm
+-- Una cartellina per tenere i lavori
++- Disegna a mano libera: contano proporzioni, ordine e leggibilità.
++- Se cambi idea, barra la versione precedente e disegna accanto quella nuova.
++- Indica i colori con il nome o con una sigla spiegata in legenda.
++- Usa tratteggi più o meno fitti per distinguere i toni.
++- Le misure necessarie ai calcoli sono già scritte: non devi misurare il foglio.
+ 
+-## Da metà ottobre (modulo del colore)
++## Prima di consegnare
+ 
+-- Tempere: **ciano, magenta, giallo, bianco, nero** (tubetti piccoli bastano)
+-- Due pennelli (uno piatto medio, uno tondo sottile), un bicchiere per l'acqua, uno straccio
+-- Una tavolozza o un piatto di plastica
+-
+-## Più avanti, una volta sola
+-
+-| Cosa | Quando serve |
+-| --- | --- |
+-| Riviste o volantini vecchi, da ritagliare | settimane 3 e 4 |
+-| Fogli di carta nera e colorata | settimana 7 |
+-| Un pennarello a punta tagliata (calligrafico), 3-5 mm | settimana 16 |
+-| Una scatola da scarpe con coperchio | settimana 19 |
+-| Una vaschetta di polistirolo pulita (quelle della frutta o della carne) | settimana 22 |
+-
+-> Il telefono e il computer non servono: tutto si fa a mano.
++Controlla nome, classe, passaggi e motivazioni. Una scelta grafica va spiegata: quale problema risolve e per quale pubblico?
+--- a/corso/schede/settimana-02/scheda-pittogrammi.md
++++ b/corso/schede/settimana-02/scheda-pittogrammi.md
+@@ -2,7 +2,7 @@
+ 
+ ## Fase 1 · Schizzi
+ 
+-Scrivi il luogo a sinistra e fai tre idee diverse. Cerchia la migliore.
++Scrivi il luogo a sinistra e fai tre idee diverse. Cerchia la migliore e scrivi accanto perché è più riconoscibile. Disegna a penna; indica i pieni con tratteggi.
+ 
+ | Luogo | Idea 1 | Idea 2 | Idea 3 |
+ | --- | --- | --- | --- |
+@@ -40,3 +40,10 @@
+ Cosa ha confuso il compagno (se ha sbagliato):
+ 
+ @righe 2
++
++## Sfida finale · 10 minuti compresi nel test
++
++Ridisegna un pittogramma con metà altezza e metà larghezza. Quale frazione dell'area iniziale occupa? Quale dettaglio elimini per mantenerlo riconoscibile? Motiva.
++
++@riquadro 35
++@righe 2
+--- a/corso/schede/settimana-03/scheda-analisi-annuncio.md
++++ b/corso/schede/settimana-03/scheda-analisi-annuncio.md
+@@ -1,6 +1,12 @@
+ # Analisi di un annuncio
+ 
+-@riquadro 95 Incolla qui l'annuncio (piegato, se è grande)
++## Due annunci inventati
++
++**A · Zaino Giro.** In una pagina distribuita a scuola, uno zaino aperto occupa metà spazio; accanto ci sono libri. Titolo: «Tutto in spalla, a 29 euro». Testo: «Tre scomparti, tessuto resistente, prezzo studenti». In basso: «Provalo sabato dalle 10 alle 18 al negozio Giro, via Roma 8». Colori dichiarati: blu e arancio; scritta grande e semplice.
++
++**B · Associazione Pagine Aperte.** Nel corridoio della scuola, un manifesto mostra due ragazzi che si passano un libro. Titolo: «Le storie ci avvicinano». Testo: «Un libro condiviso crea incontri». In basso c'è solo il nome dell'associazione. Colori dichiarati: verde e bianco; titolo grande, testo piccolo. Non sono indicati luogo, data o modalità di partecipazione.
++
++Compila una copia per ciascun caso. **Caso analizzato: A / B**. Se un dato non si può ricavare, scrivi «non deducibile».
+ 
+ ## Parte 1
+ 
+@@ -8,7 +14,7 @@
+ 
+ Tipo di pubblicità (cerchia): **commerciale · istituzionale · sociale**
+ 
+-Rivista o volantino dove l'hai trovato: ________________________________________
++Dove compare l'annuncio descritto: ________________________________________
+ 
+ | Il target | Da cosa lo capisco |
+ | --- | --- |
+@@ -21,7 +27,7 @@
+ 
+ ## Parte 2
+ 
+-La **promessa** (cosa ci guadagna chi compra?):
++La **promessa** (quale vantaggio offre a chi risponde?):
+ 
+ @righe 2
+ 
+@@ -41,3 +47,9 @@
+ Secondo te l'annuncio funziona? Da 1 a 5: ______ Perché:
+ 
+ @righe 3
++
++## Sfida finale · nel confronto di gruppo
++
++Scrivete un invito all'azione per B: inventate luogo, orario e gesto concreto, coerenti con l'associazione. Spiegate quale lacuna di AIDA risolve.
++
++@righe 3
+--- a/corso/schede/settimana-04/scheda-studio-annuncio.md
++++ b/corso/schede/settimana-04/scheda-studio-annuncio.md
+@@ -1,10 +1,12 @@
+ # Studio di un annuncio
+ 
+-@colonne
+-@riquadro 120 Incolla qui l'annuncio
+-||
+-@riquadro 120 Lo schema a blocchi, con il righello
+-@fine
++## Il caso · Fonte Chiara
++
++Pagina verticale: in alto, un paesaggio di montagna con neve e cielo azzurro occupa circa metà pagina. Sotto c'è il titolo «Bevi la montagna». Più in basso, a sinistra, il testo «Acqua dalla sorgente d'alta quota, dal gusto leggero»; a destra una bottiglia con etichetta Fonte Chiara. Nell'angolo inferiore destro appare il marchio FONTE CHIARA, seguito da «Leggera per natura». I colori dichiarati sono azzurro e verde.
++
++Disegna a penna lo schema a blocchi a mano libera; indica i colori con una legenda. Non occorre misurare.
++
++@riquadro 90 Lo schema a blocchi
+ 
+ ## Gli elementi
+ 
+@@ -35,3 +37,9 @@
+ Prima di passare al foglio A4, prova la disposizione qui.
+ 
+ @riquadro 90
++
++## Sfida finale · ultimi 10 minuti
++
++Il visual previsto misura 20 × 12 cm. Se dimezzi entrambi i lati, quali dimensioni e quale area ottieni? Che frazione dell'area originale resta? Mostra i passaggi. Proponi poi una modifica alla headline per un formato piccolo, e spiega perché migliora la lettura.
++
++@righe 4
+--- a/corso/schede/settimana-05/scheda-rebranding.md
++++ b/corso/schede/settimana-05/scheda-rebranding.md
+@@ -1,4 +1,6 @@
+ # Rebranding di un marchio noto
++
++Si lavora a penna: colori indicati per nome e pieni a tratteggio. Puoi scegliere un marchio noto oppure questo caso inventato: **Vetta**, negozio per escursionisti adulti, usa un cerchio verde con un triangolo bianco al centro e la scritta minuscola «vetta» a destra. Ora vuole rivolgersi anche a studenti che iniziano a camminare in montagna. Leggi, copri la descrizione e disegnalo a memoria.
+ 
+ Marchio scelto: ____________________________ È un (cerchia): **marchio · logotipo · logo**
+ 
+@@ -36,3 +38,11 @@
+ Quale schizzo porto nella versione definitiva, e perché:
+ 
+ @righe 2
++
++## Quattro versioni e sfida finale
++
++Sul foglio disegna: versione grande con legenda colori; segno tratteggiato su bianco; segno bianco su fondo tratteggiato; versione con metà altezza e larghezza, stimate a occhio.
++
++Quale versione rischia di perdere riconoscibilità? Indica il dettaglio critico, proponi una correzione e spiega come mantieni l'identità iniziale.
++
++@righe 3
+--- a/corso/schede/settimana-06/scheda-tavole-gestalt.md
++++ b/corso/schede/settimana-06/scheda-tavole-gestalt.md
+@@ -1,6 +1,6 @@
+ # Le tavole della Gestalt
+ 
+-Solo bianco e nero. Prima a matita, poi pennarello nero.
++Solo penna e fogli. Disegna a mano libera; usa tratteggi per le zone scure. Per ogni tavola, fai prima una piccola prova a margine. Sotto il disegno scrivi un uso in grafica e spiega quale scelta rende riconoscibile il principio.
+ 
+ @colonne
+ @riquadro 80 1 · Vicinanza
+@@ -35,6 +35,12 @@
+ 
+ @righe 2
+ 
+-**Lo scrive chi ha disegnato.** Ha indovinato? sì · no. Se no, cosa cambierei:
++**Lo scrive chi ha disegnato.** Ha indovinato? sì · no. Quale indizio ha aiutato o confuso il vicino?
+ 
+ @righe 2
++
++## Sfida finale · Una sola modifica
++
++Scegli una tavola. Descrivi una sola modifica che indebolisca il principio senza cambiare il numero di forme; spiega perché. Se vuoi, aggiungi un piccolo schizzo.
++
++@righe 3
+--- a/corso/schede/settimana-07/scheda-composizioni.md
++++ b/corso/schede/settimana-07/scheda-composizioni.md
+@@ -1,6 +1,8 @@
+ # Composizioni con le stesse forme
+ 
+-Forme: 1 cerchio da 8 cm, 3 cerchi da 3 cm, 1 rettangolo 2 × 14 cm, 1 quadrato 6 × 6 cm. Le forme possono uscire dal riquadro.
++Solo penna e fogli. Forme di riferimento: 1 cerchio da 8 cm, 3 cerchi da 3 cm, 1 rettangolo 2 × 14 cm, 1 quadrato 6 × 6 cm. Calcola tutte le misure dimezzate e scrivile qui: ____________________.
++
++Disegna a mano libera le sei forme in ogni riquadro, mantenendo circa le proporzioni; non occorre riprodurre centimetri esatti. Usa tratteggi per lo scuro. Le forme possono uscire dal campo: interrompine il contorno al bordo. Sotto ogni composizione annota una scelta di posizione che produce l’effetto richiesto.
+ 
+ @colonne
+ @riquadro 85 Simmetrico
+@@ -20,12 +22,18 @@
+ 
+ @pagina
+ 
+-## Il ritaglio ribaltato (notan)
++## Il notan disegnato
+ 
+-Prova qui dove tagliare il quadrato. Il lavoro vero va sul foglio A4 bianco.
++Disegna qui un quadrato a mano libera. Su tre lati diversi disegna una piccola forma interna bianca e la sua copia riflessa esterna scura. Il lato del quadrato è l’asse di riflessione. Tratteggia il quadrato lasciando bianche le forme interne e tratteggia le copie esterne. Annota le tre coppie con A, B, C.
+ 
+-@riquadro 90 Schizzo
++@riquadro 90 Notan a penna
+ 
+ Nel lavoro finito, cosa è **figura** e cosa è **sfondo**? Ci sono punti dove non si capisce?
+ 
+ @righe 3
++
++## Sfida finale · Togliere un peso
++
++Copri una coppia di forme con il bordo del foglio. Indica quale coppia hai nascosto, da quale parte sembra spostarsi il peso visivo e perché. Quale altra coppia cambieresti per recuperare l’equilibrio? Descrivi la modifica.
++
++@righe 3
+--- a/corso/schede/settimana-08/docente-soluzioni-verifica.md
++++ b/corso/schede/settimana-08/docente-soluzioni-verifica.md
+@@ -1,13 +1,13 @@
+ # Verifica moduli 1 e 2 · soluzioni delle domande
+ 
+-Ogni risposta corretta vale +0,5 sul voto della parte pratica, fino a un massimo di 10. Due o più risposte sbagliate o vuote tolgono 0,5.
++Voto su 10: domande 2 punti e progetto 8 punti. Ogni domanda vale 0,5: 0,25 per il concetto o lo schizzo corretto e 0,25 per la motivazione richiesta. Non applicare altri bonus o penalità. La griglia qui sotto sostituisce quella generale per questa prova.
+ 
+ | Domanda | Risposta corretta | Accettabile anche |
+ | --- | --- | --- |
+-| 1 | icona: il disegno di un telefono, un pittogramma del bagno; indice: il fumo per il fuoco, le impronte, il termometro; simbolo: la croce della farmacia, le lettere, i numeri, la colomba della pace | due esempi su tre giusti valgono la risposta |
+-| 2 | la headline è la frase principale dell'annuncio, cambia ogni volta; il payoff è la frase breve vicino al marchio e resta uguale in tutta la comunicazione della marca | "headline = titolo, payoff = slogan della marca" |
+-| 3 | vicinanza: forme uguali divise in gruppi dalla distanza; chiusura: una figura interrotta che l'occhio completa | qualsiasi schizzo in cui il principio si riconosce |
+-| 4 | pesi visivi diversi ai due lati che si compensano (una forma grande da una parte, più forme piccole dall'altra) | lo schizzo da solo vale se è chiaramente asimmetrico ma non instabile |
++| 1 | icona: il disegno di una bicicletta, un pittogramma del bagno; indice: il fumo per il fuoco, le impronte, il termometro; simbolo: la croce della farmacia, le lettere, i numeri, la colomba della pace | 0,25 se tutti gli esempi sono corretti; altri 0,25 se motivati con somiglianza, nesso causale e convenzione |
++| 2 | la headline è la frase principale dell'annuncio, cambia ogni volta; il payoff è la frase breve vicino al marchio e resta uguale in tutta la comunicazione della marca | la headline può cambiare perché cambia il messaggio dell’annuncio; il payoff mantiene l’identità della marca |
++| 3 | vicinanza: forme uguali divise in gruppi dalla distanza; chiusura: una figura interrotta che l'occhio completa | schizzi diversi, con riferimento alle distanze o al contorno incompleto |
++| 4 | pesi visivi diversi ai due lati che si compensano (una forma grande da una parte, più forme piccole dall'altra) | lo schizzo corretto da solo vale 0,25; la compensazione va anche spiegata |
+ 
+ ## Errori frequenti
+ 
+@@ -24,3 +24,16 @@
+ | chiusura | una figura (pallone, nota, volto) disegnata solo in parte |
+ | continuità | una linea che guida l'occhio dalla headline alle informazioni |
+ | destino comune | forme orientate nella stessa direzione (una corsa, uno stormo, una folla) |
++
++## Griglia del progetto · 8 punti
++
++| Criterio | Punti massimi | Cosa osservare |
++| --- | --- | --- |
++| Consegna e processo | 2 | tre bozze differenti e confronto motivato (1); manifesto con headline, data, ora, luogo ed emittente (1) |
++| Gestalt e composizione | 3 | principio riconoscibile (1,5); legame motivato con l’evento (0,5); equilibrio e gerarchia coerenti (1) |
++| Leggibilità | 1 | testi leggibili e tratteggi distinguibili; non si richiede precisione geometrica |
++| Sfida finale | 2 | modifica del testo adatta alle famiglie e motivata (1); modifica della composizione motivata che mantiene il principio (1) |
++
++Per ogni voce assegnare metà del punteggio se la risposta è parziale, zero se assente o incoerente.
++
++Esempio di sfida: per una corsa scolastica basata sul destino comune, cambiare «Corri con la tua classe» in «Corri con chi vuoi bene»; affiancare sagome di adulti e ragazzi orientate nello stesso verso. Il testo allarga l’invito e il disegno rende visibile il nuovo pubblico mantenendo il movimento comune. Accettare altre soluzioni motivate: non basta aggiungere «famiglie» senza spiegare la scelta.
+--- a/corso/schede/settimana-08/scheda-verifica-manifesto.md
++++ b/corso/schede/settimana-08/scheda-verifica-manifesto.md
+@@ -1,16 +1,18 @@
+ # Verifica · Un manifesto in bianco e nero
++
++Solo penna e fogli. Schizzi a mano libera; zone scure a tratteggio.
+ 
+ ## Domande (15 minuti, poi si consegna questa parte)
+ 
+-**1.** Scrivi un esempio di **icona**, uno di **indice** e uno di **simbolo**.
++**1.** Scrivi un esempio di **icona**, uno di **indice** e uno di **simbolo**. Per ciascuno indica perché appartiene a quella categoria.
+ 
+ @righe 3
+ 
+-**2.** Che differenza c'è tra **headline** e **payoff**?
++**2.** Che differenza c’è tra **headline** e **payoff**? Quale dei due può cambiare tra due annunci della stessa marca, e perché?
+ 
+ @righe 2
+ 
+-**3.** Disegna un esempio di **vicinanza** e uno di **chiusura**, con forme semplici.
++**3.** Disegna un esempio di **vicinanza** e uno di **chiusura**, con forme semplici. Indica l’indizio che rende riconoscibile ciascun principio.
+ 
+ @colonne
+ @riquadro 40 Vicinanza
+@@ -18,7 +20,7 @@
+ @riquadro 40 Chiusura
+ @fine
+ 
+-**4.** Cos'è un equilibrio **asimmetrico**? Fai uno schizzo.
++**4.** Cos'è un equilibrio **asimmetrico**? Fai uno schizzo e spiega quali pesi si compensano.
+ 
+ @colonne
+ @righe 4
+@@ -28,7 +30,9 @@
+ 
+ @pagina
+ 
+-## Il progetto
++## Il progetto (40 minuti per scelta e bozze; 75 per manifesto e sfida)
++
++Progetta il manifesto di un evento scolastico inventato per gli studenti. Usa un foglio in verticale: headline, data, ora, luogo ed emittente devono essere leggibili. Scegli un principio della Gestalt e rendilo riconoscibile nel disegno a penna.
+ 
+ L'evento: ______________________________________ L'emittente: ______________________
+ 
+@@ -46,6 +50,12 @@
+ @riquadro 80 Bozza 3
+ @fine
+ 
+-Porto nel manifesto la bozza numero ______ perché:
++Le tre bozze devono cambiare disposizione, non solo dimensione. Porto nel manifesto la bozza numero ______ perché funziona meglio delle altre due:
+ 
+ @righe 2
++
++## Sfida finale · Il messaggio cambia
++
++L’evento deve ora attirare anche le famiglie. Descrivi due modifiche, una al testo e una alla composizione, mantenendo lo stesso principio della Gestalt. Spiega perché aiuterebbero il nuovo pubblico; basta la risposta scritta.
++
++@righe 4
+--- a/corso/schede/settimana-09/scheda-chiaroscuro.md
++++ b/corso/schede/settimana-09/scheda-chiaroscuro.md
+@@ -1,29 +1,41 @@
+ # Chiaroscuro con luce dura e luce diffusa
+ 
+-## La scala dei grigi
++Solo penna e foglio. Schizzi a mano libera, senza misure.
++
++## La scala dei grigi · 20 minuti
++
++Sette caselle: lascia bianca la prima e aumenta gradualmente la densità dei tratti fino alla settima. Numera i toni 1–7.
+ 
+ | 1 · bianco | 2 | 3 | 4 | 5 | 6 | 7 · nero |
+ | --- | --- | --- | --- | --- | --- | --- |
+ | @alto 22 | | | | | | |
+ 
+-L'oggetto che disegno: ______________________ La luce arriva da (cerchia): **sinistra · destra · davanti · dietro · alto**
++## Due casi · 35 + 45 minuti
++
++Una sfera bianca è su un piano chiaro, vista di fronte. La luce arriva dall'alto a sinistra; l'ombra portata va verso destra.
++
++**A, luce dura:** luce tono 1, mezzatinta 3, ombra propria 6, riflesso dal piano 4, ombra portata 7 con bordo netto.
++
++**B, luce diffusa:** luce tono 1, mezzatinta 2, ombra propria 4, riflesso 3, ombra portata 4 che passa a 2 verso il bordo. Questi numeri descrivono i due casi, non tutte le luci possibili.
++
++Disegna entrambi, indica con frecce le cinque parti e la direzione della luce.
+ 
+ @colonne
+-@riquadro 120 Luce dura
++@riquadro 90 Caso A
+ ||
+-@riquadro 120 Luce diffusa
++@riquadro 90 Caso B
+ @fine
+ 
+ @pagina
+ 
+-## Le differenze
++## Confronto e sfida · 10 minuti
+ 
+-| | Luce dura | Luce diffusa |
++| | Caso A | Caso B |
+ | --- | --- | --- |
+-| Com'è il bordo dell'ombra portata? | @alto 14 | |
+-| Quanto è scura l'ombra propria? | @alto 14 | |
+-| Si vede il riflesso? | @alto 14 | |
++| Bordo dell'ombra portata | @alto 12 | |
++| Differenza numerica fra luce e ombra propria | @alto 12 | |
++| Perché il riflesso è meno scuro dell'ombra propria? | @alto 14 | |
+ 
+-Quale delle due luci useresti per fotografare un prodotto da vendere, e perché?
++**Sfida.** Devi pubblicizzare una confezione con scritte in rilievo: quale luce scegli per farle vedere? Motiva e indica un possibile svantaggio. Se volessi invece un'immagine morbida, cosa cambieresti?
+ 
+-@righe 3
++@righe 4
+--- a/corso/schede/settimana-10/scheda-cerchio-cromatico.md
++++ b/corso/schede/settimana-10/scheda-cerchio-cromatico.md
+@@ -1,43 +1,37 @@
+-# Il cerchio cromatico a tempera
++# Il cerchio cromatico ragionato
+ 
+-Y = giallo, M = magenta, C = ciano: i **primari**. S = **secondario**, T = **terziario**. Al centro, tutti e tre i primari.
++Solo penna e foglio. Completa gli spicchi con **nomi e ricette**, senza colorare. C = ciano, M = magenta, Y = giallo; S = secondario, T = terziario. Se ricopi, traccia il cerchio a mano libera.
++
++Modello semplificato: parti uguali di due primari danno il secondario; per il terziario usa due parti del primario vicino e una dell'altro. Non sono percentuali di copertura di stampa.
+ 
+ <svg viewBox="-80 -80 160 160" width="150mm" height="150mm" style="display:block;margin:4mm auto"><path d="M-4.66 -17.39 L-18.12 -67.61 A70 70 0 0 1 18.12 -67.61 L4.66 -17.39 A18 18 0 0 0 -4.66 -17.39 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="0.00" y="-74.20" text-anchor="middle" font-size="5" font-family="sans-serif">Y</text><path d="M4.66 -17.39 L18.12 -67.61 A70 70 0 0 1 49.50 -49.50 L12.73 -12.73 A18 18 0 0 0 4.66 -17.39 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="38.00" y="-64.02" text-anchor="middle" font-size="5" font-family="sans-serif">T</text><path d="M12.73 -12.73 L49.50 -49.50 A70 70 0 0 1 67.61 -18.12 L17.39 -4.66 A18 18 0 0 0 12.73 -12.73 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="65.82" y="-36.20" text-anchor="middle" font-size="5" font-family="sans-serif">S</text><path d="M17.39 -4.66 L67.61 -18.12 A70 70 0 0 1 67.61 18.12 L17.39 4.66 A18 18 0 0 0 17.39 -4.66 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="76.00" y="1.80" text-anchor="middle" font-size="5" font-family="sans-serif">T</text><path d="M17.39 4.66 L67.61 18.12 A70 70 0 0 1 49.50 49.50 L12.73 12.73 A18 18 0 0 0 17.39 4.66 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="65.82" y="39.80" text-anchor="middle" font-size="5" font-family="sans-serif">M</text><path d="M12.73 12.73 L49.50 49.50 A70 70 0 0 1 18.12 67.61 L4.66 17.39 A18 18 0 0 0 12.73 12.73 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="38.00" y="67.62" text-anchor="middle" font-size="5" font-family="sans-serif">T</text><path d="M4.66 17.39 L18.12 67.61 A70 70 0 0 1 -18.12 67.61 L-4.66 17.39 A18 18 0 0 0 4.66 17.39 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="0.00" y="77.80" text-anchor="middle" font-size="5" font-family="sans-serif">S</text><path d="M-4.66 17.39 L-18.12 67.61 A70 70 0 0 1 -49.50 49.50 L-12.73 12.73 A18 18 0 0 0 -4.66 17.39 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="-38.00" y="67.62" text-anchor="middle" font-size="5" font-family="sans-serif">T</text><path d="M-12.73 12.73 L-49.50 49.50 A70 70 0 0 1 -67.61 18.12 L-17.39 4.66 A18 18 0 0 0 -12.73 12.73 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="-65.82" y="39.80" text-anchor="middle" font-size="5" font-family="sans-serif">C</text><path d="M-17.39 4.66 L-67.61 18.12 A70 70 0 0 1 -67.61 -18.12 L-17.39 -4.66 A18 18 0 0 0 -17.39 4.66 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="-76.00" y="1.80" text-anchor="middle" font-size="5" font-family="sans-serif">T</text><path d="M-17.39 -4.66 L-67.61 -18.12 A70 70 0 0 1 -49.50 -49.50 L-12.73 -12.73 A18 18 0 0 0 -17.39 -4.66 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="-65.82" y="-36.20" text-anchor="middle" font-size="5" font-family="sans-serif">S</text><path d="M-12.73 -12.73 L-49.50 -49.50 A70 70 0 0 1 -18.12 -67.61 L-4.66 -17.39 A18 18 0 0 0 -12.73 -12.73 z" fill="none" stroke="#1d232b" stroke-width=".4"/><text x="-38.00" y="-64.02" text-anchor="middle" font-size="5" font-family="sans-serif">T</text><circle r="18" fill="none" stroke="#1d232b" stroke-width=".4"/></svg>
+ 
+-## Striscia di prova
++## Primari e secondari · 55 minuti
+ 
+-| magenta + giallo | giallo + ciano | ciano + magenta | i tre insieme |
+-| --- | --- | --- | --- |
+-| @alto 22 | | | |
++| Spicchio S | Ricetta | Nome del colore previsto |
++| --- | --- | --- |
++| fra Y e M | @alto 10 | |
++| fra M e C | @alto 10 | |
++| fra C e Y | @alto 10 | |
++
++Perché i tre colori iniziali si chiamano primari?
++
++@righe 2
+ 
+ @pagina
+ 
+-## Cosa ho ottenuto
++## Terziari e complementari · 65 minuti
+ 
+-| Spicchio S | Primari usati | Che colore è venuto |
+-| --- | --- | --- |
+-| tra Y e M | @alto 10 | |
+-| tra M e C | @alto 10 | |
+-| tra C e Y | @alto 10 | |
++Completa i sei spicchi T con ricette come 2Y + M. Al centro scrivi il risultato ideale di C + M + Y e quello approssimativo degli inchiostri reali.
+ 
+-Al centro, con tutti e tre i primari, è venuto:
+-
+-@righe 1
+-
+-## I complementari
+-
+-Scrivi le tre coppie di colori opposti sul tuo cerchio.
++Scrivi le tre coppie primario/secondario opposte sul cerchio. Per una coppia spiega la differenza fra accostare e mescolare.
+ 
+ | Coppia 1 | Coppia 2 | Coppia 3 |
+ | --- | --- | --- |
+ | @alto 12 | | |
+ 
+-Prova: dipingi un quadratino di una coppia di complementari, uno accanto all'altro. Poi mescolane un po' e dipingi il risultato nel terzo.
++@righe 3
+ 
+-| accostati | mescolati |
+-| --- | --- |
+-| @alto 22 | |
++**Sfida.** Una ricetta teorica usa 2Y + M: su 12 parti totali, quante Y e quante M? Mostra il calcolo. Un compagno dice «rosso + verde dà sempre marrone»: correggi la frase per il caso di due luci RGB e spiega perché cambia la risposta.
+ 
+-Cosa noti?
+-
+-@righe 2
++@righe 4
+--- a/corso/schede/settimana-11/scheda-scale-colore.md
++++ b/corso/schede/settimana-11/scheda-scale-colore.md
+@@ -1,35 +1,45 @@
+ # Scale di colore e un marchio in tre schemi
+ 
+-La mia tinta di partenza: ______________________ ottenuta mescolando: ______________________
++Solo penna e foglio. Tinta iniziale: **verde**. Usiamo valori convenzionali 0–100: S indica saturazione, L luminosità. I valori descrivono il progetto, non dosi di inchiostro.
+ 
+-## Le tre scale
++## Tre scale · 55 minuti
+ 
+-| | 1 · la tinta | 2 | 3 | 4 | 5 |
++Completa valori e descrizione in ogni casella; rappresenta L con tratteggi più fitti dove il tono è più scuro. Per S scrivi il valore: il tratteggio da solo non indica saturazione.
++
++| Scala | 1 | 2 | 3 | 4 | 5 |
+ | --- | --- | --- | --- | --- | --- |
+-| + bianco, fino a quasi bianco | @alto 34 | | | | |
+-| + nero, fino a quasi nero | @alto 34 | | | | |
+-| + complementare, fino al grigio | @alto 34 | | | | |
++| S = 80; L cresce di 10 da 50 | @alto 24 | | | | |
++| S = 80; L cala di 10 da 50 | @alto 24 | | | | |
++| L = 50; S cala di 20 da 80 | @alto 24 | | | | |
+ 
+-Il complementare della mia tinta è: ______________________
++Che colore resta a S = 0? Spiega perché non è la stessa cosa di L = 0.
++
++@righe 3
+ 
+ @pagina
+ 
+-## Il marchio in tre schemi
++## Il marchio · 75 minuti
++
++Progetta le iniziali della biblioteca scolastica dentro un cerchio, ripetute a mano libera tre volte. Assegna i colori scrivendo nomi e valori L accanto alle parti. Mantieni la forma uguale per confrontare gli schemi.
+ 
+ @colonne
+-@riquadro 75 Monocromatico
++@riquadro 60 Monocromatico
+ ||
+-@riquadro 75 Analogo
++@riquadro 60 Analogo
+ ||
+-@riquadro 75 Complementare
++@riquadro 60 Complementare
+ @fine
+ 
+-| Schema | Colori che ho usato |
+-| --- | --- |
+-| Monocromatico | @alto 10 |
+-| Analogo | @alto 10 |
+-| Complementare | @alto 10 |
++| Schema | Colori e luminosità | Perché il testo si legge |
++| --- | --- | --- |
++| Monocromatico | @alto 14 | |
++| Analogo | @alto 14 | |
++| Complementare | @alto 14 | |
+ 
+-Lo schema più adatto al marchio è il ______________________ perché:
++Scegli lo schema più adatto alla biblioteca e motiva in rapporto al pubblico.
+ 
+ @righe 3
++
++**Sfida.** Nel progetto complementare testo e sfondo hanno entrambi L = 50. In una copia in grigio si distinguono poco: proponi due modifiche, mantenendo le due tinte previste, e spiega quale migliori la lettura.
++
++@righe 4
+--- a/corso/schede/settimana-12/scheda-campioni.md
++++ b/corso/schede/settimana-12/scheda-campioni.md
+@@ -1,32 +1,40 @@
+-# Riprodurre tre colori dati
++# Analizzare tre campioni dati
+ 
+-Incolla ogni campione a sinistra, il tuo quadratino a tempera a destra. Le prove si fanno sul bordo del foglio.
++Solo penna e foglio. Le percentuali indicano la copertura dei singoli inchiostri: possono sovrapporsi. I nomi dei colori sono indicativi; carta e profilo influiscono sul risultato.
+ 
+-| Campione dalla rivista | Il mio a tempera | La ricetta (colori e quantità) |
+-| --- | --- | --- |
+-| @alto 34 | | |
+-| @alto 34 | | |
+-| @alto 34 | | |
++## Ricette e correzioni · 55 minuti
+ 
+-Quale campione è stato più difficile, e perché?
++| Campione descritto | C | M | Y | K | Somma |
++| --- | --- | --- | --- | --- | --- |
++| A · arancio intenso | 0% | 60% | 100% | 0% | @alto 12 |
++| B · bruno smorzato | 40% | 60% | 100% | 30% | @alto 12 |
++| C · rosa chiaro | 0% | 30% | 10% | 0% | @alto 12 |
+ 
+-@righe 2
++1. Indica per ogni campione i canali assenti e quello maggiore. Calcola la somma delle coperture.
++2. A e B hanno gli stessi M e Y: spiega perché B può apparire più scuro e meno saturo.
++3. Per rendere C più chiaro scegli fra «M da 30% a 15%» e «K da 0% a 20%». Motiva e ricalcola la somma.
++
++@righe 6
+ 
+ @pagina
+ 
+-## Il retino a mano
++## Il retino come modello · 55 minuti
+ 
+-Il campione numero 1, solo a puntini di pennarello: giallo, azzurro, rosa, e nero solo se serve.
++Disegna a mano libera quattro griglie da 4 × 5 caselle, etichettate C, M, Y, K. Una casella tratteggiata rappresenta 5% di copertura: rappresenta il campione A.
+ 
+-@riquadro 70 6 × 6 cm (puoi ritagliarlo a misura)
++@riquadro 85 Quattro griglie da 20 caselle
+ 
+-| Colore | Molti puntini o pochi? |
+-| --- | --- |
+-| giallo | @alto 10 |
+-| azzurro (ciano) | @alto 10 |
+-| rosa (magenta) | @alto 10 |
+-| nero | @alto 10 |
++| Canale | Percentuale divisa per 5 | Caselle tratteggiate |
++| --- | --- | --- |
++| C | @alto 10 | |
++| M | @alto 10 | |
++| Y | @alto 10 | |
++| K | @alto 10 | |
+ 
+-Guardato da lontano, somiglia al campione? Cosa cambieresti?
++Spiega perché il totale può superare 20 caselle: i quattro canali non dividono un unico foglio in porzioni separate. Nella stampa reale i punti sono molto più piccoli e possono sovrapporsi.
+ 
+ @righe 3
++
++**Sfida.** Il cliente chiede un oro metallico. Un collega propone C = M = Y = K = 100%: spiega perché non risolve e quale tipo di inchiostro proporresti. Lo stesso codice garantisce un risultato identico su tutte le carte? Motiva.
++
++@righe 4
+--- a/corso/schede/settimana-13/docente-soluzioni-verifica.md
++++ b/corso/schede/settimana-13/docente-soluzioni-verifica.md
+@@ -1,24 +1,26 @@
+-# Verifica modulo 3 · soluzioni delle domande
++# Verifica modulo 3 · soluzioni e valutazione
+ 
+-Ogni risposta corretta vale +0,5 sul voto della parte pratica, fino a un massimo di 10. Due o più risposte sbagliate o vuote tolgono 0,5.
++Voto su 10: domande **2 punti**, progetto **8 punti**. Non aggiungere bonus alla griglia generale.
+ 
+-| Domanda | Risposta corretta | Accettabile anche |
++| Domanda | Risposta attesa | Punti |
+ | --- | --- | --- |
+-| 1 | dura: ombre nette, contrasto forte (sole, faretto, flash); diffusa: ombre morbide e sfumate (cielo coperto, finestra con la tenda) | la differenza giusta con un solo esempio |
+-| 2 | additiva: schermi, proiettori, LIM, telefoni; sottrattiva: stampa, tempere, inchiostri | "luce" e "colori da mescolare" se gli esempi sono giusti |
+-| 3 | rosso → ciano; verde → magenta; blu (viola) → giallo | due righe su tre giuste |
+-| 4 | stampa con quattro inchiostri C, M, Y, K a puntini (retino); il nero serve perché C+M+Y dà un marrone scuro, bagna troppo la carta e rende il testo sfocato | uno dei tre motivi del nero |
++| 1 | Dura: ombre nette, esempio sole diretto; diffusa: ombre morbide, esempio cielo coperto. | 0,5: 0,25 differenza, 0,25 esempi |
++| 2 | RGB additiva negli schermi: si sommano luci; CMYK sottrattiva nella stampa: gli inchiostri assorbono parte della luce. | 0,5: 0,25 usi, 0,25 spiegazione |
++| 3 | M+Y = rosso, opposto ciano; Y+C = verde, opposto magenta; C+M = blu, opposto giallo. Modello ideale. | 0,5 tre righe; 0,25 due; 0 altrimenti |
++| 4 | Quattro inchiostri C, M, Y, K; K dà nero più pulito e testo nitido, evitando tre registrazioni sovrapposte. | 0,5: 0,25 definizione, 0,25 motivo |
+ 
+-## Errori frequenti
++## Il progetto · 8 punti
+ 
+-- Domanda 2: invertire additiva e sottrattiva. Promemoria: additiva = si **aggiunge** luce, diventa più chiaro.
+-- Domanda 3: rispondere con i primari "rosso, giallo, blu" della scuola primaria.
+-- Domanda 4: dire che il nero serve "per scurire". Va bene solo se aggiungono uno dei motivi.
++| Criterio | Evidenza | Punti |
++| --- | --- | --- |
++| Consegna | due bozze (0,5); scelta motivata (0,5); due scale (0,5); definitivo con titolo, immagine, legenda (0,5) | 2 |
++| Concetti | coppia complementare corretta; almeno tre luminosità; tinta dominante e accento | 2: 1 + 0,5 + 0,5 |
++| Chiarezza | sigle e tratteggi coerenti; titolo e annotazioni leggibili | 1: 0,5 ciascuno |
++| Progetto | scelta dei colori e gerarchia motivate rispetto al pubblico | 1: 0,5 ciascuno |
++| Sfida | riconosce perdita di distinzione a pari luminosità; propone contrasto tonale o forme/bordi distintivi con schizzo | 2: 1 + 1 |
+ 
+-## Lavoro grafico: cosa controllare
++Sono corrette le coppie rosso/ciano, verde/magenta, blu/giallo. Accettare varianti motivate sul cerchio. Nessun punto dipende dall'uso di colori reali o da precisione geometrica: bastano penna, foglio, legenda e tratteggi.
+ 
+-| Cosa | Come si vede |
+-| --- | --- |
+-| coppia complementare | giallo/blu-viola, rosso/ciano, magenta/verde, o le loro varianti (arancio/azzurro) |
+-| scale | almeno tre luminosità diverse dello stesso colore nel lavoro |
+-| contrasto di quantità | un colore su gran parte del foglio, l'altro in poco spazio sul punto importante |
++Le scale indicano cinque livelli ordinati di luminosità per ciascuna tinta. La sfida può essere risolta rendendo il titolo più scuro dello sfondo, mantenendo le tinte dichiarate, oppure distinguendo le zone con forme e contorni. La motivazione deve spiegare il vantaggio.
++
++Errori frequenti: invertire le sintesi; confondere tinta e luminosità; affidare la gerarchia solo ai nomi dei colori senza indicare valori tonali.
+--- a/corso/schede/settimana-13/scheda-verifica-complementari.md
++++ b/corso/schede/settimana-13/scheda-verifica-complementari.md
+@@ -1,4 +1,6 @@
+ # Verifica · Due colori complementari
++
++Solo penna e fogli. Schizzi a mano libera; i colori si indicano con nomi e sigle.
+ 
+ ## Domande (15 minuti, poi si consegna questa parte)
+ 
+@@ -6,7 +8,7 @@
+ 
+ @righe 3
+ 
+-**2.** Dove si usa la sintesi **additiva** (RGB) e dove la **sottrattiva** (CMYK)?
++**2.** Dove si usa la sintesi **additiva** (RGB) e dove la **sottrattiva** (CMYK)? Spiega che cosa si somma nel primo caso e che cosa viene assorbito nel secondo.
+ 
+ @righe 2
+ 
+@@ -24,7 +26,9 @@
+ 
+ @pagina
+ 
+-## Il progetto
++## Il progetto · 15 minuti per le bozze, 25 per le scale
++
++Disegna due bozze a penna e scrivi quale scegli e perché. Nelle scale usa tratteggi per cinque luminosità e scrivi il nome della tinta; non occorre colorare.
+ 
+ Faccio (cerchia): **copertina · locandina · etichetta** Il titolo: ______________________________
+ 
+@@ -46,3 +50,12 @@
+ Quale dei due colori domina, e dove uso l'altro per far risaltare qualcosa:
+ 
+ @righe 2
++
++
++## Il lavoro definitivo · 75 minuti, sfida compresa
++
++Su un foglio realizza titolo, immagine semplice e legenda. Indica con sigle il colore di ogni zona e usa almeno tre livelli di luminosità. Scrivi il pubblico scelto e perché una tinta domina mentre l'altra attira l'attenzione.
++
++**Sfida finale.** Il progetto verrà riprodotto anche in grigio. Due zone complementari hanno la stessa luminosità: quale problema può nascere? Proponi una modifica che mantenga la gerarchia e descrivila con un piccolo schizzo annotato.
++
++@righe 4

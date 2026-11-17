@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il nome su quadretti</title>
+<style>
+@page { size: A4 portrait; margin: 14mm; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #e9ecef; color: #1d232b; font: 12pt/1.45 "Segoe UI", system-ui, Arial, sans-serif; }
+.comandi { max-width: 210mm; margin: 0 auto; padding: 12px 0; display: flex; gap: 10px; align-items: center; }
+.comandi a, .comandi button { font: 15px "Segoe UI", sans-serif; padding: 6px 14px; border: 1px solid #c5ccd3; border-radius: 5px; background: #fff; color: #1d232b; text-decoration: none; cursor: pointer; }
+.comandi span { color: #5b6672; font-size: 14px; }
+.foglio { max-width: 210mm; margin: 0 auto 30px; background: #fff; padding: 14mm; box-shadow: 0 1px 6px rgba(0,0,0,.2); }
+.intesta { display: flex; gap: 6mm; font-size: 11pt; margin-bottom: 5mm; }
+.intesta span { flex: 1; border-bottom: 1px solid #555; padding-bottom: 1mm; white-space: nowrap; }
+.intesta span.corto { flex: 0 0 32mm; }
+.avviso { background: #fbe9e7; color: #b3261e; padding: 2mm 4mm; font-weight: 600; margin-bottom: 4mm; border-radius: 3px; }
+h1 { font-size: 18pt; margin: 0 0 3mm; color: #9a2f68; }
+h2 { font-size: 13pt; margin: 5mm 0 1.5mm; }
+p { margin: 0 0 2mm; }
+ul, ol { margin: 0 0 2mm; padding-left: 6mm; }
+li { margin: .5mm 0; }
+table { border-collapse: collapse; width: 100%; margin: 1mm 0 3mm; font-size: 11pt; }
+th, td { border: 1px solid #888; padding: 1.5mm 2.5mm; text-align: left; vertical-align: top; }
+th { background: #f3f3f3; }
+td:empty::after { content: ""; display: inline-block; height: 7mm; }
+blockquote { margin: 0 0 3mm; padding: 2mm 4mm; border-left: 3px solid #9a2f68; background: #f7e9f1; }
+blockquote.attenzione { border-left-color: #b3261e; background: #fbe9e7; }
+blockquote p:last-child { margin: 0; }
+.righe { margin: 1mm 0 3mm; }
+.righe div { height: 9mm; border-bottom: 1px solid #999; }
+.riquadro { border: 1px solid #555; margin: 1mm 0 3mm; position: relative; }
+.riquadro span { position: absolute; left: 2mm; top: 1mm; font-size: 9pt; color: #666; }
+.fig-box { display: flex; justify-content: center; margin: 2mm 0; }
+.cols { display: flex; gap: 6mm; }
+.cols > .col { flex: 1; min-width: 0; }
+svg { max-width: 100%; }
+.salto { break-after: page; height: 0; }
+@media screen { .salto { border-top: 2px dashed #c5ccd3; margin: 10mm -14mm; } }
+@media print {
+  body { background: #fff; }
+  .comandi { display: none; }
+  .foglio { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style></head><body>
+<div class="comandi"><a href="../../INDICE.html">Indice</a><button onclick="window.print()">Stampa</button><span>materiale-studenti\settimana-15\scheda-nome-quadretti.html</span></div>
+<div class="foglio">
+<div class="intesta"><span>Nome e cognome</span><span class="corto">Classe</span><span class="corto">Data</span></div>
+<h1>Il nome su quadretti</h1>
+<p>Regole: lettere alte <strong>7 quadretti</strong>, aste larghe <strong>1 quadretto</strong>, <strong>1 quadretto</strong> di spazio tra una lettera e l'altra.</p>
+<div style="margin:3mm 0 1mm;font-size:10pt"><b>1. Il mio nome, lineare</b> (le linee rosse: cima e base, 7 quadretti)</div><svg viewBox="0 0 180 55" width="180mm" height="55mm"><g stroke="#aaa" stroke-width=".2"><line x1="0" y1="0" x2="180" y2="0"/><line x1="0" y1="5" x2="180" y2="5"/><line x1="0" y1="10" x2="180" y2="10"/><line x1="0" y1="15" x2="180" y2="15"/><line x1="0" y1="20" x2="180" y2="20"/><line x1="0" y1="25" x2="180" y2="25"/><line x1="0" y1="30" x2="180" y2="30"/><line x1="0" y1="35" x2="180" y2="35"/><line x1="0" y1="40" x2="180" y2="40"/><line x1="0" y1="45" x2="180" y2="45"/><line x1="0" y1="50" x2="180" y2="50"/><line x1="0" y1="55" x2="180" y2="55"/><line x1="0" y1="0" x2="0" y2="55"/><line x1="5" y1="0" x2="5" y2="55"/><line x1="10" y1="0" x2="10" y2="55"/><line x1="15" y1="0" x2="15" y2="55"/><line x1="20" y1="0" x2="20" y2="55"/><line x1="25" y1="0" x2="25" y2="55"/><line x1="30" y1="0" x2="30" y2="55"/><line x1="35" y1="0" x2="35" y2="55"/><line x1="40" y1="0" x2="40" y2="55"/><line x1="45" y1="0" x2="45" y2="55"/><line x1="50" y1="0" x2="50" y2="55"/><line x1="55" y1="0" x2="55" y2="55"/><line x1="60" y1="0" x2="60" y2="55"/><line x1="65" y1="0" x2="65" y2="55"/><line x1="70" y1="0" x2="70" y2="55"/><line x1="75" y1="0" x2="75" y2="55"/><line x1="80" y1="0" x2="80" y2="55"/><line x1="85" y1="0" x2="85" y2="55"/><line x1="90" y1="0" x2="90" y2="55"/><line x1="95" y1="0" x2="95" y2="55"/><line x1="100" y1="0" x2="100" y2="55"/><line x1="105" y1="0" x2="105" y2="55"/><line x1="110" y1="0" x2="110" y2="55"/><line x1="115" y1="0" x2="115" y2="55"/><line x1="120" y1="0" x2="120" y2="55"/><line x1="125" y1="0" x2="125" y2="55"/><line x1="130" y1="0" x2="130" y2="55"/><line x1="135" y1="0" x2="135" y2="55"/><line x1="140" y1="0" x2="140" y2="55"/><line x1="145" y1="0" x2="145" y2="55"/><line x1="150" y1="0" x2="150" y2="55"/><line x1="155" y1="0" x2="155" y2="55"/><line x1="160" y1="0" x2="160" y2="55"/><line x1="165" y1="0" x2="165" y2="55"/><line x1="170" y1="0" x2="170" y2="55"/><line x1="175" y1="0" x2="175" y2="55"/><line x1="180" y1="0" x2="180" y2="55"/></g><line x1="0" y1="10" x2="180" y2="10" stroke="#9a2f68" stroke-width=".5"/><line x1="0" y1="45" x2="180" y2="45" stroke="#9a2f68" stroke-width=".7"/></svg>
+<div style="margin:3mm 0 1mm;font-size:10pt"><b>2. Lo stesso nome, graziato: grazie di mezzo quadretto, tratti orizzontali sottili</b> (le linee rosse: cima e base, 7 quadretti)</div><svg viewBox="0 0 180 55" width="180mm" height="55mm"><g stroke="#aaa" stroke-width=".2"><line x1="0" y1="0" x2="180" y2="0"/><line x1="0" y1="5" x2="180" y2="5"/><line x1="0" y1="10" x2="180" y2="10"/><line x1="0" y1="15" x2="180" y2="15"/><line x1="0" y1="20" x2="180" y2="20"/><line x1="0" y1="25" x2="180" y2="25"/><line x1="0" y1="30" x2="180" y2="30"/><line x1="0" y1="35" x2="180" y2="35"/><line x1="0" y1="40" x2="180" y2="40"/><line x1="0" y1="45" x2="180" y2="45"/><line x1="0" y1="50" x2="180" y2="50"/><line x1="0" y1="55" x2="180" y2="55"/><line x1="0" y1="0" x2="0" y2="55"/><line x1="5" y1="0" x2="5" y2="55"/><line x1="10" y1="0" x2="10" y2="55"/><line x1="15" y1="0" x2="15" y2="55"/><line x1="20" y1="0" x2="20" y2="55"/><line x1="25" y1="0" x2="25" y2="55"/><line x1="30" y1="0" x2="30" y2="55"/><line x1="35" y1="0" x2="35" y2="55"/><line x1="40" y1="0" x2="40" y2="55"/><line x1="45" y1="0" x2="45" y2="55"/><line x1="50" y1="0" x2="50" y2="55"/><line x1="55" y1="0" x2="55" y2="55"/><line x1="60" y1="0" x2="60" y2="55"/><line x1="65" y1="0" x2="65" y2="55"/><line x1="70" y1="0" x2="70" y2="55"/><line x1="75" y1="0" x2="75" y2="55"/><line x1="80" y1="0" x2="80" y2="55"/><line x1="85" y1="0" x2="85" y2="55"/><line x1="90" y1="0" x2="90" y2="55"/><line x1="95" y1="0" x2="95" y2="55"/><line x1="100" y1="0" x2="100" y2="55"/><line x1="105" y1="0" x2="105" y2="55"/><line x1="110" y1="0" x2="110" y2="55"/><line x1="115" y1="0" x2="115" y2="55"/><line x1="120" y1="0" x2="120" y2="55"/><line x1="125" y1="0" x2="125" y2="55"/><line x1="130" y1="0" x2="130" y2="55"/><line x1="135" y1="0" x2="135" y2="55"/><line x1="140" y1="0" x2="140" y2="55"/><line x1="145" y1="0" x2="145" y2="55"/><line x1="150" y1="0" x2="150" y2="55"/><line x1="155" y1="0" x2="155" y2="55"/><line x1="160" y1="0" x2="160" y2="55"/><line x1="165" y1="0" x2="165" y2="55"/><line x1="170" y1="0" x2="170" y2="55"/><line x1="175" y1="0" x2="175" y2="55"/><line x1="180" y1="0" x2="180" y2="55"/></g><line x1="0" y1="10" x2="180" y2="10" stroke="#9a2f68" stroke-width=".5"/><line x1="0" y1="45" x2="180" y2="45" stroke="#9a2f68" stroke-width=".7"/></svg>
+<div style="margin:3mm 0 1mm;font-size:10pt"><b>3. Chi finisce prima: egiziano, grazie squadrate e spesse come le aste</b> (le linee rosse: cima e base, 7 quadretti)</div><svg viewBox="0 0 180 55" width="180mm" height="55mm"><g stroke="#aaa" stroke-width=".2"><line x1="0" y1="0" x2="180" y2="0"/><line x1="0" y1="5" x2="180" y2="5"/><line x1="0" y1="10" x2="180" y2="10"/><line x1="0" y1="15" x2="180" y2="15"/><line x1="0" y1="20" x2="180" y2="20"/><line x1="0" y1="25" x2="180" y2="25"/><line x1="0" y1="30" x2="180" y2="30"/><line x1="0" y1="35" x2="180" y2="35"/><line x1="0" y1="40" x2="180" y2="40"/><line x1="0" y1="45" x2="180" y2="45"/><line x1="0" y1="50" x2="180" y2="50"/><line x1="0" y1="55" x2="180" y2="55"/><line x1="0" y1="0" x2="0" y2="55"/><line x1="5" y1="0" x2="5" y2="55"/><line x1="10" y1="0" x2="10" y2="55"/><line x1="15" y1="0" x2="15" y2="55"/><line x1="20" y1="0" x2="20" y2="55"/><line x1="25" y1="0" x2="25" y2="55"/><line x1="30" y1="0" x2="30" y2="55"/><line x1="35" y1="0" x2="35" y2="55"/><line x1="40" y1="0" x2="40" y2="55"/><line x1="45" y1="0" x2="45" y2="55"/><line x1="50" y1="0" x2="50" y2="55"/><line x1="55" y1="0" x2="55" y2="55"/><line x1="60" y1="0" x2="60" y2="55"/><line x1="65" y1="0" x2="65" y2="55"/><line x1="70" y1="0" x2="70" y2="55"/><line x1="75" y1="0" x2="75" y2="55"/><line x1="80" y1="0" x2="80" y2="55"/><line x1="85" y1="0" x2="85" y2="55"/><line x1="90" y1="0" x2="90" y2="55"/><line x1="95" y1="0" x2="95" y2="55"/><line x1="100" y1="0" x2="100" y2="55"/><line x1="105" y1="0" x2="105" y2="55"/><line x1="110" y1="0" x2="110" y2="55"/><line x1="115" y1="0" x2="115" y2="55"/><line x1="120" y1="0" x2="120" y2="55"/><line x1="125" y1="0" x2="125" y2="55"/><line x1="130" y1="0" x2="130" y2="55"/><line x1="135" y1="0" x2="135" y2="55"/><line x1="140" y1="0" x2="140" y2="55"/><line x1="145" y1="0" x2="145" y2="55"/><line x1="150" y1="0" x2="150" y2="55"/><line x1="155" y1="0" x2="155" y2="55"/><line x1="160" y1="0" x2="160" y2="55"/><line x1="165" y1="0" x2="165" y2="55"/><line x1="170" y1="0" x2="170" y2="55"/><line x1="175" y1="0" x2="175" y2="55"/><line x1="180" y1="0" x2="180" y2="55"/></g><line x1="0" y1="10" x2="180" y2="10" stroke="#9a2f68" stroke-width=".5"/><line x1="0" y1="45" x2="180" y2="45" stroke="#9a2f68" stroke-width=".7"/></svg>
+<div class="salto"></div>
+<h2>Che differenza c'è?</h2>
+<table><thead><tr><th></th><th>Nome 1</th><th>Nome 2</th></tr></thead><tbody><tr><td>Ha le grazie?</td><td>sì · no</td><td>sì · no</td></tr><tr><td>Lo spessore dei tratti è</td><td>uguale · diverso</td><td>uguale · diverso</td></tr><tr><td>Famiglia</td><td></td><td></td></tr></tbody></table>
+<p>Quale lettera è stata la più difficile, e come l'hai risolta?</p>
+<div class="righe"><div></div><div></div><div></div></div>
+<h2>Riconosci la famiglia</h2>
+<p>Scrivi sotto ogni parola: <strong>graziato, lineare, egiziano, scritto, gotico</strong> o <strong>fantasia</strong>.</p>
+<div style="display:flex;justify-content:space-between;text-align:center;font-size:30pt;margin-top:4mm"><span style="font-family:Georgia,serif">Mare</span><span style="font-family:Arial,sans-serif">Mare</span><span style="font-family:Rockwell,'Courier New',serif;font-weight:700">Mare</span><span style="font-family:'Old English Text MT',serif">Mare</span><span style="font-family:'Brush Script MT','Segoe Script',cursive">Mare</span></div>
+<table><thead><tr><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td><div style="height:10mm"></div></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<p>Dove useresti la parola 2, e dove la parola 5? Perché?</p>
+<div class="righe"><div></div><div></div><div></div></div>
+</div>
+</body></html>

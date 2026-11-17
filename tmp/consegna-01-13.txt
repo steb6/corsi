@@ -1,0 +1,79 @@
+CONSEGNA REVISIONE SETTIMANE 01–13
+Il repository originale è fuori dalle radici scrivibili: nessuna modifica applicata all’originale.
+Patch: revisione-01-13.patch. Copia revisionata: revisione-01-13/corso/.
+Solo sorgenti delle settimane assegnate nella patch. Nessun commit, push o pubblica.py.
+Modulo1: casi pubblicitari autosufficienti, proporzioni, pittogrammi e rebranding motivati.
+Modulo2: Gestalt a penna, composizioni proporzionate, notan disegnato, verifica08 con adattamento del pubblico.
+Modulo3: chiaroscuro da casi descritti, colori dichiarati, coperture CMYK, verifica13 con contrasto tonale.
+Soluzioni e criteri aggiornati; verifiche08 e13 con domande2 + progetto8, richiamate nella griglia generale.
+Numero e separatori slide invariati; incremento massimo parole dei file slide14,6% (esclusi SVG).
+Build: python corso/genera.py nella copia, completata:50 lezioni,326 slide,34 schede.
+Grep eseguito sui44 file:13 occorrenze, nessun materiale richiesto; elenco sotto e in grep-01-13.txt.
+ATTENZIONE COORDINATORE: programma.py escluso dalla patch perché condiviso e fuori scope.
+Restano titoli obsoleti che compaiono nell’indice e nelle copertine generate:
+settimana03: sostituire con Analisi di annunci descritti;
+settimana07: Composizioni a penna con le stesse forme;
+settimana10: Il cerchio cromatico con sigle e ricette;
+settimana12: Analisi di tre campioni e coperture CMYK.
+Dopo integrazione con l’altro worker, aggiornare questi titoli e rigenerare.
+
+OCCORRENZE CONSERVATE (teoria o falsi positivi)
+corso/contenuti/s01-spiegazione.md:92:2. Emittente: l'amico; codice: la lingua italiana parlata; canale: il telefono, il suono.
+corso/contenuti/s02-attivita.md:26:- "vietato il telefono"
+corso/contenuti/s02-spiegazione.md:65:> 4. Il cestino sul desktop del computer
+corso/contenuti/s03-spiegazione.md:49:- **dove** è pubblicato (rivista di moda, di auto, di cucina)
+corso/contenuti/s05-attivita.md:8:1. Scegliete un marchio che conoscete bene: un fast food, una bibita, una marca di scarpe, una squadra, un videogioco; oppure usate Vetta, descritto nella scheda
+corso/contenuti/s09-spiegazione.md:2:Parte 1 (10 minuti): luce dura e luce diffusa, le parti del chiaroscuro. Prima fase: scala dei grigi e chiaroscuro con luce dura. Parte 2 (10 minuti): direzione della luce e temperatura colore, prima del chiaroscuro con luce diffusa. I due casi sono descritti nella scheda: si rappresentano a penna, variando il tratteggio.
+corso/contenuti/s09-spiegazione.md:67:# La temperatura colore
+corso/contenuti/s11-spiegazione.md:66:Esempi: monocromatica per un marchio di lusso o una banca; analoga per un prodotto naturale (gialli e arancioni, o verdi e azzurri); complementare per una squadra, un evento, un cartello che deve farsi vedere.
+corso/contenuti/s12-spiegazione.md:8:Le riviste, i manifesti, le scatole si stampano con **quattro inchiostri**:
+corso/contenuti/s12-spiegazione.md:32:<text x="410" y="215" text-anchor="middle" font-size="18" fill="#1d232b">con la lente</text>
+corso/contenuti/s12-spiegazione.md:61:Esempi da raccontare: le grandi marche di bibite, i colori delle squadre e delle bandiere sono quasi sempre definiti con un numero Pantone.
+corso/contenuti/s12-spiegazione.md:73:| due carte | la carta lucida e la carta da giornale assorbono diversamente |
+corso/contenuti/s13-spiegazione.md:25:Gli schermi e le stampanti usano due "sintesi" diverse.
+
+FILE MODIFICATI (44)
+corso/contenuti/s01-attivita.md
+corso/contenuti/s01-spiegazione.md
+corso/contenuti/s02-attivita.md
+corso/contenuti/s02-spiegazione.md
+corso/contenuti/s03-attivita.md
+corso/contenuti/s03-spiegazione.md
+corso/contenuti/s04-attivita.md
+corso/contenuti/s04-spiegazione.md
+corso/contenuti/s05-attivita.md
+corso/contenuti/s05-spiegazione.md
+corso/contenuti/s06-attivita.md
+corso/contenuti/s06-spiegazione.md
+corso/contenuti/s07-attivita.md
+corso/contenuti/s07-spiegazione.md
+corso/contenuti/s08-attivita.md
+corso/contenuti/s08-spiegazione.md
+corso/contenuti/s09-attivita.md
+corso/contenuti/s09-spiegazione.md
+corso/contenuti/s10-attivita.md
+corso/contenuti/s10-spiegazione.md
+corso/contenuti/s11-attivita.md
+corso/contenuti/s11-spiegazione.md
+corso/contenuti/s12-attivita.md
+corso/contenuti/s12-spiegazione.md
+corso/contenuti/s13-attivita.md
+corso/contenuti/s13-spiegazione.md
+corso/schede/settimana-01/carte-figure.md
+corso/schede/settimana-01/docente-valutazione.md
+corso/schede/settimana-01/scheda-disegno-dettato.md
+corso/schede/settimana-01/scheda-materiali.md
+corso/schede/settimana-02/scheda-pittogrammi.md
+corso/schede/settimana-03/scheda-analisi-annuncio.md
+corso/schede/settimana-04/scheda-studio-annuncio.md
+corso/schede/settimana-05/scheda-rebranding.md
+corso/schede/settimana-06/scheda-tavole-gestalt.md
+corso/schede/settimana-07/scheda-composizioni.md
+corso/schede/settimana-08/docente-soluzioni-verifica.md
+corso/schede/settimana-08/scheda-verifica-manifesto.md
+corso/schede/settimana-09/scheda-chiaroscuro.md
+corso/schede/settimana-10/scheda-cerchio-cromatico.md
+corso/schede/settimana-11/scheda-scale-colore.md
+corso/schede/settimana-12/scheda-campioni.md
+corso/schede/settimana-13/docente-soluzioni-verifica.md
+corso/schede/settimana-13/scheda-verifica-complementari.md

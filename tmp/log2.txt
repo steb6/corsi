@@ -1,0 +1,14 @@
+Sto aspettando i tre agenti al lavoro sulle settimane 14-17, 18-21 e 22-25. Quando hanno finito aggiorno i titoli in `programma.py`, faccio il controllo con grep e la build.
+
+La parte 22-25 è finita e la build passa. Aspetto le settimane 14-17 e 18-21.
+
+La parte 18-21 è finita e la build passa. Manca ancora 14-17.
+
+Ho rivisto le settimane 14-25: ora serve solo la penna e la scheda stampata, e la build passa senza errori (50 lezioni, 326 slide, 40 schede). Non ho fatto commit né lanciato `pubblica.py`, e le schede non le ho viste in anteprima di stampa: conviene controllarne l'impaginazione A4, soprattutto le prime pagine della 14 e della 15 e l'ultima della 16.
+
+- **Lettering (14-17):** il nero si fa a tratteggio e le griglie e le linee guida sono stampate nelle schede. La punta tagliata della 16 si simula con due linee parallele a penna, riempite a tratteggio. Ho aggiunto i conti di ingrandimento, punti→mm e caratteri per riga; la verifica ha 5 domande. Le spiegazioni della 14-17 sono cresciute del 20-28% (contando le note), un po' più del 15-20% chiesto.
+- **Immagine e ottica (18-21):** i conti di pixel e dpi in stampa e la camera oscura disegnata in scala con i triangoli simili. Le focali sono ritagli calcolati su una scena stampata, poi ci sono gli esercizi sui passi di diaframma, tempo e ISO. Nella verifica l'oggetto è descritto sulla scheda.
+- **Stampa e progetto finale (22-25):** la matrice del timbro si progetta su carta, allo specchio, con i casi "quale sistema e perché" e i costi offset contro digitale. Bozze e manifesto A3 si fanno a penna, con i colori indicati da sigle CMYK, tratteggio e legenda. Per la mostra i manifesti stanno sui banchi.
+- **Soluzioni e griglie:** sono aggiornate in tutti i moduli, con 4 nuovi file `docente-soluzioni-*` (settimane 14, 15, 16 e 18; 19 e 20 ne hanno uno ciascuno). In `programma.py` ho cambiato i titoli delle attività 16, 19, 20, 21, 22 e 24.
+- **Esempio di esercizio nuovo (19):** "Una stanza buia ha un foro in una parete; lo schermo è a 4 m, alto 3 m e largo 5 m. Fuori, a 40 m, c'è un palazzo alto 15 m e largo 60 m: quanto è grande l'immagine, ci sta? A che distanza dovrebbe stare il palazzo perché l'immagine sia alta esattamente 3 m?" Risposte: alta 1,5 m e ci sta, larga 6 m e non ci sta; 20 m.
+- **Grep:** nessun materiale richiesto. Restano solo parole usate come argomento: "squadrate" (le grazie), "giornali/riviste" e "stampante" (prodotti e sistemi di stampa), "lente/scatola" (teoria della camera oscura), "computer/telefono" (pixel, focali, temi dei manifesti), "senza compasso/senza righello" (dicono che non servono). Il nome del file `scheda-punta-tagliata.md` è rimasto per non rompere i link.

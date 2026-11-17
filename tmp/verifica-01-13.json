@@ -1,0 +1,184 @@
+[
+  {
+    "file": "corso/contenuti/s01-attivita.md",
+    "changed": true,
+    "slides_before": 7,
+    "slides_after": 7,
+    "growth_percent": 7.5
+  },
+  {
+    "file": "corso/contenuti/s01-spiegazione.md",
+    "changed": true,
+    "slides_before": 9,
+    "slides_after": 9,
+    "growth_percent": 4.6
+  },
+  {
+    "file": "corso/contenuti/s02-attivita.md",
+    "changed": true,
+    "slides_before": 6,
+    "slides_after": 6,
+    "growth_percent": 8.5
+  },
+  {
+    "file": "corso/contenuti/s02-spiegazione.md",
+    "changed": true,
+    "slides_before": 7,
+    "slides_after": 7,
+    "growth_percent": 6.4
+  },
+  {
+    "file": "corso/contenuti/s03-attivita.md",
+    "changed": true,
+    "slides_before": 5,
+    "slides_after": 5,
+    "growth_percent": 3.4
+  },
+  {
+    "file": "corso/contenuti/s03-spiegazione.md",
+    "changed": true,
+    "slides_before": 7,
+    "slides_after": 7,
+    "growth_percent": 6.2
+  },
+  {
+    "file": "corso/contenuti/s04-attivita.md",
+    "changed": true,
+    "slides_before": 5,
+    "slides_after": 5,
+    "growth_percent": 9.0
+  },
+  {
+    "file": "corso/contenuti/s04-spiegazione.md",
+    "changed": true,
+    "slides_before": 6,
+    "slides_after": 6,
+    "growth_percent": 9.1
+  },
+  {
+    "file": "corso/contenuti/s05-attivita.md",
+    "changed": true,
+    "slides_before": 5,
+    "slides_after": 5,
+    "growth_percent": 11.5
+  },
+  {
+    "file": "corso/contenuti/s05-spiegazione.md",
+    "changed": true,
+    "slides_before": 6,
+    "slides_after": 6,
+    "growth_percent": 12.2
+  },
+  {
+    "file": "corso/contenuti/s06-attivita.md",
+    "changed": true,
+    "slides_before": 5,
+    "slides_after": 5,
+    "growth_percent": 14.6
+  },
+  {
+    "file": "corso/contenuti/s06-spiegazione.md",
+    "changed": true,
+    "slides_before": 8,
+    "slides_after": 8,
+    "growth_percent": 12.8
+  },
+  {
+    "file": "corso/contenuti/s07-attivita.md",
+    "changed": true,
+    "slides_before": 5,
+    "slides_after": 5,
+    "growth_percent": 12.9
+  },
+  {
+    "file": "corso/contenuti/s07-spiegazione.md",
+    "changed": true,
+    "slides_before": 7,
+    "slides_after": 7,
+    "growth_percent": 11.9
+  },
+  {
+    "file": "corso/contenuti/s08-attivita.md",
+    "changed": true,
+    "slides_before": 4,
+    "slides_after": 4,
+    "growth_percent": -5.8
+  },
+  {
+    "file": "corso/contenuti/s08-spiegazione.md",
+    "changed": true,
+    "slides_before": 7,
+    "slides_after": 7,
+    "growth_percent": 10.8
+  },
+  {
+    "file": "corso/contenuti/s09-attivita.md",
+    "changed": true,
+    "slides_before": 5,
+    "slides_after": 5,
+    "growth_percent": -16.5
+  },
+  {
+    "file": "corso/contenuti/s09-spiegazione.md",
+    "changed": true,
+    "slides_before": 6,
+    "slides_after": 6,
+    "growth_percent": 0.3
+  },
+  {
+    "file": "corso/contenuti/s10-attivita.md",
+    "changed": true,
+    "slides_before": 4,
+    "slides_after": 4,
+    "growth_percent": -7.9
+  },
+  {
+    "file": "corso/contenuti/s10-spiegazione.md",
+    "changed": true,
+    "slides_before": 6,
+    "slides_after": 6,
+    "growth_percent": 1.7
+  },
+  {
+    "file": "corso/contenuti/s11-attivita.md",
+    "changed": true,
+    "slides_before": 4,
+    "slides_after": 4,
+    "growth_percent": 1.0
+  },
+  {
+    "file": "corso/contenuti/s11-spiegazione.md",
+    "changed": true,
+    "slides_before": 6,
+    "slides_after": 6,
+    "growth_percent": 11.3
+  },
+  {
+    "file": "corso/contenuti/s12-attivita.md",
+    "changed": true,
+    "slides_before": 4,
+    "slides_after": 4,
+    "growth_percent": -17.5
+  },
+  {
+    "file": "corso/contenuti/s12-spiegazione.md",
+    "changed": true,
+    "slides_before": 6,
+    "slides_after": 6,
+    "growth_percent": 2.3
+  },
+  {
+    "file": "corso/contenuti/s13-attivita.md",
+    "changed": true,
+    "slides_before": 4,
+    "slides_after": 4,
+    "growth_percent": -8.3
+  },
+  {
+    "file": "corso/contenuti/s13-spiegazione.md",
+    "changed": true,
+    "slides_before": 7,
+    "slides_after": 7,
+    "growth_percent": 8.0
+  }
+]

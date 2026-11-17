@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Il mirino di cartone</title>
+<style>
+@page { size: A4 portrait; margin: 14mm; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #e9ecef; color: #1d232b; font: 12pt/1.45 "Segoe UI", system-ui, Arial, sans-serif; }
+.comandi { max-width: 210mm; margin: 0 auto; padding: 12px 0; display: flex; gap: 10px; align-items: center; }
+.comandi a, .comandi button { font: 15px "Segoe UI", sans-serif; padding: 6px 14px; border: 1px solid #c5ccd3; border-radius: 5px; background: #fff; color: #1d232b; text-decoration: none; cursor: pointer; }
+.comandi span { color: #5b6672; font-size: 14px; }
+.foglio { max-width: 210mm; margin: 0 auto 30px; background: #fff; padding: 14mm; box-shadow: 0 1px 6px rgba(0,0,0,.2); }
+.intesta { display: flex; gap: 6mm; font-size: 11pt; margin-bottom: 5mm; }
+.intesta span { flex: 1; border-bottom: 1px solid #555; padding-bottom: 1mm; white-space: nowrap; }
+.intesta span.corto { flex: 0 0 32mm; }
+.avviso { background: #fbe9e7; color: #b3261e; padding: 2mm 4mm; font-weight: 600; margin-bottom: 4mm; border-radius: 3px; }
+h1 { font-size: 18pt; margin: 0 0 3mm; color: #9a2f68; }
+h2 { font-size: 13pt; margin: 5mm 0 1.5mm; }
+p { margin: 0 0 2mm; }
+ul, ol { margin: 0 0 2mm; padding-left: 6mm; }
+li { margin: .5mm 0; }
+table { border-collapse: collapse; width: 100%; margin: 1mm 0 3mm; font-size: 11pt; }
+th, td { border: 1px solid #888; padding: 1.5mm 2.5mm; text-align: left; vertical-align: top; }
+th { background: #f3f3f3; }
+td:empty::after { content: ""; display: inline-block; height: 7mm; }
+blockquote { margin: 0 0 3mm; padding: 2mm 4mm; border-left: 3px solid #9a2f68; background: #f7e9f1; }
+blockquote.attenzione { border-left-color: #b3261e; background: #fbe9e7; }
+blockquote p:last-child { margin: 0; }
+.righe { margin: 1mm 0 3mm; }
+.righe div { height: 9mm; border-bottom: 1px solid #999; }
+.riquadro { border: 1px solid #555; margin: 1mm 0 3mm; position: relative; }
+.riquadro span { position: absolute; left: 2mm; top: 1mm; font-size: 9pt; color: #666; }
+.fig-box { display: flex; justify-content: center; margin: 2mm 0; }
+.cols { display: flex; gap: 6mm; }
+.cols > .col { flex: 1; min-width: 0; }
+svg { max-width: 100%; }
+.salto { break-after: page; height: 0; }
+@media screen { .salto { border-top: 2px dashed #c5ccd3; margin: 10mm -14mm; } }
+@media print {
+  body { background: #fff; }
+  .comandi { display: none; }
+  .foglio { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style></head><body>
+<div class="comandi"><a href="../../INDICE.html">Indice</a><button onclick="window.print()">Stampa</button><span>materiale-studenti\settimana-20\scheda-mirino.html</span></div>
+<div class="foglio">
+<div class="intesta"><span>Nome e cognome</span><span class="corto">Classe</span><span class="corto">Data</span></div>
+<h1>Il mirino di cartone</h1>
+<h2>Come si costruisce</h2>
+<svg viewBox="0 0 180 52" width="150mm" height="43.3mm"><rect x="5" y="6" width="50" height="40" fill="#1d232b"/><rect x="12" y="14" width="36" height="24" fill="#ffffff"/><line x1="30" y1="2" x2="30" y2="50" stroke="#8a949e" stroke-width=".5" stroke-dasharray="1.5 1.2"/><line x1="55" y1="26" x2="168" y2="26" stroke="#8a6a4a" stroke-width=".6"/><g fill="#ec008c"><circle cx="70" cy="26" r="1.4"/><circle cx="85" cy="26" r="1.4"/><circle cx="168" cy="26" r="1.4"/></g><g font-size="3.4" fill="#1d232b" text-anchor="middle"><text x="70" y="22">5 cm</text><text x="85" y="22">10 cm</text><text x="168" y="22">40 cm</text><text x="30" y="50.5">piega</text><text x="30" y="4.5">10 × 8 cm</text><text x="120" y="38">spago di 50 cm, fissato con il nastro sotto la finestra</text></g><g font-size="3.4" font-weight="700" fill="#ec008c" text-anchor="middle"><text x="70" y="32">24 mm</text><text x="85" y="32">50 mm</text><text x="168" y="32">200 mm</text></g></svg>
+<ol><li>Piega il cartoncino a metà: diventa 5 × 8 cm.</li><li>Dalla piega taglia un rettangolo di <strong>3,6 × 4,8 cm</strong>, al centro. Riaperto, è una finestra di 7,2 × 4,8 cm.</li><li>Fissa con il nastro lo spago sotto la finestra, al centro.</li><li>Fai tre nodi a <strong>5</strong>, <strong>10</strong> e <strong>40 cm</strong> dal cartoncino.</li><li>Tieni un nodo sotto l'occhio, lo spago teso, l'altro occhio chiuso.</li></ol>
+<h2>1. Lo stesso soggetto, tre focali</h2>
+<p>Il mio soggetto: ______________________________   Dallo stesso posto, disegna quello che vedi nel mirino.</p>
+<svg viewBox="0 0 180 46" width="180mm" height="46mm"><g fill="none" stroke="#555" stroke-width=".35"><rect x="1" y="1" width="54" height="36"/><rect x="63" y="1" width="54" height="36"/><rect x="125" y="1" width="54" height="36"/></g><g font-size="3.6" fill="#1d232b" text-anchor="middle"><text x="28" y="43">nodo 5 cm · 24 mm</text><text x="90" y="43">nodo 10 cm · 50 mm</text><text x="152" y="43">nodo 40 cm · 200 mm</text></g></svg>
+<p><strong>2.</strong> Con quale nodo vedi più cose? Con quale vedi il soggetto più grande?</p>
+<div class="righe"><div></div><div></div></div>
+<p><strong>3.</strong> Dal fondo dell'aula vuoi fotografare solo la data scritta sulla lavagna: quale focale usi? E per fotografare tutta la classe da vicino?</p>
+<div class="righe"><div></div><div></div></div>
+<div class="salto"></div>
+<h2>4. Le sei situazioni</h2>
+<p>Per ogni situazione scrivi: focale (<strong>24 · 50 · 200</strong>), diaframma (<strong>aperto · chiuso</strong>), tempo (<strong>veloce · lento</strong>), ISO (<strong>basso · alto</strong>). Poi il perché.</p>
+<table><thead><tr><th>Situazione</th><th>Focale</th><th>Diaframma</th><th>Tempo</th><th>ISO</th><th>Perché</th></tr></thead><tbody><tr><td>1 partita di sera, dagli spalti</td><td><div style="height:13mm"></div></td><td></td><td></td><td></td><td></td></tr><tr><td>2 ritratto, sfondo sfocato</td><td><div style="height:13mm"></div></td><td></td><td></td><td></td><td></td></tr><tr><td>3 paesaggio tutto a fuoco</td><td><div style="height:13mm"></div></td><td></td><td></td><td></td><td></td></tr><tr><td>4 cascata "di seta"</td><td><div style="height:13mm"></div></td><td></td><td></td><td></td><td></td></tr><tr><td>5 concerto al buio</td><td><div style="height:13mm"></div></td><td></td><td></td><td></td><td></td></tr><tr><td>6 auto da corsa nitida</td><td><div style="height:13mm"></div></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<h2>5. Come verrebbe la foto</h2>
+<p>Situazione n. ______   Disegna la foto: sfocato e mosso si fanno con la matita, sfumando.</p>
+<svg viewBox="0 0 180 84" width="180mm" height="84mm"><rect x="30" y="1" width="120" height="80" fill="none" stroke="#555" stroke-width=".35"/></svg>
+</div>
+</body></html>

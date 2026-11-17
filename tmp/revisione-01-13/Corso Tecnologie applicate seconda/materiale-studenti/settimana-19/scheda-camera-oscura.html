@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La camera oscura</title>
+<style>
+@page { size: A4 portrait; margin: 14mm; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #e9ecef; color: #1d232b; font: 12pt/1.45 "Segoe UI", system-ui, Arial, sans-serif; }
+.comandi { max-width: 210mm; margin: 0 auto; padding: 12px 0; display: flex; gap: 10px; align-items: center; }
+.comandi a, .comandi button { font: 15px "Segoe UI", sans-serif; padding: 6px 14px; border: 1px solid #c5ccd3; border-radius: 5px; background: #fff; color: #1d232b; text-decoration: none; cursor: pointer; }
+.comandi span { color: #5b6672; font-size: 14px; }
+.foglio { max-width: 210mm; margin: 0 auto 30px; background: #fff; padding: 14mm; box-shadow: 0 1px 6px rgba(0,0,0,.2); }
+.intesta { display: flex; gap: 6mm; font-size: 11pt; margin-bottom: 5mm; }
+.intesta span { flex: 1; border-bottom: 1px solid #555; padding-bottom: 1mm; white-space: nowrap; }
+.intesta span.corto { flex: 0 0 32mm; }
+.avviso { background: #fbe9e7; color: #b3261e; padding: 2mm 4mm; font-weight: 600; margin-bottom: 4mm; border-radius: 3px; }
+h1 { font-size: 18pt; margin: 0 0 3mm; color: #9a2f68; }
+h2 { font-size: 13pt; margin: 5mm 0 1.5mm; }
+p { margin: 0 0 2mm; }
+ul, ol { margin: 0 0 2mm; padding-left: 6mm; }
+li { margin: .5mm 0; }
+table { border-collapse: collapse; width: 100%; margin: 1mm 0 3mm; font-size: 11pt; }
+th, td { border: 1px solid #888; padding: 1.5mm 2.5mm; text-align: left; vertical-align: top; }
+th { background: #f3f3f3; }
+td:empty::after { content: ""; display: inline-block; height: 7mm; }
+blockquote { margin: 0 0 3mm; padding: 2mm 4mm; border-left: 3px solid #9a2f68; background: #f7e9f1; }
+blockquote.attenzione { border-left-color: #b3261e; background: #fbe9e7; }
+blockquote p:last-child { margin: 0; }
+.righe { margin: 1mm 0 3mm; }
+.righe div { height: 9mm; border-bottom: 1px solid #999; }
+.riquadro { border: 1px solid #555; margin: 1mm 0 3mm; position: relative; }
+.riquadro span { position: absolute; left: 2mm; top: 1mm; font-size: 9pt; color: #666; }
+.fig-box { display: flex; justify-content: center; margin: 2mm 0; }
+.cols { display: flex; gap: 6mm; }
+.cols > .col { flex: 1; min-width: 0; }
+svg { max-width: 100%; }
+.salto { break-after: page; height: 0; }
+@media screen { .salto { border-top: 2px dashed #c5ccd3; margin: 10mm -14mm; } }
+@media print {
+  body { background: #fff; }
+  .comandi { display: none; }
+  .foglio { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style></head><body>
+<div class="comandi"><a href="../../INDICE.html">Indice</a><button onclick="window.print()">Stampa</button><span>materiale-studenti\settimana-19\scheda-camera-oscura.html</span></div>
+<div class="foglio">
+<div class="intesta"><span>Nome e cognome</span><span class="corto">Classe</span><span class="corto">Data</span></div>
+<h1>La camera oscura</h1>
+<h2>Come si costruisce</h2>
+<svg viewBox="0 0 180 62" width="180mm" height="62mm"><g fill="none" stroke="#1d232b" stroke-width=".6"><rect x="35" y="10" width="110" height="40"/></g><rect x="34" y="27" width="2" height="6" fill="#c5ccd3"/><circle cx="35" cy="30" r=".8" fill="#1d232b"/><line x1="145" y1="11" x2="145" y2="49" stroke="#c5ccd3" stroke-width="2"/><g stroke="#ec008c" stroke-width=".4"><line x1="5" y1="25" x2="145" y2="48.3"/><line x1="5" y1="35" x2="145" y2="11.7"/></g><g font-size="3.6" fill="#1d232b"><text x="20" y="60">stagnola con foro di spillo</text><text x="122" y="60">carta da forno</text><text x="90" y="7" text-anchor="middle">scatola chiusa, fessure coperte con il nastro</text><text x="152" y="28">si guarda qui,</text><text x="152" y="33">sotto la giacca</text></g></svg>
+<ol><li>Lato corto A: un quadrato di <strong>3 × 3 cm</strong> al centro. Lato corto B: una finestra grande, con <strong>1 cm</strong> di bordo.</li><li>Il docente taglia. Stagnola tesa sul quadrato, un <strong>foro di spillo</strong> al centro.</li><li>Carta da forno tesa sulla finestra: è lo <strong>schermo</strong>.</li><li>Coperchio chiuso, <strong>nastro</strong> su tutte le fessure.</li><li>Foro verso la finestra, testa e schermo sotto la giacca. Aspettate un minuto.</li></ol>
+<h2>1. Quello che vedo sullo schermo</h2>
+<p>Disegnalo <strong>così com'è</strong>, anche se è capovolto.</p>
+<div class="riquadro" style="height:75mm"><span>Lo schermo</span></div>
+<p><strong>Cosa sto guardando</strong> (cosa c'è davanti al foro): ______________________________</p>
+<div class="salto"></div>
+<h2>2. Le prove</h2>
+<table><thead><tr><th>Foro</th><th>È luminosa?</th><th>È nitida?</th><th>Cosa noto</th></tr></thead><tbody><tr><td>foro di spillo</td><td><div style="height:12mm"></div></td><td></td><td></td></tr><tr><td>foro allargato con la punta della matita</td><td><div style="height:12mm"></div></td><td></td><td></td></tr><tr><td>due fori vicini</td><td><div style="height:12mm"></div></td><td></td><td></td></tr></tbody></table>
+<h2>3. Perché è capovolta</h2>
+<p>Disegna con il righello il raggio che parte dalla <strong>cima</strong> dell'albero e quello che parte dalla <strong>base</strong>: passano dal foro e arrivano sullo schermo. Poi disegna l'albero come appare sullo schermo.</p>
+<svg viewBox="0 0 180 70" width="180mm" height="70mm"><line x1="5" y1="60" x2="45" y2="60" stroke="#8a949e" stroke-width=".5"/><rect x="23" y="42" width="4" height="18" fill="#8a6a4a"/><circle cx="25" cy="32" r="12" fill="#5a9a4a"/><g fill="none" stroke="#1d232b" stroke-width=".8"><path d="M95 38 V8 H170 V68 H95 V42"/></g><line x1="170" y1="9" x2="170" y2="67" stroke="#c5ccd3" stroke-width="2"/><g font-size="3.6" fill="#1d232b"><text x="97" y="41.5">foro</text><text x="150" y="5">schermo</text></g></svg>
+<p><strong>4.</strong> Con il foro grande l'immagine è più luminosa ma sfocata. Perché?</p>
+<div class="righe"><div></div><div></div></div>
+<p><strong>5.</strong> In che cosa una macchina fotografica è uguale alla tua scatola? In che cosa è diversa?</p>
+<div class="righe"><div></div><div></div><div></div></div>
+</div>
+</body></html>
