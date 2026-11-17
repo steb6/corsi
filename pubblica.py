@@ -178,6 +178,41 @@ def pubblica_corso(chiave, corso, dest, generato):
         pubblica_file(chiave, f"{slug}/{cartella}.zip", comprimi(dest / cartella, cartella))
 
 
+# Riquadro "Novità" mostrato all'ingresso (una volta per id; cambiare id quando si aggiungono novità)
+NOVITA = {
+    "id": "2026-11-17",
+    "titolo": "Novità del 17 novembre 2026",
+    "voci": [
+        ("Scienze e tecnologie applicate",
+         "Slide un po' più descrittive: una o due frasi di spiegazione in più dove c'erano solo parole chiave, stesse slide."),
+        ("Scienze e tecnologie applicate",
+         "Esercizi, schede e verifiche più impegnativi (più passaggi, risposte motivate, una domanda finale più difficile) "
+         "e fattibili solo con foglio e penna: niente righello, matita, colori, tempere, colla, forbici o riviste. "
+         "Soluzioni e griglie di voto aggiornate."),
+    ],
+}
+
+
+def riquadro_novita():
+    voci = "".join(f"<li><b>{html.escape(c)}</b>: {html.escape(v)}</li>" for c, v in NOVITA["voci"])
+    chiave = "novita-" + NOVITA["id"]
+    return f"""<dialog id="novita" style="max-width:560px;border:1px solid var(--bordo);border-radius:12px;background:var(--carta);color:var(--testo);padding:22px">
+<h2 style="margin:0 0 8px;color:var(--accento);font-size:21px">{html.escape(NOVITA["titolo"])}</h2><ul style="padding-left:20px;margin:0">{voci}</ul>
+<button type="button" id="novita-ok">Ho capito</button></dialog>
+<script>(function () {{
+  var d = document.getElementById("novita"), k = "{chiave}", visto = false;
+  try {{ visto = localStorage.getItem(k) === "1"; }} catch (e) {{}}
+  function apri() {{ if (d.showModal) d.showModal(); else d.setAttribute("open", ""); }}
+  document.getElementById("novita-ok").onclick = function () {{
+    try {{ localStorage.setItem(k, "1"); }} catch (e) {{}}
+    if (d.close) d.close(); else d.removeAttribute("open");
+  }};
+  document.getElementById("apri-novita").onclick = function (e) {{ e.preventDefault(); apri(); }};
+  if (!visto) apri();
+}})();</script>
+"""
+
+
 def pagina_iniziale():
     schede = ""
     for c in CORSI:
@@ -188,9 +223,9 @@ def pagina_iniziale():
     return f"""<!doctype html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow"><title>Corsi</title><link rel="stylesheet" href="porta.css"></head>
-<body class="casa"><header><h1>Corsi</h1><a href="#" data-esci>Esci</a></header>
+<body class="casa"><header><h1>Corsi</h1><span><a href="#" id="apri-novita">Novità</a> · <a href="#" data-esci>Esci</a></span></header>
 <p>25 settimane per ogni corso: slide, schede da stampare, soluzioni per il docente.</p>
-{schede}</body></html>
+{schede}{riquadro_novita()}</body></html>
 """
 
 
